@@ -1,4 +1,4 @@
-# Android Digest
+# Kotlin Digest
 
 **Weekly intelligence for Android and Kotlin engineers.**  
 Assembled by the community. Powered by raw signal.
@@ -7,7 +7,7 @@ Assembled by the community. Powered by raw signal.
 
 ## What this is
 
-Android Digest scouts the Kotlin and Android ecosystem — official blogs, library releases, conference talks, individual developer writing — and assembles it into a weekly, chapter-structured edition hosted on GitHub Pages.
+Kotlin Digest scouts the Kotlin and Android ecosystem — official blogs, library releases, conference talks, individual developer writing — and assembles it into a weekly, chapter-structured edition hosted on GitHub Pages.
 
 Chapters are ordered by a living **Topic Bible**: a scored, decaying keyword graph that reflects what the community is actually talking about right now. Topics trending hard this week appear first. Topics fading appear later, or disappear until the discussion picks back up.
 
@@ -166,7 +166,7 @@ Translations of the site UI are welcome at any point.
 
 ## License
 
-MIT. Take the pipeline, the site, the structure. Build your own digest for your own community. We only ask that you don't call it Android Digest.
+MIT. Take the pipeline, the site, the structure. Build your own digest for your own community. We only ask that you don't call it Kotlin Digest.
 
 ---
 

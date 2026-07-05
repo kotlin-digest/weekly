@@ -1,4 +1,4 @@
-# Android Digest
+# Kotlin Digest
 
 AI-assembled Android/Kotlin/KMP developer magazine. Scouts the community, scores topics, assembles editions, publishes to GitHub Pages.
 

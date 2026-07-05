@@ -42,8 +42,8 @@ jobs:
 
       - name: Commit state updates
         run: |
-          git config user.name "android-digest-bot"
-          git config user.email "bot@android-digest"
+          git config user.name "kotlin-digest-bot"
+          git config user.email "bot@kotlin-digest"
           git add state/
           git diff --staged --quiet || git commit -m "chore: daily scout $(date -u +%Y-%m-%d)"
           git push

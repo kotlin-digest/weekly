@@ -1,4 +1,4 @@
-# Contributing to Android Digest
+# Contributing to Kotlin Digest
 
 This is a community project. The pipeline, sources, and topic definitions are all open. PRs are the primary contribution mechanism.
 
