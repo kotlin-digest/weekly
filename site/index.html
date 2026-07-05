@@ -9,6 +9,7 @@
   <style>
     :root {
       --paper:        #F3EDE2;
+      --paper-b:      #E8DFCE; /* alternating chapter background */
       --ink:          #1C1B18;
       --ink-mid:      #3A3830;
       --ink-muted:    #6B6457;
@@ -307,7 +308,7 @@
     main {
       max-width: 1180px;
       margin: 0 auto;
-      padding: 0 2.5rem 5rem;
+      padding: 0.5rem 2.5rem 0;
     }
 
     #no-results {
@@ -331,8 +332,17 @@
 
     /* ── CHAPTER ─────────────────────────────────────────────────── */
     .chapter {
-      margin-top: 3.5rem;
+      /* expand to full width of main by cancelling its horizontal padding */
+      margin-left: -2.5rem;
+      margin-right: -2.5rem;
+      padding: 2.75rem 2.5rem 2.5rem;
       animation: fade-up 0.4s ease both;
+    }
+    .chapter + .chapter {
+      border-top: 1px solid var(--rule);
+    }
+    .chapter:nth-child(even) {
+      background: var(--paper-b);
     }
     .chapter.hidden { display: none; }
 
@@ -409,6 +419,12 @@
       .article { grid-column: span 1 !important; }
       .filter-toggle, .filter-panel, .active-chips, .masthead { padding-left: 1.25rem; padding-right: 1.25rem; }
       main { padding-left: 1.25rem; padding-right: 1.25rem; }
+      .chapter {
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
     }
 
     .art-meta {
