@@ -3,12 +3,19 @@
 # Community PRs welcome — add your source, open a PR.
 # See docs/sources.md for field definitions and ingestion strategy notes.
 #
+# EDITORIAL NOTE: No newsletter aggregators (Android Weekly, Kotlin Weekly, etc.).
+# They are derivative — ingesting them would bias the topic bible toward what
+# newsletter editors already curated, not what the community is actually talking about.
+# Primary sources only.
+#
 # Required fields: id, name, url, type, cadence_days
-# Optional fields: rss, language, topics (editorial hints)
+# Optional fields: rss, atom, language, topics (editorial hints), notes
 
 sources:
 
-  # ── Official ──────────────────────────────────────────────────────────────
+  # ════════════════════════════════════════════════════════════════════════════
+  # OFFICIAL
+  # ════════════════════════════════════════════════════════════════════════════
 
   - id: kotlin-blog
     name: "Kotlin Blog"
@@ -22,10 +29,10 @@ sources:
   - id: android-developers-blog
     name: "Android Developers Blog"
     url: "https://android-developers.googleblog.com/"
-    rss: "https://android-developers.googleblog.com/feeds/posts/default"
+    rss: "https://android-developers.googleblog.com/atom.xml"
     type: blog
     language: en
-    cadence_days: 5
+    cadence_days: 4
     topics: [android-api, jetpack, compose]
 
   - id: android-developers-medium
@@ -37,26 +44,19 @@ sources:
     cadence_days: 3
     topics: [android-api, compose, architecture]
 
-  # ── Conferences ───────────────────────────────────────────────────────────
-
-  - id: kotlinconf
-    name: "KotlinConf"
-    url: "https://kotlinconf.com/"
-    type: conference
+  - id: jetbrains-blog
+    name: "JetBrains Blog"
+    url: "https://blog.jetbrains.com/"
+    rss: "https://blog.jetbrains.com/feed/"
+    type: blog
     language: en
-    cadence_days: 365
-    topics: [kotlin, kotlinconf, jetbrains]
+    cadence_days: 3
+    topics: [jetbrains, intellij, tooling]
+    notes: "Filter to Android/Kotlin-relevant posts at ingestion time"
 
-  - id: droidcon
-    name: "Droidcon"
-    url: "https://www.droidcon.com/"
-    rss: "https://www.droidcon.com/feed/"
-    type: conference
-    language: en
-    cadence_days: 30
-    topics: [android, droidcon, community]
-
-  # ── Community Blogs ───────────────────────────────────────────────────────
+  # ════════════════════════════════════════════════════════════════════════════
+  # COMMUNITY BLOGS — Primary, individual developer voices
+  # ════════════════════════════════════════════════════════════════════════════
 
   - id: proandroiddev
     name: "ProAndroidDev"
@@ -67,7 +67,7 @@ sources:
     cadence_days: 2
     topics: [android, architecture, compose]
 
-  - id: medium-kotlin
+  - id: medium-kotlin-tag
     name: "Medium — Kotlin tag"
     url: "https://medium.com/tag/kotlin"
     rss: "https://medium.com/feed/tag/kotlin"
@@ -76,14 +76,14 @@ sources:
     cadence_days: 1
     topics: [kotlin]
 
-  - id: john-oreilly
-    name: "John O'Reilly — Musings"
-    url: "https://johnoreilly.dev/"
-    rss: "https://johnoreilly.dev/index.xml"
+  - id: medium-android-tag
+    name: "Medium — Android tag"
+    url: "https://medium.com/tag/android"
+    rss: "https://medium.com/feed/tag/android"
     type: blog
     language: en
-    cadence_days: 14
-    topics: [kmp, compose-multiplatform, ios-interop]
+    cadence_days: 1
+    topics: [android]
 
   - id: zac-sweers
     name: "Zac Sweers"
@@ -92,58 +92,354 @@ sources:
     type: blog
     language: en
     cadence_days: 30
-    topics: [kotlin, gradle, ksp]
+    topics: [kotlin, gradle, ksp, di]
+    notes: "Metro (compile-time DI) author, deep Kotlin/tooling expertise"
 
-  # ── Library Changelogs ────────────────────────────────────────────────────
+  - id: jeroen-mols
+    name: "Jeroen Mols"
+    url: "https://jeroenmols.com/"
+    rss: "https://jeroenmols.com/blog/index.xml"
+    type: blog
+    language: en
+    cadence_days: 30
+    topics: [android, architecture, testing]
+    notes: "RSS URL changed Sep 2024 — old subscribers need to resubscribe"
 
-  - id: compose-changelog
-    name: "Jetpack Compose — Release Notes"
-    url: "https://developer.android.com/jetpack/androidx/releases/compose-ui"
-    type: changelog
+  - id: commonsware
+    name: "CommonsWare (Mark Murphy)"
+    url: "https://commonsware.com/blog/"
+    rss: "https://commonsware.com/blog/feed.atom"
+    type: blog
+    language: en
+    cadence_days: 3
+    topics: [android-api, android, jetpack]
+    notes: "Very prolific, updates every couple of days, deep Android internals"
+
+  - id: dan-lew
+    name: "Dan Lew Codes"
+    url: "https://blog.danlew.net/"
+    rss: "https://blog.danlew.net/rss"
+    type: blog
+    language: en
+    cadence_days: 60
+    topics: [android, kotlin, architecture]
+
+  - id: hannes-dorfmann
+    name: "Hannes Dorfmann"
+    url: "https://hannesdorfmann.com/"
+    rss: "https://hannesdorfmann.com/index.xml"
+    type: blog
+    language: en
+    cadence_days: 60
+    topics: [android, mvi, architecture]
+    notes: "MVI architecture author"
+
+  - id: john-oreilly
+    name: "John O'Reilly"
+    url: "https://johnoreilly.dev/"
+    rss: "https://johnoreilly.dev/index.xml"
+    type: blog
     language: en
     cadence_days: 14
-    topics: [compose, jetpack]
+    topics: [kmp, compose-multiplatform, ios-interop]
 
-  - id: ktor-changelog
-    name: "Ktor — GitHub Releases"
-    url: "https://github.com/ktorio/ktor/releases"
-    rss: "https://github.com/ktorio/ktor/releases.atom"
+  - id: styling-android
+    name: "Styling Android"
+    url: "https://blog.stylingandroid.com/"
+    rss: "https://blog.stylingandroid.com/feed/"
+    type: blog
+    language: en
+    cadence_days: 21
+    topics: [compose, animation, ui]
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # CONFERENCES — Talk titles + abstracts are strong topic signals
+  # ════════════════════════════════════════════════════════════════════════════
+
+  - id: kotlinconf
+    name: "KotlinConf"
+    url: "https://kotlinconf.com/schedule/"
+    type: conference
+    language: en
+    cadence_days: 365
+    topics: [kotlin, kotlinconf, jetbrains]
+    notes: "Scrape talk schedule annually — no RSS. Talk titles alone are high-quality topic signals."
+
+  - id: droidcon
+    name: "Droidcon"
+    url: "https://www.droidcon.com/"
+    rss: "https://www.droidcon.com/feed/"
+    type: conference
+    language: en
+    cadence_days: 30
+    topics: [android, droidcon, community]
+    notes: "Multiple city editions per year — Droidcon London, NYC, Berlin, etc."
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # LIBRARY CHANGELOGS
+  # Strategy: GitHub .atom release feeds where available (confirmed working).
+  # For AndroidX/Google libraries: developer.android.com release feeds.
+  # Kotlin GitHub releases.atom is too noisy (dev builds) — use Kotlin Blog instead.
+  # ════════════════════════════════════════════════════════════════════════════
+
+  # ── Kotlin ecosystem ───────────────────────────────────────────────────────
+
+  - id: lib-coroutines
+    name: "Kotlinx Coroutines"
+    url: "https://github.com/Kotlin/kotlinx.coroutines/releases"
+    atom: "https://github.com/Kotlin/kotlinx.coroutines/releases.atom"
     type: changelog
     language: en
     cadence_days: 30
-    topics: [ktor, ktor-server, networking]
+    topics: [coroutines, kotlin]
 
-  - id: hilt-releases
-    name: "Hilt — Release Notes"
-    url: "https://developer.android.com/training/dependency-injection/hilt-android#hilt-libraries"
+  - id: lib-serialization
+    name: "Kotlinx Serialization"
+    url: "https://github.com/Kotlin/kotlinx.serialization/releases"
+    atom: "https://github.com/Kotlin/kotlinx.serialization/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [kotlin, serialization]
+
+  - id: lib-datetime
+    name: "Kotlinx DateTime"
+    url: "https://github.com/Kotlin/kotlinx-datetime/releases"
+    atom: "https://github.com/Kotlin/kotlinx-datetime/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 60
+    topics: [kotlin, kmp]
+
+  - id: lib-ksp
+    name: "KSP (Kotlin Symbol Processing)"
+    url: "https://github.com/google/ksp/releases"
+    atom: "https://github.com/google/ksp/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 14
+    topics: [ksp, kotlin, build]
+
+  # ── Networking ────────────────────────────────────────────────────────────
+
+  - id: lib-ktor
+    name: "Ktor"
+    url: "https://github.com/ktorio/ktor/releases"
+    atom: "https://github.com/ktorio/ktor/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 21
+    topics: [ktor, ktor-server, networking, kmp]
+
+  - id: lib-retrofit
+    name: "Retrofit"
+    url: "https://github.com/square/retrofit/releases"
+    atom: "https://github.com/square/retrofit/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 60
+    topics: [retrofit, networking]
+
+  - id: lib-okhttp
+    name: "OkHttp"
+    url: "https://github.com/square/okhttp/releases"
+    atom: "https://github.com/square/okhttp/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [okhttp, networking]
+
+  # ── Dependency Injection ──────────────────────────────────────────────────
+
+  - id: lib-hilt-dagger
+    name: "Hilt / Dagger"
+    url: "https://github.com/google/dagger/releases"
+    atom: "https://github.com/google/dagger/releases.atom"
     type: changelog
     language: en
     cadence_days: 30
     topics: [hilt, di, jetpack]
 
-  - id: koin-changelog
-    name: "Koin — GitHub Releases"
+  - id: lib-koin
+    name: "Koin"
     url: "https://github.com/InsertKoinIO/koin/releases"
-    rss: "https://github.com/InsertKoinIO/koin/releases.atom"
+    atom: "https://github.com/InsertKoinIO/koin/releases.atom"
     type: changelog
     language: en
     cadence_days: 21
-    topics: [koin, di]
+    topics: [koin, di, kmp]
 
-  - id: room-changelog
-    name: "Room — Release Notes"
-    url: "https://developer.android.com/jetpack/androidx/releases/room"
+  # ── UI / Compose ──────────────────────────────────────────────────────────
+
+  - id: lib-androidx
+    name: "AndroidX / Jetpack (all libraries)"
+    url: "https://developer.android.com/jetpack/androidx/versions/all-channel"
+    rss: "https://developer.android.com/feeds/androidx-release-notes.xml"
+    type: changelog
+    language: en
+    cadence_days: 7
+    topics: [compose, jetpack, room, navigation, workmanager, datastore]
+    notes: "Covers all AndroidX libs in one feed — Compose, Room, Navigation, DataStore, WorkManager, etc."
+
+  - id: lib-compose-multiplatform
+    name: "Compose Multiplatform"
+    url: "https://github.com/JetBrains/compose-multiplatform/releases"
+    atom: "https://github.com/JetBrains/compose-multiplatform/releases.atom"
     type: changelog
     language: en
     cadence_days: 21
-    topics: [room, database, jetpack]
+    topics: [compose-multiplatform, kmp, compose]
 
-  # ── Slack Mirrors (add public archives here when available) ───────────────
+  - id: lib-coil
+    name: "Coil (image loading)"
+    url: "https://github.com/coil-kt/coil/releases"
+    atom: "https://github.com/coil-kt/coil/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [coil, compose, kmp]
 
-  # - id: kotlin-slack-general
-  #   name: "Kotlin Slack #general mirror"
-  #   url: "..."
-  #   type: slack-mirror
-  #   language: en
-  #   cadence_days: 1
-  #   topics: [kotlin]
+  # ── Data / Storage ────────────────────────────────────────────────────────
+
+  - id: lib-sqldelight
+    name: "SQLDelight"
+    url: "https://github.com/cashapp/sqldelight/releases"
+    atom: "https://github.com/cashapp/sqldelight/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [sqldelight, database, kmp]
+
+  # ── Build / Tooling ───────────────────────────────────────────────────────
+
+  - id: lib-gradle-agp
+    name: "Android Gradle Plugin (AGP)"
+    url: "https://developer.android.com/build/releases/gradle-plugin"
+    rss: "https://developer.android.com/feeds/androidx-release-notes.xml"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [gradle, gradle-plugin, build]
+    notes: "AGP releases are announced on the Android Developers blog — cross-reference with android-developers-blog source"
+
+  - id: lib-detekt
+    name: "Detekt"
+    url: "https://github.com/detekt/detekt/releases"
+    atom: "https://github.com/detekt/detekt/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [detekt, static-analysis, kotlin, build]
+
+  # ── Testing ───────────────────────────────────────────────────────────────
+
+  - id: lib-turbine
+    name: "Turbine (Flow testing)"
+    url: "https://github.com/cashapp/turbine/releases"
+    atom: "https://github.com/cashapp/turbine/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 60
+    topics: [turbine, testing, coroutines]
+
+  - id: lib-mockk
+    name: "MockK"
+    url: "https://github.com/mockk/mockk/releases"
+    atom: "https://github.com/mockk/mockk/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [mockk, testing, kotlin]
+
+  - id: lib-paparazzi
+    name: "Paparazzi (screenshot testing)"
+    url: "https://github.com/cashapp/paparazzi/releases"
+    atom: "https://github.com/cashapp/paparazzi/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 45
+    topics: [paparazzi, testing, compose]
+
+  # ── Navigation / Architecture ─────────────────────────────────────────────
+
+  - id: lib-decompose
+    name: "Decompose"
+    url: "https://github.com/arkivanov/Decompose/releases"
+    atom: "https://github.com/arkivanov/Decompose/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [decompose, navigation, kmp, architecture]
+
+  - id: lib-voyager
+    name: "Voyager"
+    url: "https://github.com/adrielcafe/voyager/releases"
+    atom: "https://github.com/adrielcafe/voyager/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 45
+    topics: [voyager, navigation, kmp]
+
+  # ── Functional / Other ────────────────────────────────────────────────────
+
+  - id: lib-arrow
+    name: "Arrow (functional Kotlin)"
+    url: "https://github.com/arrow-kt/arrow/releases"
+    atom: "https://github.com/arrow-kt/arrow/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [arrow, kotlin, functional]
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # COMMUNITY DISCUSSIONS — Topic signal only, not full articles
+  # ════════════════════════════════════════════════════════════════════════════
+
+  - id: kotlin-slack-archive
+    name: "Kotlin Slack — Public Archive"
+    url: "https://slack-chats.kotlinlang.org/"
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [kotlin]
+    notes: "Public web archive of Kotlin Slack. Rate-limit sensitive. Used for topic signal only — not article ingestion."
+
+  - id: reddit-androiddev
+    name: "r/androiddev"
+    url: "https://www.reddit.com/r/androiddev/"
+    rss: "https://www.reddit.com/r/androiddev/.rss"
+    type: discussion
+    language: en
+    cadence_days: 1
+    topics: [android, kotlin]
+    notes: "High volume, mixed quality. Used for topic signal and trending discussion detection, not as article source."
+
+  - id: reddit-kotlin
+    name: "r/Kotlin"
+    url: "https://www.reddit.com/r/Kotlin/"
+    rss: "https://www.reddit.com/r/Kotlin/.rss"
+    type: discussion
+    language: en
+    cadence_days: 1
+    topics: [kotlin]
+    notes: "Topic signal only."
+
+  # ════════════════════════════════════════════════════════════════════════════
+  # NEEDS VERIFICATION — Placeholder, confirm feed URLs before enabling
+  # ════════════════════════════════════════════════════════════════════════════
+
+  # - id: kotlin-weekly
+  #   name: "Kotlin Weekly"
+  #   url: "https://kotlinweekly.net/"
+  #   rss: "https://kotlinweekly.net/rss.xml"   # unconfirmed URL
+  #   type: newsletter
+  #   needs_verification: true
+  #   notes: "EXCLUDED from topic bible scoring — newsletter aggregator bias risk.
+  #           Only include if we add a newsletter-exempt ingestion mode that
+  #           extracts linked primary sources rather than newsletter content itself."
+
+  # - id: chris-banes
+  #   name: "Chris Banes"
+  #   url: "unknown"
+  #   needs_verification: true
+  #   notes: "Compose core contributor — find current blog location"
