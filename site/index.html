@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android Digest — 2026·W27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper:        #F3EDE2;
+      --ink:          #1C1B18;
+      --ink-mid:      #3A3830;
+      --ink-muted:    #6B6457;
+      --rule:         #C9BFB0;
+      --chip-bg:      #E5DDD0;
+      --accent:       #C94F0C;
+      --accent-dim:   #8B3608;
+      --blue:         #1A4A8C;
+      --green:        #2A6049;
+      --focus-tint:   #FFF4E6;
+      --exclude-tint: #EEF2FF;
+      --code-bg:      #18171A;
+      --code-text:    #D4CFC6;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Lora', Georgia, serif;
+      min-height: 100vh;
+    }
+
+    /* ── TICKER ─────────────────────────────────────────────────── */
+    .ticker-wrap {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0.45rem 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .ticker-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      padding: 0 1.5rem;
+      white-space: nowrap;
+      border-right: 1px solid #3A3830;
+    }
+    .ticker-track {
+      display: flex;
+      gap: 2.5rem;
+      padding-left: 2rem;
+      animation: scroll-ticker 40s linear infinite;
+      white-space: nowrap;
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.62rem;
+    }
+    .t-spark { color: var(--accent); letter-spacing: -0.04em; }
+    .t-name  { color: #C8C0B0; }
+    .t-score { color: #8B8070; }
+    @keyframes scroll-ticker {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+
+    /* ── MASTHEAD ────────────────────────────────────────────────── */
+    .masthead {
+      padding: 1.75rem 2.5rem 1.25rem;
+      border-bottom: 3px double var(--ink);
+    }
+    .masthead-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .masthead-wordmark {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .masthead-meta {
+      text-align: right;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--ink-muted);
+      line-height: 1.7;
+    }
+    .masthead-meta strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .masthead-foot {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .masthead-tagline {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--ink-muted);
+    }
+    .masthead-stats {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      color: var(--ink-muted);
+      letter-spacing: 0.06em;
+    }
+
+    /* ── FILTER BAR ──────────────────────────────────────────────── */
+    .filter-bar {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      box-shadow: 0 2px 8px rgba(28,27,24,0.06);
+    }
+    .filter-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.6rem 2.5rem;
+      cursor: pointer;
+      user-select: none;
+    }
+    .filter-toggle-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+    .mode-switcher {
+      display: flex;
+      background: var(--chip-bg);
+      border-radius: 4px;
+      padding: 2px;
+      gap: 2px;
+    }
+    .mode-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      padding: 0.22rem 0.7rem;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      border-radius: 3px;
+      color: var(--ink-muted);
+      transition: background 0.15s, color 0.15s;
+    }
+    .mode-btn.active.focus   { background: var(--accent); color: #fff; }
+    .mode-btn.active.exclude { background: var(--blue);   color: #fff; }
+    .filter-active-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .filter-chevron {
+      margin-left: auto;
+      font-size: 0.65rem;
+      color: var(--ink-muted);
+      transition: transform 0.2s;
+    }
+    .filter-open .filter-chevron { transform: rotate(180deg); }
+
+    .filter-panel {
+      display: none;
+      padding: 1rem 2.5rem 1.25rem;
+      border-top: 1px solid var(--rule);
+      background: var(--focus-tint);
+    }
+    .filter-panel.open { display: block; }
+    .filter-panel.exclude-mode { background: var(--exclude-tint); }
+
+    .filter-mode-hint {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      color: var(--ink-muted);
+      margin-bottom: 0.75rem;
+      font-style: italic;
+    }
+    .filter-panel.exclude-mode .mode-btn.active { background: var(--blue); }
+
+    .topic-checks {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 0.5rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .topic-check-label {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    .topic-check-label input[type="checkbox"] {
+      accent-color: var(--accent);
+      width: 13px; height: 13px;
+      flex-shrink: 0;
+    }
+    .filter-panel.exclude-mode .topic-check-label input[type="checkbox"] {
+      accent-color: var(--blue);
+    }
+
+    .keyword-row {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--rule);
+      flex-wrap: wrap;
+    }
+    .kw-field {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .kw-field label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+    .kw-field input[type="text"] {
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      padding: 0.28rem 0.6rem;
+      border-radius: 3px;
+      width: 170px;
+      color: var(--ink);
+      outline: none;
+    }
+    .kw-field input[type="text"]:focus { border-color: var(--ink-muted); }
+    .reset-btn {
+      margin-left: auto;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid var(--rule);
+      background: transparent;
+      padding: 0.28rem 0.75rem;
+      cursor: pointer;
+      border-radius: 3px;
+      color: var(--ink-muted);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .reset-btn:hover { border-color: var(--ink); color: var(--ink); }
+
+    /* active chips */
+    .active-chips {
+      display: flex;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0.35rem 2.5rem;
+      border-top: 1px solid var(--rule);
+      min-height: 2.4rem;
+    }
+    .active-chips:empty { display: none; }
+    .chip-mode-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.58rem;
+      color: var(--ink-muted);
+      letter-spacing: 0.08em;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      padding: 0.18rem 0.5rem;
+      border-radius: 100px;
+    }
+    .chip.focus-chip   { background: #FFDAB5; color: #7A2E00; }
+    .chip.exclude-chip { background: #C8D4F8; color: #1A2C7A; }
+    .chip.kw-chip      { background: var(--chip-bg); color: var(--ink-muted); }
+
+    /* ── MAIN CONTENT ────────────────────────────────────────────── */
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 2.5rem 5rem;
+    }
+
+    #no-results {
+      display: none;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    #no-results p:first-child {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1.4rem;
+      color: var(--ink-muted);
+      margin-bottom: 0.5rem;
+    }
+    #no-results p:last-child {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--ink-muted);
+    }
+    #no-results a { color: var(--blue); }
+
+    /* ── CHAPTER ─────────────────────────────────────────────────── */
+    .chapter {
+      margin-top: 3.5rem;
+      animation: fade-up 0.4s ease both;
+    }
+    .chapter.hidden { display: none; }
+
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .chapter:nth-child(1) { animation-delay: 0.05s; }
+    .chapter:nth-child(2) { animation-delay: 0.10s; }
+    .chapter:nth-child(3) { animation-delay: 0.15s; }
+    .chapter:nth-child(4) { animation-delay: 0.20s; }
+    .chapter:nth-child(5) { animation-delay: 0.25s; }
+    .chapter:nth-child(6) { animation-delay: 0.30s; }
+
+    .chapter-head {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 1.75rem;
+    }
+    .ch-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.58rem;
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+    }
+    .ch-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      font-style: italic;
+      flex: 1;
+    }
+    .ch-score {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--ink-muted);
+    }
+    .ch-spark { color: var(--accent); letter-spacing: -0.03em; }
+    .ch-score-val { color: var(--ink); font-weight: 600; }
+
+    /* ── ARTICLE GRID ────────────────────────────────────────────── */
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1.75rem 2rem;
+    }
+
+    .article {
+      border-top: 1px solid var(--rule);
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      transition: opacity 0.2s;
+    }
+    .article.hidden { display: none; }
+    .article.c4  { grid-column: span 4; }
+    .article.c6  { grid-column: span 6; }
+    .article.c8  { grid-column: span 8; }
+    .article.c12 { grid-column: span 12; }
+
+    @media (max-width: 900px) {
+      .article.c4, .article.c6, .article.c8 { grid-column: span 6; }
+    }
+    @media (max-width: 600px) {
+      .articles { grid-template-columns: 1fr; }
+      .article { grid-column: span 1 !important; }
+      .filter-toggle, .filter-panel, .active-chips, .masthead { padding-left: 1.25rem; padding-right: 1.25rem; }
+      main { padding-left: 1.25rem; padding-right: 1.25rem; }
+    }
+
+    .art-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .source-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.57rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.14rem 0.45rem;
+      border-radius: 2px;
+      border: 1px solid var(--rule);
+      color: var(--ink-muted);
+    }
+    .source-tag.official  { border-color: var(--blue);  color: var(--blue);  }
+    .source-tag.changelog { border-color: var(--green); color: var(--green); }
+    .art-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.57rem;
+      color: var(--ink-muted);
+    }
+    .badge-new {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.55rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.1rem 0.4rem;
+      border-radius: 2px;
+    }
+
+    .art-title {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    .art-title a { color: inherit; text-decoration: none; }
+    .art-title a:hover { color: var(--blue); }
+
+    .art-summary {
+      font-family: 'Lora', serif;
+      font-size: 0.875rem;
+      line-height: 1.7;
+      color: var(--ink-mid);
+    }
+
+    .snapshot {
+      background: var(--code-bg);
+      border-radius: 5px;
+      padding: 0.7rem 1rem;
+      overflow: hidden;
+    }
+    .snap-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.52rem;
+      color: var(--accent);
+      letter-spacing: 0.12em;
+      margin-bottom: 0.45rem;
+    }
+    .snap-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      line-height: 1.55;
+      color: var(--code-text);
+      white-space: pre;
+      overflow-x: auto;
+    }
+    /* syntax-ish coloring */
+    .snap-code .kw  { color: #C792EA; }
+    .snap-code .fn  { color: #82AAFF; }
+    .snap-code .str { color: #C3E88D; }
+    .snap-code .com { color: #546E7A; }
+
+    .art-tags {
+      display: flex;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+    }
+    .tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.55rem;
+      color: var(--ink-muted);
+      background: var(--chip-bg);
+      padding: 0.12rem 0.38rem;
+      border-radius: 2px;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────────── */
+    footer {
+      border-top: 2px solid var(--ink);
+      padding: 1.25rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.62rem;
+      color: var(--ink-muted);
+    }
+    footer a { color: var(--blue); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<!-- TREND TICKER -->
+<div class="ticker-wrap">
+  <span class="ticker-label">TRENDING</span>
+  <div class="ticker-track" id="ticker"></div>
+</div>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-top">
+    <h1 class="masthead-wordmark">Android Digest</h1>
+    <div class="masthead-meta">
+      <div><strong>EDITION 2026·W27</strong></div>
+      <div>05 JULY 2026</div>
+      <div>27 articles · 8 sources</div>
+    </div>
+  </div>
+  <div class="masthead-foot">
+    <p class="masthead-tagline">The Kotlin world, assembled. Weekly intelligence for Android engineers.</p>
+    <span class="masthead-stats">6 chapters · ordered by topic score</span>
+  </div>
+</header>
+
+<!-- FILTER BAR -->
+<div class="filter-bar" id="filterBar">
+  <div class="filter-toggle" id="filterToggle" onclick="togglePanel()">
+    <span class="filter-toggle-label">Filter</span>
+    <div class="mode-switcher">
+      <button class="mode-btn focus active" onclick="setMode('focus',event)">FOCUS</button>
+      <button class="mode-btn exclude"      onclick="setMode('exclude',event)">EXCLUDE</button>
+    </div>
+    <span class="filter-active-count" id="activeCount"></span>
+    <span class="filter-chevron">▾</span>
+  </div>
+
+  <div class="filter-panel" id="filterPanel">
+    <p class="filter-mode-hint" id="modeHint">
+      FOCUS — select topics to show <em>only</em> those chapters.
+    </p>
+    <div class="topic-checks" id="topicChecks"></div>
+    <div class="keyword-row">
+      <div class="kw-field">
+        <label>ONLY SHOW WORDS</label>
+        <input type="text" id="kwInclude" placeholder="gradle, plugin…" oninput="applyFilters()">
+      </div>
+      <div class="kw-field">
+        <label>EXCLUDE WORDS</label>
+        <input type="text" id="kwExclude" placeholder="flutter, react…" oninput="applyFilters()">
+      </div>
+      <button class="reset-btn" onclick="resetAll()">Reset all</button>
+    </div>
+  </div>
+
+  <div class="active-chips" id="activeChips"></div>
+</div>
+
+<!-- DIGEST -->
+<main id="digest"></main>
+<div id="noResults">
+  <p>No articles match your current filters.</p>
+  <p>Try broadening your selection or <a href="#" onclick="resetAll();return false;">reset all filters</a>.</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 Android Digest · Open source, community assembled</span>
+  <span>
+    <a href="https://github.com/cicerohellmann/android-digest">GitHub</a> ·
+    <a href="https://github.com/cicerohellmann/android-digest/blob/main/CONTRIBUTING.md">Add a source</a> ·
+    <a href="https://github.com/cicerohellmann/android-digest/blob/main/topics/topics.yml">Topic bible</a>
+  </span>
+</footer>
+
+<script>
+// ══ DATA ════════════════════════════════════════════════════════════════════
+
+const TOPICS = [
+  { id:'kotlin-core', label:'Kotlin Core' },
+  { id:'compose',     label:'Compose & UI' },
+  { id:'kmp',         label:'KMP' },
+  { id:'libraries',   label:'Libraries' },
+  { id:'build',       label:'Build & Tooling' },
+  { id:'testing',     label:'Testing' },
+  { id:'architecture',label:'Architecture' },
+  { id:'backend',     label:'Backend' },
+  { id:'community',   label:'Community' },
+];
+
+const TRENDING_DATA = [
+  { name:'k2-compiler',   score:892, spark:'▂▃▅▇█▇▆' },
+  { name:'compose',       score:734, spark:'▁▂▄▅▇█▇' },
+  { name:'kmp',           score:623, spark:'▃▄▅▆▇█▇' },
+  { name:'swift-export',  score:519, spark:'▁▂▂▄▆▇█' },
+  { name:'metro-di',      score:447, spark:'▁▁▂▄▆▇█' },
+  { name:'ktor',          score:384, spark:'▃▄▅▄▅▆▇' },
+  { name:'agp-9',         score:312, spark:'▁▂▃▄▅▆▇' },
+  { name:'coroutines',    score:290, spark:'▄▅▄▅▄▅▆' },
+  { name:'koin-4',        score:278, spark:'▁▁▃▅▆▇█' },
+  { name:'context-params',score:241, spark:'▁▁▁▂▄▆█' },
+];
+
+const CHAPTERS = [
+  {
+    id:'kotlin-core', title:'Kotlin Core',
+    topics:['kotlin-core'], score:892, spark:'▂▃▅▇█▇▆',
+    articles:[
+      { id:'k2',    col:'c8',
+        title:'K2 Compiler Reaches 95% Ecosystem Compatibility',
+        url:'#', source:'Kotlin Blog', stype:'official', date:'03 Jul', isNew:true,
+        topics:['kotlin-core','build'],
+        summary:'JetBrains reports K2 now compiles 95% of the top 200 open-source Kotlin projects without errors. The remaining 5% are annotation processor edge cases being resolved through KSP migration. K2 is now the default compiler in IntelliJ IDEA 2026.2 — you\'re using it whether you know it or not.',
+        snap:{ label:'MIGRATING TO K2', code:
+`<span class="kw">kotlin</span> {
+  compilerOptions {
+    languageVersion = <span class="str">KotlinVersion.KOTLIN_2_0</span>
+  }
+}` }
+      },
+      { id:'coroutines19', col:'c4',
+        title:'Coroutines 1.9: Debugging Hooks Arrive',
+        url:'#', source:'GitHub', stype:'changelog', date:'01 Jul', isNew:false,
+        topics:['kotlin-core'],
+        summary:'The 1.9 release adds CoroutineScope.debugName, structured logging hooks for coroutine lifecycle events, and improved coroutine dump output in crash reports.',
+        snap:{ label:'NEW IN 1.9', code:
+`scope.<span class="fn">debugName</span> = <span class="str">"UserAuth"</span>
+scope.<span class="fn">launch</span> {
+  <span class="com">// name visible in debugger &amp; crash dumps</span>
+}` }
+      },
+      { id:'ctxparams', col:'c6',
+        title:'Context Parameters in Kotlin 2.2: What Actually Changed',
+        url:'#', source:'ProAndroidDev', stype:'community', date:'04 Jul', isNew:true,
+        topics:['kotlin-core'],
+        summary:'Context parameters — the stable successor to context receivers — are live in Kotlin 2.2. This deep-dive covers the difference from extension functions, migration from the old @receiver: syntax, and concrete patterns for DI-free dependency threading.',
+        snap:{ label:'CONTEXT PARAMETERS', code:
+`<span class="kw">context</span>(Logger)
+<span class="kw">fun</span> <span class="fn">doThing</span>() {
+  <span class="fn">log</span>(<span class="str">"starting"</span>) <span class="com">// Logger from context</span>
+}` }
+      },
+      { id:'scripting', col:'c6',
+        title:'Kotlin Scripting in 2026: Where .kts Actually Makes Sense',
+        url:'#', source:'Zac Sweers', stype:'community', date:'29 Jun', isNew:false,
+        topics:['kotlin-core','build'],
+        summary:'A candid look at where .kts scripting lands in 2026 — IDE support, startup performance, and why Gradle build scripts remain the dominant use case while standalone scripting is still catching up.',
+        snap:null
+      },
+    ]
+  },
+  {
+    id:'compose', title:'Compose & UI',
+    topics:['compose'], score:734, spark:'▁▂▄▅▇█▇',
+    articles:[
+      { id:'compose-july', col:'c12',
+        title:"Jetpack Compose July '26 Release: Shared Elements Stable, Lazy Sticky Headers, Perf Wins",
+        url:'#', source:'Android Developers Blog', stype:'official', date:'02 Jul', isNew:true,
+        topics:['compose','libraries'],
+        summary:'The July Compose release promotes SharedElement transitions to stable, ships a new LazyGrid sticky headers API, and improves recomposition tracking for large lists. The team reports a 12% reduction in recompositions for common list patterns without any code changes.',
+        snap:{ label:'SHARED ELEMENT TRANSITIONS — NOW STABLE', code:
+`SharedTransitionLayout {
+  AnimatedContent(screen) { target -&gt;
+    <span class="kw">when</span> (target) {
+      <span class="kw">is</span> Detail -&gt; <span class="fn">Image</span>(
+        modifier = Modifier.<span class="fn">sharedElement</span>(
+          <span class="fn">rememberSharedContentState</span>(<span class="str">"hero-img"</span>),
+          animatedVisibilityScope = <span class="kw">this</span>
+        )
+      )
+    }
+  }
+}` }
+      },
+      { id:'material3', col:'c6',
+        title:'Material 3 Expressive: Motion Tokens Are a Bigger Deal Than They Sound',
+        url:'#', source:'ProAndroidDev', stype:'community', date:'04 Jul', isNew:true,
+        topics:['compose'],
+        summary:'M3 Expressive\'s motion token system lets you define animation durations and easing curves at the theme level. In practice this means your entire app\'s animation personality changes by editing one ThemeConfig object — no per-component overrides needed.',
+        snap:null
+      },
+      { id:'adaptive', col:'c6',
+        title:'Adaptive Layouts with WindowSizeClass: The Definitive 2026 Guide',
+        url:'#', source:'CommonsWare', stype:'community', date:'02 Jul', isNew:false,
+        topics:['compose'],
+        summary:'Mark Murphy\'s comprehensive walkthrough of adaptive Compose layouts — foldable, tablet, and large-screen — using the now-stable WindowSizeClass and SupportingPaneScaffold APIs. Includes real device testing notes.',
+        snap:null
+      },
+    ]
+  },
+  {
+    id:'kmp', title:'Kotlin Multiplatform',
+    topics:['kmp'], score:623, spark:'▃▄▅▆▇█▇',
+    articles:[
+      { id:'swift-export', col:'c8',
+        title:'Swift Export Reaches Beta — iOS Interop Has Never Been This Clean',
+        url:'#', source:'Kotlin Blog', stype:'official', date:'30 Jun', isNew:false,
+        topics:['kmp'],
+        summary:'Swift Export replaces the Objective-C header bridge with a native Swift API generated directly from Kotlin declarations. Beta means the generated API is stable enough to ship. JetBrains estimates 40% less iOS integration boilerplate for most KMP projects.',
+        snap:{ label:'SWIFT EXPORT — BEFORE / AFTER', code:
+`<span class="com">// Before (ObjC bridge)</span>
+SharedViewModelKt.shared.<span class="fn">loadUser</span>(id: 42)
+
+<span class="com">// After (Swift Export)</span>
+viewModel.<span class="fn">loadUser</span>(id: 42)` }
+      },
+      { id:'kmp-landscape', col:'c4',
+        title:'The KMP Library Landscape — Mid-2026 Compatibility Matrix',
+        url:'#', source:'John O\'Reilly', stype:'community', date:'01 Jul', isNew:false,
+        topics:['kmp','libraries'],
+        summary:'Which libraries have full KMP support now: Coil 3, Ktor 3.5, SQLDelight 2.1, Koin 4.2, Decompose 3. What\'s still Android-only: some Jetpack libs, Google Maps SDK, Firebase (partial).',
+        snap:null
+      },
+      { id:'wasm', col:'c6',
+        title:'Kotlin/Wasm 2.0 Alpha: Compose Multiplatform Targets the Web for Real',
+        url:'#', source:'Kotlin Blog', stype:'official', date:'03 Jul', isNew:true,
+        topics:['kmp'],
+        summary:'Kotlin/Wasm 2.0 alpha ships with GC proposal stabilization and a full Compose Multiplatform web target. JetBrains\' Fleet editor now has a working Wasm build — a strong signal this is production-path, not a research experiment.',
+        snap:null
+      },
+      { id:'xcode163', col:'c6',
+        title:'KMP + Xcode 16.3: Direct Framework Embedding Without the Pain',
+        url:'#', source:'ProAndroidDev', stype:'community', date:'02 Jul', isNew:false,
+        topics:['kmp'],
+        summary:'Step-by-step guide to Xcode 16.3 integration — direct framework embedding, updated SwiftPackagePlugin, and debugging Kotlin code from the Xcode debugger. Covers the new kotlin.cocoapods.xcodeConfigurationToNativeBuildType mapping.',
+        snap:null
+      },
+    ]
+  },
+  {
+    id:'libraries', title:'Library Releases',
+    topics:['libraries'], score:445, spark:'▃▄▅▅▆▇▇',
+    articles:[
+      { id:'ktor351', col:'c4',
+        title:'Ktor 3.5.1: Kotlin 2.4 Compiler Fixes + OpenAPI Improvements',
+        url:'#', source:'GitHub / ktorio', stype:'changelog', date:'25 Jun', isNew:false,
+        topics:['libraries'],
+        summary:'Fixes Kotlin 2.4 compiler plugin breaking changes affecting the Ktor Gradle plugin. Also ships improved nullable inline class handling and discriminator support in the OpenAPI generation plugin.',
+        snap:null
+      },
+      { id:'koin422', col:'c4',
+        title:'Koin 4.2.2: If You Upgraded to 4.2.0 and Hit Resolver Errors, Move Now',
+        url:'#', source:'GitHub / InsertKoinIO', stype:'changelog', date:'15 Jun', isNew:false,
+        topics:['libraries'],
+        summary:'4.2.0\'s architecture rewrite introduced regressions in parameter handling, ViewModel scope, and Ktor request-scope concurrency. 4.2.2 resolves all three. Upgrade path: direct drop-in, no API changes.',
+        snap:null
+      },
+      { id:'hilt260', col:'c4',
+        title:'Hilt / Dagger 2.60: Parameterless @Binds, Min SDK Now 23',
+        url:'#', source:'GitHub / google', stype:'changelog', date:'26 Jun', isNew:false,
+        topics:['libraries'],
+        summary:'New parameterless @Binds method syntax, nullable type annotation support via compiler flag, and removal of Multidex support (min SDK 23). Hilt Gradle plugin now enforces plugin-controlled flags and will fail the build if you override them.',
+        snap:{ label:'NEW: PARAMETERLESS @BINDS', code:
+`<span class="kw">@Binds</span>
+<span class="kw">fun</span> MyImpl.<span class="fn">bindAsInterface</span>(): MyInterface` }
+      },
+      { id:'metro', col:'c6',
+        title:'Metro 1.0 Stable: Compiler-Plugin DI, 50–80% Faster Builds Than Dagger',
+        url:'#', source:'Zac Sweers', stype:'community', date:'27 Apr', isNew:false,
+        topics:['libraries','build'],
+        summary:'Metro — the compile-time dependency injection framework implemented as a Kotlin compiler plugin — hits 1.0 stable. Early adopters report 50–80% build time reductions. API is intentionally Dagger-compatible to ease migration.',
+        snap:null
+      },
+      { id:'coil3', col:'c6',
+        title:'Coil 3.x: Full KMP Support, Compose-First API Surface',
+        url:'#', source:'GitHub / coil-kt', stype:'changelog', date:'28 Jun', isNew:false,
+        topics:['libraries','kmp','compose'],
+        summary:'Coil 3 ships first-class KMP support across Android, iOS, Desktop, and Web. The API is redesigned around Compose — ImageRequest is now a composable-aware type, and platform decoders swap via expect/actual. Coil 2 migration guide included.',
+        snap:null
+      },
+    ]
+  },
+  {
+    id:'build', title:'Build & Tooling',
+    topics:['build'], score:312, spark:'▁▂▃▄▅▆▇',
+    articles:[
+      { id:'agp9', col:'c6',
+        title:'AGP 9.0 Alpha: R8 Full Mode Default, Isolated Projects Stable',
+        url:'#', source:'Android Developers Blog', stype:'official', date:'01 Jul', isNew:true,
+        topics:['build'],
+        summary:'AGP 9.0 alpha makes R8 full mode the default (opt-in previously), stabilizes Isolated Projects for projects without legacy build scripts, and deprecates the Groovy DSL build variants API. Check your ProGuard rules — full mode is stricter.',
+        snap:{ label:'IF R8 FULL MODE BREAKS YOUR BUILD', code:
+`<span class="com"># proguard-rules.pro</span>
+-keepattributes *Annotation*
+-keep <span class="kw">class</span> * extends androidx.lifecycle.ViewModel` }
+      },
+      { id:'ksp2', col:'c6',
+        title:'KSP 2.0: Multi-Round Processing, Incremental by Default',
+        url:'#', source:'GitHub / google', stype:'changelog', date:'29 Jun', isNew:false,
+        topics:['build'],
+        summary:'KSP 2.0 ships multi-round processing (processors can now see symbols generated by earlier rounds), makes incremental processing the default, and adds a debug-friendly symbol dumper. The KAPT migration guide is updated for KSP 2.0 compatibility.',
+        snap:null
+      },
+    ]
+  },
+  {
+    id:'community', title:'Community',
+    topics:['community'], score:198, spark:'▁▂▂▃▄▅▆',
+    articles:[
+      { id:'kotlinconf', col:'c6',
+        title:'KotlinConf 2026 Full Schedule: 80+ Talks, May 20–22 Munich',
+        url:'#', source:'KotlinConf', stype:'official', date:'04 Jul', isNew:true,
+        topics:['community'],
+        summary:'The full KotlinConf 2026 schedule is live. Top submitted topics: K2 internals, KMP at production scale, Compose animation, AI/LLM integration in Kotlin, and backend with Ktor. Workshop day is May 20 — coroutines, KMP, and AI tracks available.',
+        snap:null
+      },
+      { id:'droidcon-london', col:'c6',
+        title:'Droidcon London 2025 CFP Open — Deadline August 1',
+        url:'#', source:'Droidcon', stype:'community', date:'30 Jun', isNew:false,
+        topics:['community'],
+        summary:'CFP is open. Organizers are specifically seeking talks on Compose performance profiling, KMP production case studies, and Android API 36 deep dives. Conference runs October 30–31 in London.',
+        snap:null
+      },
+    ]
+  },
+];
+
+// ══ STATE ════════════════════════════════════════════════════════════════════
+
+let state = {
+  mode: 'focus',
+  selected: new Set(),
+  kwInclude: '',
+  kwExclude: '',
+  panelOpen: false,
+};
+
+// ══ COOKIES ══════════════════════════════════════════════════════════════════
+
+function saveCookies() {
+  const d = { mode: state.mode, selected: [...state.selected], kwInclude: state.kwInclude, kwExclude: state.kwExclude };
+  document.cookie = `digest_prefs=${encodeURIComponent(JSON.stringify(d))};max-age=${60*60*24*90};path=/`;
+}
+
+function loadCookies() {
+  const m = document.cookie.match(/digest_prefs=([^;]+)/);
+  if (!m) return;
+  try {
+    const d = JSON.parse(decodeURIComponent(m[1]));
+    state.mode      = d.mode || 'focus';
+    state.selected  = new Set(d.selected || []);
+    state.kwInclude = d.kwInclude || '';
+    state.kwExclude = d.kwExclude || '';
+  } catch(e) {}
+}
+
+// ══ RENDER ═══════════════════════════════════════════════════════════════════
+
+function renderTicker() {
+  const doubled = [...TRENDING_DATA, ...TRENDING_DATA];
+  document.getElementById('ticker').innerHTML = doubled.map(t =>
+    `<span class="ticker-item">
+      <span class="t-spark">${t.spark}</span>
+      <span class="t-name">${t.name}</span>
+      <span class="t-score">${t.score}</span>
+    </span>`
+  ).join('');
+}
+
+function renderTopicChecks() {
+  document.getElementById('topicChecks').innerHTML = TOPICS.map(t =>
+    `<label class="topic-check-label">
+      <input type="checkbox" value="${t.id}" ${state.selected.has(t.id)?'checked':''}
+             onchange="toggleTopic('${t.id}',this.checked)">
+      ${t.label}
+    </label>`
+  ).join('');
+}
+
+function esc(s) {
+  return s; // already escaped in data
+}
+
+function renderSnapshot(snap) {
+  if (!snap) return '';
+  return `<div class="snapshot">
+    <div class="snap-label">▸ ${snap.label}</div>
+    <div class="snap-code">${snap.code}</div>
+  </div>`;
+}
+
+function renderChapters() {
+  document.getElementById('digest').innerHTML = CHAPTERS.map((ch, i) =>
+    `<section class="chapter" id="ch-${ch.id}" data-topics="${ch.topics.join(',')}">
+      <div class="chapter-head">
+        <span class="ch-num">§ ${String(i+1).padStart(2,'0')}</span>
+        <h2 class="ch-title">${ch.title}</h2>
+        <div class="ch-score">
+          <span class="ch-spark">${ch.spark}</span>
+          <span class="ch-score-val">${ch.score}</span>
+        </div>
+      </div>
+      <div class="articles">
+        ${ch.articles.map(a =>
+          `<article class="article ${a.col}" id="art-${a.id}" data-topics="${a.topics.join(',')}">
+            <div class="art-meta">
+              <span class="source-tag ${a.stype}">${a.source}</span>
+              <span class="art-date">${a.date}</span>
+              ${a.isNew ? '<span class="badge-new">New</span>' : ''}
+            </div>
+            <h3 class="art-title"><a href="${a.url}">${a.title}</a></h3>
+            <p class="art-summary">${a.summary}</p>
+            ${renderSnapshot(a.snap)}
+            <div class="art-tags">${a.topics.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+          </article>`
+        ).join('')}
+      </div>
+    </section>`
+  ).join('');
+}
+
+// ══ FILTER ═══════════════════════════════════════════════════════════════════
+
+function applyFilters() {
+  state.kwInclude = document.getElementById('kwInclude').value.trim().toLowerCase();
+  state.kwExclude = document.getElementById('kwExclude').value.trim().toLowerCase();
+
+  const kwIn  = state.kwInclude ? state.kwInclude.split(/[\s,]+/).filter(Boolean) : [];
+  const kwEx  = state.kwExclude ? state.kwExclude.split(/[\s,]+/).filter(Boolean) : [];
+  const hasTopics = state.selected.size > 0;
+
+  let anyVisible = false;
+
+  CHAPTERS.forEach(ch => {
+    let chVis = false;
+    ch.articles.forEach(a => {
+      const el = document.getElementById('art-' + a.id);
+      if (!el) return;
+      const text = (a.title + ' ' + a.summary).toLowerCase();
+      const matches = a.topics.some(t => state.selected.has(t));
+
+      let topicPass = true;
+      if (hasTopics) {
+        topicPass = state.mode === 'focus' ? matches : !matches;
+      }
+      const kwInPass  = kwIn.length  === 0 || kwIn.every(k => text.includes(k));
+      const kwExPass  = kwEx.length  === 0 || !kwEx.some(k => text.includes(k));
+
+      const vis = topicPass && kwInPass && kwExPass;
+      el.classList.toggle('hidden', !vis);
+      if (vis) chVis = true;
+    });
+
+    const chEl = document.getElementById('ch-' + ch.id);
+    if (chEl) {
+      chEl.classList.toggle('hidden', !chVis);
+      if (chVis) anyVisible = true;
+    }
+  });
+
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+  updateChips();
+  saveCookies();
+}
+
+function updateChips() {
+  const container = document.getElementById('activeChips');
+  const bits = [];
+  const total = state.selected.size + (state.kwInclude?1:0) + (state.kwExclude?1:0);
+
+  document.getElementById('activeCount').textContent = total > 0 ? `${total} active` : '';
+
+  if (state.selected.size > 0) {
+    bits.push(`<span class="chip-mode-label">${state.mode.toUpperCase()}:</span>`);
+    state.selected.forEach(id => {
+      const t = TOPICS.find(x => x.id === id);
+      const cls = state.mode === 'focus' ? 'focus-chip' : 'exclude-chip';
+      bits.push(`<span class="chip ${cls}">${t ? t.label : id}</span>`);
+    });
+  }
+  if (state.kwInclude) bits.push(`<span class="chip kw-chip">only: ${state.kwInclude}</span>`);
+  if (state.kwExclude) bits.push(`<span class="chip kw-chip">not: ${state.kwExclude}</span>`);
+
+  container.innerHTML = bits.join('');
+}
+
+// ══ INTERACTIONS ══════════════════════════════════════════════════════════════
+
+function toggleTopic(id, checked) {
+  checked ? state.selected.add(id) : state.selected.delete(id);
+  applyFilters();
+}
+
+function setMode(mode, e) {
+  e.stopPropagation();
+  state.mode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  const panel = document.getElementById('filterPanel');
+  panel.classList.toggle('exclude-mode', mode === 'exclude');
+  document.getElementById('modeHint').innerHTML = mode === 'focus'
+    ? 'FOCUS — select topics to show <em>only</em> those chapters.'
+    : 'EXCLUDE — select topics to <em>hide</em> from the digest.';
+  applyFilters();
+}
+
+function togglePanel() {
+  state.panelOpen = !state.panelOpen;
+  document.getElementById('filterPanel').classList.toggle('open', state.panelOpen);
+  document.getElementById('filterToggle').classList.toggle('filter-open', state.panelOpen);
+}
+
+function resetAll() {
+  state.selected.clear();
+  state.kwInclude = '';
+  state.kwExclude = '';
+  document.getElementById('kwInclude').value = '';
+  document.getElementById('kwExclude').value = '';
+  renderTopicChecks();
+  applyFilters();
+}
+
+// ══ INIT ══════════════════════════════════════════════════════════════════════
+
+loadCookies();
+renderTicker();
+renderTopicChecks();
+renderChapters();
+document.getElementById('kwInclude').value = state.kwInclude;
+document.getElementById('kwExclude').value = state.kwExclude;
+document.querySelectorAll('.mode-btn').forEach(b => {
+  b.classList.toggle('active', b.classList.contains(state.mode));
+});
+document.getElementById('filterPanel').classList.toggle('exclude-mode', state.mode === 'exclude');
+document.getElementById('modeHint').innerHTML = state.mode === 'focus'
+  ? 'FOCUS — select topics to show <em>only</em> those chapters.'
+  : 'EXCLUDE — select topics to <em>hide</em> from the digest.';
+applyFilters();
+</script>
+</body>
+</html>
