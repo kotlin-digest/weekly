@@ -918,7 +918,7 @@ function renderChapters() {
               <span class="art-date">${a.date}</span>
               ${a.isNew ? '<span class="badge-new">New</span>' : ''}
             </div>
-            <h3 class="art-title"><a href="${a.url}">${a.title}</a></h3>
+            <h3 class="art-title"><a href="${a.url}" onclick="if(this.getAttribute('href')==='#')event.preventDefault()">${a.title}</a></h3>
             <p class="art-summary">${a.summary}</p>
             ${renderSnapshot(a.snap)}
             <div class="art-tags">${a.topics.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
