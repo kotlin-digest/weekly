@@ -1,0 +1,49 @@
+name: Daily Scout
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:        # allow manual trigger for testing
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # to commit updated state files
+      issues: write         # to open issues for dead sources
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run scout
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python pipeline/scout.py
+
+      - name: Update topic bible
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/bible.py
+
+      - name: AI summarization
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/summarize.py
+
+      - name: Commit state updates
+        run: |
+          git config user.name "android-digest-bot"
+          git config user.email "bot@android-digest"
+          git add state/
+          git diff --staged --quiet || git commit -m "chore: daily scout $(date -u +%Y-%m-%d)"
+          git push

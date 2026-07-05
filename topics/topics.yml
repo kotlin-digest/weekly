@@ -1,0 +1,204 @@
+# Android Digest — Topic Bible Seed
+#
+# This file seeds the topic bible with a curated baseline.
+# New topics auto-emerge from the pipeline (needs_review: true).
+# PRs welcome to add, rename, or reorganize.
+
+# Scoring constants (can be tuned)
+scoring:
+  decay_factor: 0.92          # daily multiplier — score halves in ~8 days without mentions
+  source_weights:
+    conference: 3.0
+    blog: 2.0
+    changelog: 2.5            # library releases are high-signal
+    news: 1.5
+    slack-mirror: 1.0
+  emergence_threshold: 3      # auto-add a topic if it appears in N+ articles in one cycle
+
+topics:
+
+  # ── Language Core ─────────────────────────────────────────────────────────
+  - id: kotlin
+    label: "Kotlin"
+  - id: coroutines
+    label: "Coroutines"
+  - id: flows
+    label: "Flows"
+  - id: k2-compiler
+    label: "K2 Compiler"
+  - id: kotlin-scripting
+    label: "Kotlin Scripting"
+  - id: kotlin-stdlib
+    label: "Kotlin Standard Library"
+  - id: sealed-classes
+    label: "Sealed Classes"
+  - id: context-receivers
+    label: "Context Receivers"
+  - id: value-classes
+    label: "Value Classes"
+
+  # ── UI ────────────────────────────────────────────────────────────────────
+  - id: compose
+    label: "Jetpack Compose"
+  - id: compose-multiplatform
+    label: "Compose Multiplatform"
+  - id: navigation
+    label: "Navigation"
+  - id: animation
+    label: "Animation"
+  - id: material3
+    label: "Material 3"
+  - id: adaptive-ui
+    label: "Adaptive UI"
+
+  # ── Multiplatform ─────────────────────────────────────────────────────────
+  - id: kmp
+    label: "Kotlin Multiplatform"
+  - id: ios-interop
+    label: "iOS Interop"
+  - id: wasm
+    label: "Kotlin/Wasm"
+  - id: kotlin-js
+    label: "Kotlin/JS"
+  - id: swift-export
+    label: "Swift Export"
+
+  # ── Dependency Injection ──────────────────────────────────────────────────
+  - id: hilt
+    label: "Hilt"
+  - id: koin
+    label: "Koin"
+  - id: kodein
+    label: "Kodein"
+
+  # ── Networking ────────────────────────────────────────────────────────────
+  - id: ktor
+    label: "Ktor (Client)"
+  - id: ktor-server
+    label: "Ktor (Server)"
+  - id: retrofit
+    label: "Retrofit"
+  - id: okhttp
+    label: "OkHttp"
+
+  # ── Build & Tooling ───────────────────────────────────────────────────────
+  - id: gradle
+    label: "Gradle"
+  - id: gradle-plugin
+    label: "Gradle Plugin"
+  - id: version-catalog
+    label: "Version Catalog"
+  - id: ksp
+    label: "KSP"
+  - id: kapt
+    label: "KAPT"
+  - id: build-logic
+    label: "Build Logic / Convention Plugins"
+  - id: r8-proguard
+    label: "R8 / ProGuard"
+
+  # ── Android Platform ──────────────────────────────────────────────────────
+  - id: android-api
+    label: "Android API"
+  - id: jetpack
+    label: "Jetpack"
+  - id: room
+    label: "Room"
+  - id: datastore
+    label: "DataStore"
+  - id: workmanager
+    label: "WorkManager"
+  - id: wear-os
+    label: "Wear OS"
+  - id: android-auto
+    label: "Android Auto"
+  - id: media3
+    label: "Media3"
+
+  # ── Architecture ──────────────────────────────────────────────────────────
+  - id: architecture
+    label: "Architecture"
+  - id: viewmodel
+    label: "ViewModel"
+  - id: clean-architecture
+    label: "Clean Architecture"
+  - id: mvi
+    label: "MVI"
+  - id: mvvm
+    label: "MVVM"
+
+  # ── Backend / Server ──────────────────────────────────────────────────────
+  - id: spring-kotlin
+    label: "Spring + Kotlin"
+  - id: exposed
+    label: "Exposed (DB)"
+  - id: kotlin-backend
+    label: "Kotlin Backend"
+
+  # ── Testing ───────────────────────────────────────────────────────────────
+  - id: testing
+    label: "Testing"
+  - id: turbine
+    label: "Turbine"
+  - id: paparazzi
+    label: "Paparazzi"
+  - id: shot
+    label: "Shot"
+
+  # ── Community ─────────────────────────────────────────────────────────────
+  - id: droidcon
+    label: "Droidcon"
+  - id: kotlinconf
+    label: "KotlinConf"
+  - id: google-io
+    label: "Google I/O"
+  - id: android-developers
+    label: "Android Developers"
+  - id: jetbrains
+    label: "JetBrains"
+
+# ── Chapter clusters (groups topics into magazine chapters) ──────────────────
+clusters:
+  - id: language-core
+    label: "Kotlin Core"
+    topics: [kotlin, coroutines, flows, k2-compiler, kotlin-stdlib, sealed-classes, context-receivers, value-classes, kotlin-scripting]
+
+  - id: ui
+    label: "Compose & UI"
+    topics: [compose, compose-multiplatform, navigation, animation, material3, adaptive-ui]
+
+  - id: multiplatform
+    label: "KMP"
+    topics: [kmp, ios-interop, wasm, kotlin-js, swift-export]
+
+  - id: di
+    label: "Dependency Injection"
+    topics: [hilt, koin, kodein]
+
+  - id: networking
+    label: "Networking"
+    topics: [ktor, ktor-server, retrofit, okhttp]
+
+  - id: build
+    label: "Build & Tooling"
+    topics: [gradle, gradle-plugin, version-catalog, ksp, kapt, build-logic, r8-proguard]
+
+  - id: platform
+    label: "Android Platform"
+    topics: [android-api, jetpack, room, datastore, workmanager, wear-os, android-auto, media3]
+
+  - id: architecture
+    label: "Architecture"
+    topics: [architecture, viewmodel, clean-architecture, mvi, mvvm]
+
+  - id: backend
+    label: "Backend / Server"
+    topics: [ktor-server, spring-kotlin, exposed, kotlin-backend]
+
+  - id: testing
+    label: "Testing"
+    topics: [testing, turbine, paparazzi, shot]
+
+  - id: community
+    label: "Community"
+    topics: [droidcon, kotlinconf, google-io, android-developers, jetbrains]

@@ -1,0 +1,149 @@
+# Android Digest — Source Registry
+#
+# Community PRs welcome — add your source, open a PR.
+# See docs/sources.md for field definitions and ingestion strategy notes.
+#
+# Required fields: id, name, url, type, cadence_days
+# Optional fields: rss, language, topics (editorial hints)
+
+sources:
+
+  # ── Official ──────────────────────────────────────────────────────────────
+
+  - id: kotlin-blog
+    name: "Kotlin Blog"
+    url: "https://blog.jetbrains.com/kotlin/"
+    rss: "https://blog.jetbrains.com/kotlin/feed/"
+    type: blog
+    language: en
+    cadence_days: 7
+    topics: [kotlin, jetbrains, language]
+
+  - id: android-developers-blog
+    name: "Android Developers Blog"
+    url: "https://android-developers.googleblog.com/"
+    rss: "https://android-developers.googleblog.com/feeds/posts/default"
+    type: blog
+    language: en
+    cadence_days: 5
+    topics: [android-api, jetpack, compose]
+
+  - id: android-developers-medium
+    name: "Android Developers — Medium"
+    url: "https://medium.com/androiddevelopers"
+    rss: "https://medium.com/feed/androiddevelopers"
+    type: blog
+    language: en
+    cadence_days: 3
+    topics: [android-api, compose, architecture]
+
+  # ── Conferences ───────────────────────────────────────────────────────────
+
+  - id: kotlinconf
+    name: "KotlinConf"
+    url: "https://kotlinconf.com/"
+    type: conference
+    language: en
+    cadence_days: 365
+    topics: [kotlin, kotlinconf, jetbrains]
+
+  - id: droidcon
+    name: "Droidcon"
+    url: "https://www.droidcon.com/"
+    rss: "https://www.droidcon.com/feed/"
+    type: conference
+    language: en
+    cadence_days: 30
+    topics: [android, droidcon, community]
+
+  # ── Community Blogs ───────────────────────────────────────────────────────
+
+  - id: proandroiddev
+    name: "ProAndroidDev"
+    url: "https://proandroiddev.com/"
+    rss: "https://proandroiddev.com/feed"
+    type: blog
+    language: en
+    cadence_days: 2
+    topics: [android, architecture, compose]
+
+  - id: medium-kotlin
+    name: "Medium — Kotlin tag"
+    url: "https://medium.com/tag/kotlin"
+    rss: "https://medium.com/feed/tag/kotlin"
+    type: blog
+    language: en
+    cadence_days: 1
+    topics: [kotlin]
+
+  - id: john-oreilly
+    name: "John O'Reilly — Musings"
+    url: "https://johnoreilly.dev/"
+    rss: "https://johnoreilly.dev/index.xml"
+    type: blog
+    language: en
+    cadence_days: 14
+    topics: [kmp, compose-multiplatform, ios-interop]
+
+  - id: zac-sweers
+    name: "Zac Sweers"
+    url: "https://www.zacsweers.dev/"
+    rss: "https://www.zacsweers.dev/rss/"
+    type: blog
+    language: en
+    cadence_days: 30
+    topics: [kotlin, gradle, ksp]
+
+  # ── Library Changelogs ────────────────────────────────────────────────────
+
+  - id: compose-changelog
+    name: "Jetpack Compose — Release Notes"
+    url: "https://developer.android.com/jetpack/androidx/releases/compose-ui"
+    type: changelog
+    language: en
+    cadence_days: 14
+    topics: [compose, jetpack]
+
+  - id: ktor-changelog
+    name: "Ktor — GitHub Releases"
+    url: "https://github.com/ktorio/ktor/releases"
+    rss: "https://github.com/ktorio/ktor/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [ktor, ktor-server, networking]
+
+  - id: hilt-releases
+    name: "Hilt — Release Notes"
+    url: "https://developer.android.com/training/dependency-injection/hilt-android#hilt-libraries"
+    type: changelog
+    language: en
+    cadence_days: 30
+    topics: [hilt, di, jetpack]
+
+  - id: koin-changelog
+    name: "Koin — GitHub Releases"
+    url: "https://github.com/InsertKoinIO/koin/releases"
+    rss: "https://github.com/InsertKoinIO/koin/releases.atom"
+    type: changelog
+    language: en
+    cadence_days: 21
+    topics: [koin, di]
+
+  - id: room-changelog
+    name: "Room — Release Notes"
+    url: "https://developer.android.com/jetpack/androidx/releases/room"
+    type: changelog
+    language: en
+    cadence_days: 21
+    topics: [room, database, jetpack]
+
+  # ── Slack Mirrors (add public archives here when available) ───────────────
+
+  # - id: kotlin-slack-general
+  #   name: "Kotlin Slack #general mirror"
+  #   url: "..."
+  #   type: slack-mirror
+  #   language: en
+  #   cadence_days: 1
+  #   topics: [kotlin]
