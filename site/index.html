@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kotlin Digest — 2026·W27</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>if(document.cookie.includes('kd_night=1'))document.documentElement.dataset.night='1';</script>
   <style>
     :root {
       --paper:        #F3EDE2;
@@ -25,19 +26,50 @@
       --code-text:    #D4CFC6;
     }
 
+    html[data-night="1"] {
+      --paper:        #1C1A17;
+      --paper-b:      #252320;
+      --ink:          #E8E2D6;
+      --ink-mid:      #C4BDB0;
+      --ink-muted:    #7A7266;
+      --rule:         #3A3630;
+      --chip-bg:      #2A2820;
+      --accent:       #D4621A;
+      --blue:         #6B9FD4;
+      --green:        #5A9E78;
+      --focus-tint:   #2A2218;
+      --exclude-tint: #1A2030;
+      --code-bg:      #111010;
+    }
+
+    .night-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.65rem;
+      border-radius: 3px;
+      border: 1px solid var(--rule);
+      background: transparent;
+      color: var(--ink-muted);
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .night-btn:hover { color: var(--ink); border-color: var(--ink-muted); }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       background: var(--paper);
       color: var(--ink);
-      font-family: 'Lora', Georgia, serif;
+      font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
       min-height: 100vh;
     }
 
-    /* ── TICKER ─────────────────────────────────────────────────── */
+    /* ── TICKER — always dark, never flips ─────────────────────── */
     .ticker-wrap {
-      background: var(--ink);
-      color: var(--paper);
+      background: #0F0E0C;
+      color: #C8C0B0;
       padding: 0.45rem 0;
       overflow: hidden;
       display: flex;
@@ -51,8 +83,8 @@
       color: var(--accent);
       padding: 0 1.5rem;
       white-space: nowrap;
-      border-right: 1px solid #3A3830;
-      background: var(--ink);
+      border-right: 1px solid #2A2820;
+      background: #0F0E0C;
       position: relative;
       z-index: 1;
       flex-shrink: 0;
@@ -93,10 +125,10 @@
       border-bottom: 1px solid var(--rule);
     }
     .masthead-wordmark {
-      font-family: 'Playfair Display', serif;
-      font-weight: 900;
-      font-size: clamp(2.8rem, 7vw, 5.5rem);
-      letter-spacing: -0.03em;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      font-size: clamp(2rem, 5vw, 4rem);
+      letter-spacing: -0.05em;
       line-height: 1;
     }
     .masthead-meta {
@@ -116,7 +148,7 @@
       align-items: baseline;
     }
     .masthead-tagline {
-      font-family: 'Lora', serif;
+      font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
       font-style: italic;
       font-size: 0.95rem;
       color: var(--ink-muted);
@@ -377,10 +409,11 @@
       letter-spacing: 0.12em;
     }
     .ch-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.55rem;
-      font-weight: 700;
-      font-style: italic;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.3rem;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: -0.04em;
       flex: 1;
     }
     .ch-score {
@@ -468,7 +501,7 @@
     }
 
     .art-title {
-      font-family: 'Lora', serif;
+      font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
       font-size: 1.05rem;
       font-weight: 600;
       line-height: 1.35;
@@ -477,7 +510,7 @@
     .art-title a:hover { color: var(--blue); }
 
     .art-summary {
-      font-family: 'Lora', serif;
+      font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
       font-size: 0.875rem;
       line-height: 1.7;
       color: var(--ink-mid);
@@ -559,9 +592,9 @@
   </div>
   <div class="masthead-foot">
     <p class="masthead-tagline">The Kotlin world, assembled. Weekly intelligence for Android engineers.</p>
-    <span class="masthead-stats">
-      6 chapters · ordered by topic score ·
-      <a href="about.html" style="color:var(--blue);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.6rem;">About &amp; Contributing</a>
+    <span class="masthead-stats" style="display:flex;align-items:center;gap:0.75rem;">
+      <span>6 chapters · ordered by topic score · <a href="about.html" style="color:var(--blue);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.6rem;">About &amp; Contributing</a></span>
+      <button class="night-btn" id="nightBtn" onclick="toggleNight()">☾</button>
     </span>
   </div>
 </header>
@@ -1052,6 +1085,17 @@ function resetAll() {
   renderTopicChecks();
   applyFilters();
 }
+
+// ══ NIGHT MODE ════════════════════════════════════════════════════════════════
+
+function toggleNight() {
+  const next = document.documentElement.dataset.night === '1' ? '0' : '1';
+  document.documentElement.dataset.night = next;
+  document.cookie = `kd_night=${next};max-age=${60*60*24*90};path=/`;
+  document.getElementById('nightBtn').textContent = next === '1' ? '☀' : '☾';
+}
+if (document.documentElement.dataset.night === '1')
+  document.getElementById('nightBtn').textContent = '☀';
 
 // ══ INIT ══════════════════════════════════════════════════════════════════════
 

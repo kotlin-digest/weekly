@@ -6,7 +6,31 @@
   <title>About & Contributing — Kotlin Digest</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>if(document.cookie.includes('kd_night=1'))document.documentElement.dataset.night='1';</script>
   <style>
+    html[data-night="1"] {
+      --paper:     #1C1A17;
+      --ink:       #E8E2D6;
+      --ink-mid:   #C4BDB0;
+      --ink-muted: #7A7266;
+      --rule:      #3A3630;
+      --chip-bg:   #2A2820;
+      --accent:    #D4621A;
+      --blue:      #6B9FD4;
+      --green:     #5A9E78;
+      --code-bg:   #111010;
+    }
+    html[data-night="1"] .top-nav { background: #0F0E0C; }
+
+    .night-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em;
+      padding: 0.2rem 0.55rem; border-radius: 3px;
+      border: 1px solid #3A3830; background: transparent; color: #8B8070;
+      cursor: pointer; margin-left: auto;
+    }
+    .night-btn:hover { color: #C8C0B0; border-color: #6B6457; }
+
     :root {
       --paper:      #F3EDE2;
       --ink:        #1C1B18;
@@ -301,6 +325,7 @@
   <a href="index.html" class="nav-back">← Kotlin Digest</a>
   <span class="nav-sep">/</span>
   <span class="nav-current">ABOUT & CONTRIBUTING</span>
+  <button class="night-btn" id="nightBtn" onclick="toggleNight()">☾ night</button>
 </nav>
 
 <!-- MASTHEAD -->
@@ -486,6 +511,15 @@ async function load() {
 }
 
 load();
+
+function toggleNight() {
+  const next = document.documentElement.dataset.night === '1' ? '0' : '1';
+  document.documentElement.dataset.night = next;
+  document.cookie = `kd_night=${next};max-age=${60*60*24*90};path=/`;
+  document.getElementById('nightBtn').textContent = next === '1' ? '☀ day' : '☾ night';
+}
+if (document.documentElement.dataset.night === '1')
+  document.getElementById('nightBtn').textContent = '☀ day';
 </script>
 </body>
 </html>
