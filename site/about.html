@@ -6,54 +6,14 @@
   <title>About & Contributing — Kotlin Digest</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design.css">
   <script>if(document.cookie.includes('kd_night=1'))document.documentElement.dataset.night='1';</script>
   <style>
-    html[data-night="1"] {
-      --paper:     #1C1A17;
-      --ink:       #E8E2D6;
-      --ink-mid:   #C4BDB0;
-      --ink-muted: #7A7266;
-      --rule:      #3A3630;
-      --chip-bg:   #2A2820;
-      --accent:    #E8762E;
-      --blue:      #6B9FD4;
-      --green:     #5A9E78;
-      --code-bg:   #111010;
-    }
     html[data-night="1"] .top-nav { background: #0F0E0C; }
     html[data-night="1"] .philosophy-callout { background: #2A2218; }
     html[data-night="1"] .philosophy-callout p { color: #E8E2D6; }
 
-    .night-btn {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em;
-      padding: 0.2rem 0.55rem; border-radius: 3px;
-      border: 1px solid #3A3830; background: transparent; color: #8B8070;
-      cursor: pointer; margin-left: auto;
-    }
-    .night-btn:hover { color: #C8C0B0; border-color: #6B6457; }
-
-    :root {
-      --paper:      #F3EDE2;
-      --ink:        #1C1B18;
-      --ink-mid:    #3A3830;
-      --ink-muted:  #6B6457;
-      --rule:       #C9BFB0;
-      --chip-bg:    #E5DDD0;
-      --accent:     #E06020;
-      --blue:       #1A4A8C;
-      --green:      #2A6049;
-      --code-bg:    #18171A;
-      --code-text:  #D4CFC6;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: var(--paper);
-      color: var(--ink);
-      font-family: 'Lora', Georgia, serif;
-    }
+    .night-btn { margin-left: auto; }
 
     /* ── TOP NAV ── */
     .top-nav {
