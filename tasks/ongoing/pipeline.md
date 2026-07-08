@@ -28,11 +28,12 @@ that scouts sources, scores topics, summarizes articles, and assembles the page.
 
 ## Step 4 — Assemble (`pipeline/assemble.py`)
 
-- [ ] Read `state/bible.json` + `state/articles.json`
+- [ ] Accept `--edition` flag (e.g. `2026-W27`) and derive the 7-day date range from it
+- [ ] Read `state/bible.json` + `state/articles.json`, filter to articles within that 7-day window
 - [ ] Cluster articles into chapters ordered by topic score
 - [ ] Assign column width per article (c12 / c8 / c6 / c4) based on score rank within chapter
 - [ ] Render `site/index.html` — replace hardcoded JS data arrays with real content
-- [ ] Update edition label (week number + year) in the page title and masthead
+- [ ] Update edition label in page title and masthead from `--edition`
 
 ## Step 5 — GitHub Actions: daily scout
 
@@ -42,8 +43,17 @@ that scouts sources, scores topics, summarizes articles, and assembles the page.
 ## Step 6 — GitHub Actions: publish
 
 - [ ] Wire `publish.yml` to run step 4 on `workflow_dispatch`
+- [ ] `edition_label` input (e.g. `2026-W27`) passed to assemble — enables historical week runs
 - [ ] Commit updated `site/index.html`
 - [ ] Trigger GitHub Pages deploy
+
+---
+
+## Editorial decisions (locked)
+
+- **Publication window**: 7 days per edition (assemble filters to that week only)
+- **Storage window**: 90 days in `articles.json` — enables re-running any past week
+- **Cadence**: scout runs daily, publish runs Sunday evening for Monday morning
 
 ---
 
