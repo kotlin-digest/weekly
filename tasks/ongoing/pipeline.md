@@ -17,7 +17,7 @@ that scouts sources, scores topics, summarizes articles, and assembles the page.
 - [ ] Read new articles + `topics/topics.yml`
 - [ ] Boost topic scores for keyword matches in title/content
 - [ ] Apply daily decay to all scores
-- [ ] Write updated scores + 90-day history to `state/bible.json`
+- [ ] Append today's entry to each topic's history — never prune (full history kept permanently)
 
 ## Step 3 — Summarize (`pipeline/summarize.py`)
 
@@ -52,7 +52,7 @@ that scouts sources, scores topics, summarizes articles, and assembles the page.
 ## Editorial decisions (locked)
 
 - **Publication window**: 7 days per edition (assemble filters to that week only)
-- **Storage window**: 90 days in `articles.json` — enables re-running any past week
+- **Storage window**: 90 days in `articles.json` (articles are bulk); `bible.json` history is permanent and never pruned
 - **Cadence**: scout runs daily, publish runs Sunday evening for Monday morning
 
 ---
