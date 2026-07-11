@@ -5,12 +5,15 @@
 
 ## Problem
 
-Editions show near-duplicate noise from high-frequency changelog sources. In
-W28, the Compose Multiplatform source emitted **nine** GitHub release tags in one
-week (`v1.12.10-alpha01+dev4438/4434/4419/4413/4443/4403`, plus the
-`v1.12.0-beta02+dev4432/4414/4402` train). Each has a unique URL, so the pipeline's
-only dedup dimension — normalized-URL identity (`scout.py:53-60`) — treats every
-nightly as a distinct story. Each got its own AI summary, producing a wall of
+Editions show near-duplicate noise from high-frequency changelog sources. In the
+W28 window (`2026-07-06 … 2026-07-12`), the Compose Multiplatform source has
+**seven renderable** release tags — survivor `v1.12.10-alpha01+dev4443` plus six
+folded builds (`dev4438/4434/4419/4413` and the `beta02+dev4432/4414` train).
+(Two more, `dev4403/4402`, are dated 07-03 = W27 and are filtered out before
+grouping; an eighth, `dev4447`, is unsummarized/untagged and therefore not
+renderable — see the survivor rule below.) Each has a unique URL, so the
+pipeline's only dedup dimension — normalized-URL identity (`scout.py:53-60`) —
+treats every nightly as a distinct story. Each got its own AI summary, producing a wall of
 near-identical "incremental improvements" cards.
 
 This is **not** a dedup bug. The URLs are legitimately distinct. The gap is that

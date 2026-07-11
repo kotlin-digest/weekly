@@ -27,6 +27,7 @@ from pipeline._assemble.dates import edition_to_dates
 from pipeline._assemble.scores import lookup_scores_at
 from pipeline._assemble.articles import filter_articles, score_articles, cluster_articles
 from pipeline._assemble.render import build_data_block, inject_data
+from pipeline.rollup import collapse, load_rollups, write_queue
 
 
 def write_atomic(path: Path, text: str) -> None:
@@ -55,6 +56,35 @@ def main() -> None:
     scores = lookup_scores_at(bible, end)
 
     week_articles = filter_articles(articles, start, end)
+
+    # Collapse high-frequency changelog sources to their single newest release,
+    # folding the rest into a rollup on the survivor card.
+    before = len(week_articles)
+    week_articles, rollups = collapse(week_articles, source_type_map)
+    if before != len(week_articles):
+        print(f"  collapsed {before - len(week_articles)} older releases "
+              f"across {len(rollups)} changelog source(s)")
+
+    # Attach synthesized rollup paragraphs from cache; queue any that are missing.
+    cache = load_rollups()
+    summary_by_rid = {}
+    missing = []
+    for r in rollups:
+        cached = cache.get(r["rollup_id"])
+        if cached and cached.get("summary"):
+            summary_by_rid[r["rollup_id"]] = cached["summary"]
+        else:
+            missing.append(r)
+    for a in week_articles:
+        rid = a.get("rollup_id")
+        if rid in summary_by_rid:
+            a["rollup_summary"] = summary_by_rid[rid]
+    if missing:
+        write_queue(missing)
+        print(f"  {len(missing)} rollup(s) need synthesis → state/rollup-queue.json")
+        print("    agent: write [{rollup_id, summary}], then "
+              "`python3.11 pipeline/rollup.py --apply <file>`, then re-run assemble")
+
     week_articles = score_articles(week_articles, scores)
     print(f"  {len(week_articles)} articles in window")
 

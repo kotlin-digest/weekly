@@ -37,6 +37,14 @@ def _js_str(s: str) -> str:
     return s.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n").replace("\r", "")
 
 
+def _fmt_date(raw: str) -> str:
+    """Format an ISO date as '10 Jul'; pass through anything unparseable."""
+    try:
+        return datetime.strptime(raw, "%Y-%m-%d").strftime("%-d %b")
+    except Exception:
+        return raw or ""
+
+
 def build_data_block(
     edition: str,
     start: date,
@@ -93,11 +101,7 @@ def build_data_block(
             src_type = source_type_map.get(src_id, "blog")
             stype = _stype(src_id, src_type)
 
-            try:
-                d = datetime.strptime(a["date"], "%Y-%m-%d")
-                date_str = d.strftime("%-d %b")
-            except Exception:
-                date_str = a.get("date", "")
+            date_str = _fmt_date(a.get("date", ""))
 
             summary = a.get("summary") or ""
             snap_js = "null"
@@ -105,6 +109,20 @@ def build_data_block(
                 snap_js = "{{ label:{}, code:{} }}".format(
                     json.dumps(a.get("snippet_label", "")),
                     json.dumps(a.get("code_snippet", "")),
+                )
+
+            # Rollup: folded-in changelog builds + optional synthesized digest.
+            rollup_js = "null"
+            if a.get("collapsed_builds"):
+                builds = [
+                    {"title": b.get("title", ""),
+                     "date": _fmt_date(b.get("date", "")),
+                     "url": b.get("url", "")}
+                    for b in a["collapsed_builds"]
+                ]
+                rollup_js = "{{ summary:{}, builds:{} }}".format(
+                    json.dumps(a.get("rollup_summary", "")),
+                    json.dumps(builds, ensure_ascii=False),
                 )
 
             topics_js = json.dumps(a.get("topics", []))
@@ -116,7 +134,8 @@ def build_data_block(
                 "        url:{}, source:{}, stype:{}, date:{}, isNew:{},\n"
                 "        topics:{},\n"
                 "        summary:{},\n"
-                "        snap:{}\n"
+                "        snap:{},\n"
+                "        rollup:{}\n"
                 "      }}".format(
                     json.dumps(a["id"]), json.dumps(a["col"]),
                     json.dumps(a["title"]),
@@ -126,6 +145,7 @@ def build_data_block(
                     topics_js,
                     json.dumps(summary),
                     snap_js,
+                    rollup_js,
                 )
             )
 

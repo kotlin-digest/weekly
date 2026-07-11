@@ -237,3 +237,52 @@ def test_build_data_block_valid_js_structure():
     assert "abc123" in block
     assert "c12" in block
     assert "official" in block  # kotlin-blog is an official source
+
+
+def test_build_data_block_emits_rollup():
+    clusters = [{"id": "kmp", "label": "KMP", "topics": ["compose-multiplatform"]}]
+    chapters = [{
+        "id": "kmp", "label": "KMP", "score": 50.0,
+        "articles": [{
+            "id": "surv", "col": "c12",
+            "title": "v1.12.10-alpha01+dev4443: Details",
+            "url": "https://x/dev4443",
+            "source_id": "lib-compose-multiplatform",
+            "date": "2026-07-10", "topics": ["compose-multiplatform"],
+            "placement_score": 50.0, "summary": "newest build", "summarized": True,
+            "rollup_summary": "Across 7 dev builds this week the alpha and beta trains landed fixes.",
+            "collapsed_builds": [
+                {"title": "v1.12.10-alpha01+dev4438: Details", "date": "2026-07-09", "url": "https://x/dev4438"},
+            ],
+        }],
+    }]
+    bible = {"compose-multiplatform": {"label": "CMP", "score": 50.0,
+             "history": [{"date": "2026-07-10", "score": 50.0, "mentions": 2}]}}
+    block = build_data_block(
+        edition="2026-W28", start=date(2026, 7, 6), end=date(2026, 7, 12),
+        chapters=chapters, bible=bible,
+        source_type_map={"lib-compose-multiplatform": "changelog"}, clusters=clusters,
+    )
+    assert "rollup:" in block
+    assert "Across 7 dev builds" in block
+    assert "dev4438" in block
+
+
+def test_build_data_block_no_rollup_is_null():
+    clusters = [{"id": "ui", "label": "UI", "topics": ["compose"]}]
+    chapters = [{
+        "id": "ui", "label": "UI", "score": 10.0,
+        "articles": [{
+            "id": "a", "col": "c12", "title": "Plain", "url": "https://x/a",
+            "source_id": "kotlin-blog", "date": "2026-07-07", "topics": ["compose"],
+            "placement_score": 10.0, "summary": "s", "summarized": True,
+        }],
+    }]
+    bible = {"compose": {"label": "C", "score": 10.0,
+             "history": [{"date": "2026-07-07", "score": 10.0, "mentions": 1}]}}
+    block = build_data_block(
+        edition="2026-W28", start=date(2026, 7, 6), end=date(2026, 7, 12),
+        chapters=chapters, bible=bible,
+        source_type_map={"kotlin-blog": "blog"}, clusters=clusters,
+    )
+    assert "rollup:null" in block

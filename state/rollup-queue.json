@@ -1,0 +1,55 @@
+[
+  {
+    "rollup_id": "2e55597db578743a",
+    "source_id": "lib-compose-multiplatform",
+    "survivor": {
+      "title": "v1.12.10-alpha01+dev4443: Details",
+      "date": "2026-07-10",
+      "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4443"
+    },
+    "builds": [
+      {
+        "title": "v1.12.10-alpha01+dev4438: Details",
+        "date": "2026-07-09",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4438",
+        "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4438, including bug fixes and incremental improvements to the compiler plugin and runtime ahead of the next stable release.",
+        "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4438 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4438 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4438 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4438"
+      },
+      {
+        "title": "v1.12.10-alpha01+dev4434: Details",
+        "date": "2026-07-08",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4434",
+        "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4434 with incremental fixes to layout and rendering behavior across targets.",
+        "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4434 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4434 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4434 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4434"
+      },
+      {
+        "title": "v1.12.10-alpha01+dev4419: Details",
+        "date": "2026-07-07",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4419",
+        "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4419 with compiler and runtime improvements.",
+        "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4419 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4419 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4419 org.jetbrains.androidx.navigation3:navigation3- :1.2.10-alpha01+dev4419"
+      },
+      {
+        "title": "v1.12.0-beta02+dev4432: Details",
+        "date": "2026-07-07",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02%2Bdev4432",
+        "summary": "Compose Multiplatform 1.12.0-beta02+dev4432, progressing toward the stable 1.12.0 release with focus on stability fixes in the iOS and Desktop targets.",
+        "excerpt": "org.jetbrains.compose. : :1.12.0-beta02+dev4432 org.jetbrains.androidx.lifecycle:lifecycle-*:2.11.0+dev4432"
+      },
+      {
+        "title": "v1.12.10-alpha01+dev4413: Details",
+        "date": "2026-07-06",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4413",
+        "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4413 with incremental improvements.",
+        "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4413 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4413 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4413 org.jetbrains.androidx.navigation3:navigation3- :1.2.10-alpha01+dev4413"
+      },
+      {
+        "title": "v1.12.0-beta02+dev4414: Details",
+        "date": "2026-07-06",
+        "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02%2Bdev4414",
+        "summary": "Compose Multiplatform 1.12.0-beta02+dev4414 continuing the beta cycle toward stable 1.12.0.",
+        "excerpt": "org.jetbrains.compose. : :1.12.0-beta02+dev4414 org.jetbrains.compose.material3:material3*:1.12.0-alpha04+dev4414 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.0-rc02+dev4414 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4414"
+      }
+    ]
+  }
+]

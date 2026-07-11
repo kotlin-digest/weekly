@@ -550,6 +550,55 @@
     .snap-code .str { color: #C3E88D; }
     .snap-code .com { color: #546E7A; }
 
+    /* rollup — folded-in changelog builds on the survivor card */
+    .rollup {
+      border-left: 2px solid var(--accent);
+      padding: 0.1rem 0 0.1rem 0.85rem;
+      margin: 0.15rem 0;
+    }
+    .rollup-summary {
+      font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--ink-mid);
+      margin: 0 0 0.5rem;
+    }
+    .rollup-builds > summary {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      cursor: pointer;
+      list-style: none;
+    }
+    .rollup-builds > summary::-webkit-details-marker { display: none; }
+    .rollup-builds ul {
+      list-style: none;
+      margin: 0.5rem 0 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .rollup-builds li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.66rem;
+    }
+    .rollup-builds li a {
+      color: var(--ink-mid);
+      text-decoration: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .rollup-builds li a:hover { color: var(--accent); }
+    .rollup-date { color: var(--ink-mid); opacity: 0.6; flex-shrink: 0; }
+
     .art-tags {
       display: flex;
       gap: 0.3rem;
@@ -740,6 +789,20 @@ function renderSnapshot(snap) {
   </div>`;
 }
 
+function renderRollup(rollup) {
+  if (!rollup) return '';
+  const builds = rollup.builds.map(b =>
+    `<li><a href="${b.url}" target="_blank" rel="noopener noreferrer">${b.title}</a><span class="rollup-date">${b.date}</span></li>`
+  ).join('');
+  return `<div class="rollup">
+    ${rollup.summary ? `<p class="rollup-summary">${rollup.summary}</p>` : ''}
+    <details class="rollup-builds">
+      <summary>▸ Also this week · ${rollup.builds.length} more build${rollup.builds.length===1?'':'s'}</summary>
+      <ul>${builds}</ul>
+    </details>
+  </div>`;
+}
+
 function renderChapters() {
   document.getElementById('digest').innerHTML = CHAPTERS.map((ch, i) =>
     `<section class="chapter" id="ch-${ch.id}" data-topics="${ch.topics.join(',')}">
@@ -759,9 +822,10 @@ function renderChapters() {
               <span class="art-date">${a.date}</span>
               ${a.isNew ? '<span class="badge-new">New</span>' : ''}
             </div>
-            <h3 class="art-title"><a href="${a.url}" onclick="if(this.getAttribute('href')==='#')event.preventDefault()">${a.title}</a></h3>
+            <h3 class="art-title"><a href="${a.url}" target="_blank" rel="noopener noreferrer" onclick="if(this.getAttribute('href')==='#')event.preventDefault()">${a.title}</a></h3>
             <p class="art-summary">${a.summary}</p>
             ${renderSnapshot(a.snap)}
+            ${renderRollup(a.rollup)}
             <div class="art-tags">${a.topics.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
           </article>`
         ).join('')}
