@@ -395,14 +395,117 @@ sources:
   # COMMUNITY DISCUSSIONS — Topic signal only, not full articles
   # ════════════════════════════════════════════════════════════════════════════
 
-  - id: kotlin-slack-archive
-    name: "Kotlin Slack — Public Archive"
-    url: "https://slack-chats.kotlinlang.org/"
+  # Kotlin Slack public archive — powered by Linen.dev
+  # Each entry is one channel. Scout extracts shared links from message bodies.
+  # NB: syncStatus was ERROR as of 2026-07, archive may lag a few months.
+
+  - id: slack-android
+    name: "Kotlin Slack — #android"
+    url: "https://slack-chats.kotlinlang.org/c/android"
+    channel: android
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [android, kotlin]
+
+  - id: slack-compose
+    name: "Kotlin Slack — #compose"
+    url: "https://slack-chats.kotlinlang.org/c/compose"
+    channel: compose
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [compose, kotlin]
+
+  - id: slack-compose-android
+    name: "Kotlin Slack — #compose-android"
+    url: "https://slack-chats.kotlinlang.org/c/compose-android"
+    channel: compose-android
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [compose, android]
+
+  - id: slack-compose-mp
+    name: "Kotlin Slack — #compose-mp"
+    url: "https://slack-chats.kotlinlang.org/c/compose-mp"
+    channel: compose-mp
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [compose, multiplatform]
+
+  - id: slack-multiplatform
+    name: "Kotlin Slack — #multiplatform"
+    url: "https://slack-chats.kotlinlang.org/c/multiplatform"
+    channel: multiplatform
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [multiplatform, kotlin]
+
+  - id: slack-coroutines
+    name: "Kotlin Slack — #coroutines"
+    url: "https://slack-chats.kotlinlang.org/c/coroutines"
+    channel: coroutines
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [coroutines, kotlin]
+
+  - id: slack-announcements
+    name: "Kotlin Slack — #announcements"
+    url: "https://slack-chats.kotlinlang.org/c/announcements"
+    channel: announcements
     type: slack-mirror
     language: en
     cadence_days: 1
     topics: [kotlin]
-    notes: "Public web archive of Kotlin Slack. Rate-limit sensitive. Used for topic signal only — not article ingestion."
+
+  - id: slack-gradle
+    name: "Kotlin Slack — #gradle"
+    url: "https://slack-chats.kotlinlang.org/c/gradle"
+    channel: gradle
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [gradle, kotlin]
+
+  - id: slack-ktor
+    name: "Kotlin Slack — #ktor"
+    url: "https://slack-chats.kotlinlang.org/c/ktor"
+    channel: ktor
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [ktor, kotlin]
+
+  - id: slack-ksp
+    name: "Kotlin Slack — #ksp"
+    url: "https://slack-chats.kotlinlang.org/c/ksp"
+    channel: ksp
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [ksp, kotlin]
+
+  - id: slack-koog
+    name: "Kotlin Slack — #koog-agentic-framework"
+    url: "https://slack-chats.kotlinlang.org/c/koog-agentic-framework"
+    channel: koog-agentic-framework
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [kotlin, ai]
+
+  - id: slack-mcp-sdk
+    name: "Kotlin Slack — #mcp-kotlin-sdk"
+    url: "https://slack-chats.kotlinlang.org/c/mcp-kotlin-sdk"
+    channel: mcp-kotlin-sdk
+    type: slack-mirror
+    language: en
+    cadence_days: 1
+    topics: [kotlin, ai]
 
   - id: reddit-androiddev
     name: "r/androiddev"
