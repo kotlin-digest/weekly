@@ -2673,5 +2673,315 @@
     "summarized": true,
     "summary": "Business article estimating cost to build a digital wallet app. Not Android developer content.",
     "topics": []
+  },
+  {
+    "id": "e21ada8071630396",
+    "title": "Stop Using lateinit — Make It Nullable Instead",
+    "url": "https://proandroiddev.com/stop-using-lateinit-make-it-nullable-instead-b6bc67db1f58?source=rss----c72404660798---4",
+    "date": "2026-07-11",
+    "source_id": "proandroiddev",
+    "excerpt": "Why letting the compiler catch your bugs is always better than finding them in production “You’re debugging a production crash at 2 am. The stack trace points to a lateinit property that was never initialized. Sound familiar? Here’s how I learned to prevent this class of bugs entirely.” kotlin.UninitializedPropertyAccessException: lateinit property variable has not been initialized at com.example.MainActivity.onResume(MainActivity.kt:25) In this blog, we are going to compare these two exceptions",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ce2d3acf823b267c",
+    "title": "Mirage: Cloudy Grows from a Blur Library into a Graphics Effect Library",
+    "url": "https://proandroiddev.com/mirage-cloudy-grows-from-a-blur-library-into-a-graphics-effect-library-3b8eaf9cc7ca?source=rss----c72404660798---4",
+    "date": "2026-07-10",
+    "source_id": "proandroiddev",
+    "excerpt": "Write once, render anywhere Photo by Kurt Cotoaga on Unsplash Cloudy started as a Compose Multiplatform blur library. Modifier.cloudy reads the backdrop captured behind a node and blurs it — cross-platform, through one API: https://medium.com/media/7bc3f07fdc245dbe631eed82c56c1bef/href Blur is a single effect with a single knob, a radius, and for a long time that was the whole library. Mirage is where that changes. It is the first step in Cloudy growing past “the blur library” into a general gra",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3330b73ff847fd59",
+    "title": "Magical Book of Compose Performance — Defer State Reads✨",
+    "url": "https://proandroiddev.com/magical-book-of-compose-performance-defer-state-reads-f15486bee807?source=rss----c72404660798---4",
+    "date": "2026-07-10",
+    "source_id": "proandroiddev",
+    "excerpt": "Person reading the Compose Performance Book (Credits Tasha Ramesh ) 📚 Magical Book of Compose Performance — Defer State Reads✨ We recently gave a talk 🎤 at a couple of Android conferences about how to debug Compose Compose performance & various tools in your arsenal 🛠🧰 To make it fun we had this quirky idea where we presented the idea of this Magical Book of Compose performance being our source and after the talk, a surprising number of people came up to us asking: “Wait, is that a real book ? W",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1643ea9b946b37ef",
+    "title": "Part 5: Custom RecyclerView Layouts, Predictive Animations, and Shift to Compose",
+    "url": "https://medium.com/@sivavishnu0705/part-5-custom-recyclerview-layouts-predictive-animations-and-shift-to-compose-c21b49bcee93?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Hijack layout logic, master dual-pass predictive animations, and compare RecyclerView virtualization with Compose LazyColumn runtime. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "92abd41f7a6b1b58",
+    "title": "Room’s “Lazy Initialization” Trap: Why the First Action Always Fails on a Fresh Install",
+    "url": "https://medium.com/@beshoye.kamal/rooms-lazy-initialization-trap-why-the-first-action-always-fails-on-a-fresh-install-0476f4c67248?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "If you’ve ever shipped an Android app that seeds a predefined user (or any default data) into Room on first launch, you may have run into… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "62d68a351d5fcc78",
+    "title": "Kotlin Concurrency: When to Use Mutex vs synchronized",
+    "url": "https://medium.com/@nematengg/kotlin-concurrency-when-to-use-mutex-vs-synchronized-0d27132cfab8?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "If you’re interviewing for a senior Kotlin developer role, there’s a good chance you’ll be asked this question: Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d5817521c5938fb9",
+    "title": "Part 4: The Science of Updates: DiffUtil, ListAdapter, and Partial Rebinding Mechanics",
+    "url": "https://medium.com/@sivavishnu0705/part-4-the-science-of-updates-diffutil-listadapter-and-partial-rebinding-mechanics-1366af5b090a?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Stop dropping atomic bombs on your View hierarchy. Master Eugene Myers’ algorithm and bitwise update pipelines for jank-free 120 FPS lists. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "027a6b8a91f680c4",
+    "title": "Ktor for Android Development: The Complete Guide (2026)",
+    "url": "https://halilozel1903.medium.com/ktor-for-android-development-the-complete-guide-2026-631318cb32d1?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Android development has changed dramatically over the past few years. While Retrofit continues to be one of the most popular networking… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9430efecf15bd111",
+    "title": "How I wrote the first ever KMP ViewModel on driver app at Motive (Being and Intern)",
+    "url": "https://medium.com/@satyanayak289/how-i-wrote-the-first-ever-kmp-viewmodel-on-driver-app-at-motive-being-and-intern-a78547b05c3d?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Building a KMP ViewModel with MVI Architecture 🚀 Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "05ccb7dd6a1026dc",
+    "title": "How to Pass Huge Data Between Android Screens with Kotlin",
+    "url": "https://medium.com/@esracangungor/how-to-pass-huge-data-between-android-screens-with-kotlin-80f6739e9477?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "During Android application development, transferring large datasets — such as extensive item lists, high-resolution images, or deeply… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "198acb4a032c90fc",
+    "title": "Ghost Serializer: Cut JSON Overhead on High-Traffic Endpoints — Same API Models, Full…",
+    "url": "https://medium.com/@jhurtado1991/ghost-serializer-cut-json-overhead-on-high-traffic-endpoints-same-api-models-full-3cd72a15c48f?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Every mobile and backend team eventually hits the same wall. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "90aea2c6a019547a",
+    "title": "Six Levels of Control for AI Coding Agents: What Actually Stops Them From Breaking Things",
+    "url": "https://medium.com/@explyt.ai/six-levels-of-control-for-ai-coding-agents-what-actually-stops-them-from-breaking-things-5cd842b92bc9?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "“Give the agent access to the terminal and the file system, and it will handle everything” sounds great right up until the moment the… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f90a0e944f5f5a5a",
+    "title": "Day — 15: Rate Limiting Throttling & protecting APIs [System Design]",
+    "url": "https://medium.com/@a7medsa3dkenawy/day-15-rate-limiting-throttling-protecting-apis-system-design-43a90875bbeb?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Every API has a limit. Without rate limiting, one bad actor — or one bug in your app — can take down your server for everyone. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "c1e65879031934c8",
+    "title": "What Is End-to-End Encrypted File Sharing? A Full Guide for Flutter + Matrix",
+    "url": "https://medium.com/@sayleebharsakle2001/what-is-end-to-end-encrypted-file-sharing-a-full-guide-for-flutter-matrix-62c2f11b82c0?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "This is part of a series on building production real-time communication apps with Flutter and Matrix. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "131fb382114ac2c0",
+    "title": "Video Calling in Flutter. A Complete Guide to WebRTC + Matrix",
+    "url": "https://medium.com/@sayleebharsakle2001/video-calling-in-flutter-a-complete-guide-to-webrtc-matrix-d06cba97e091?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "This is part of a series on building production real-time communication apps with Flutter and Matrix. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e83630fdcf8c7db3",
+    "title": "My Flutter App Was Buttery at 20 Widgets. At 2,000 It Dropped to 31 FPS.",
+    "url": "https://medium.com/@mrityunjay.patel/my-flutter-app-was-buttery-at-20-widgets-at-2-000-it-dropped-to-31-fps-11e67cd62795?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Ten mistakes that were quietly murdering my frame rate, and the exact fixes that got me back to a locked 60. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9386704100c9bb95",
+    "title": "Ik786 Game APK Download Pakistan (Version 1.1) Complete Guide",
+    "url": "https://medium.com/@nayapakapk93/ik786-game-apk-download-pakistan-version-1-1-complete-guide-35afdeecf7df?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Ik786 Game Overview Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "09a459b7e17a3e71",
+    "title": "Best APK Games in Pakistan 2026 — Safe Download Guide",
+    "url": "https://medium.com/@ajlalahmad78/best-apk-games-in-pakistan-2026-safe-download-guide-919c38b91fce?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "899U Game APK Download 2026 — Safe Guide for Pakistan Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f4ddfe094a11d10a",
+    "title": "Maafkan Aku Jatuh Hati",
+    "url": "https://medium.com/@zzaarnm/maafkan-aku-jatuh-hati-505a8183f0cf?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Aku tidak masalah jika tidak harus memiliki mu. Namun, bisakah kau tetap disini? Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "5729a680cea2eb47",
+    "title": "<!DOCTYPE html>\n<html lang=\"hi\">\n<head>\n<meta name=\"viewport\" content=\"width=device-width…",
+    "url": "https://medium.com/@2021aman24009khs/doctype-html-html-lang-hi-head-meta-name-viewport-content-width-device-width-373ce8127659?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "af9d05c20c1a4a48",
+    "title": "v1.12.10-alpha01+dev4447: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4447",
+    "date": "2026-07-10",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4447 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4447 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4447 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4447",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "627a786bce71d11a",
+    "title": "Android Studio emulator says \"Pixel 8 Pro is already running as process XXXXX\", but no emulator window opens. How do I fix this?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1utgf2t/android_studio_emulator_says_pixel_8_pro_is/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi everyone, I'm new to Android Studio I successfully installed Android Studio and created a Pixel 8 Pro virtual device. When I click the Play button in Device Manager, I get this message: \"Pixel 8 Pro is already running as process 18712.\" However, I can't see the emulator window anywhere. I've checked the taskbar and nothing appears. Things I've already tried: Restarted Android Studio. Clicked the Play button again. Waited several minutes. Created the virtual device successfully. I'm using Wind",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a54156ac7ed8c2ff",
+    "title": "Engineers at Meesho: What Does the Android Interview Process Look Like?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1utpbvr/engineers_at_meesho_what_does_the_android/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm trying to understand how Android interviews are typically conducted at Meesho, and I thought this could also help others preparing for product company Android roles. For those who have interviewed or currently work there: What interview rounds can candidates expect? How much emphasis is placed on Android development versus DSA? Which Android topics are most frequently discussed (Jetpack Compose, MVVM, Coroutines, Flow, Hilt, Room, testing, etc.)? What kinds of machine coding or Android-speci",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b1fd57b35063513b",
+    "title": "[APP, PROMOTION] I built a fully offline, open-source call screening app for Android",
+    "url": "https://www.reddit.com/r/androiddev/comments/1utevcv/app_promotion_i_built_a_fully_offline_opensource/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey everyone, I wanted to share an app I've been working on: Calls Blocker. It's a privacy-first call screening app that processes everything on-device – no data ever leaves your phone. Key features: - Uses Android's official CallScreeningService API (no accessibility hacks) - Block/allow specific numbers (exact or prefix matching) - Block all calls, unknown/hidden numbers, non-contacts, or calls from specific contact groups - Block by country (whitelist allowed countries) - Block numbers you've",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "c3a17a00d59ddc0f",
+    "title": "AI tools for Android UI design - what's worth using in 2026",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ut6fz6/ai_tools_for_android_ui_design_whats_worth_using/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Designing Android UI has always been the part that slows me down, either spending weeks in Figma or just winging it in XML and regretting it when the app looks rough Went through most of the options people recommend to figure out what's worth the time: Google Stitch is free, Material Design native which is perfect for Android, generates interconnected screens since the 2026 rework, good starting point but consistency across screens can be hit or miss, better for fast exploration than polished fi",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "60566b9b7522a05a",
+    "title": "Inside SubcomposeLayout: Jetpack Compose’s Most Misunderstood API | Shreyas Patil's Blog",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usm9wl/inside_subcomposelayout_jetpack_composes_most/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "submitted by /u/shreyaspatil99 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "34e7868da8f5876f",
+    "title": "Is there an Android equivalent of Apple's PencilKit for drawing/sketching in apps?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ut7gaf/is_there_an_android_equivalent_of_apples/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey everyone, I'm working on an Android app that needs a drawing/sketching feature similar to what PencilKit offers on iOS/iPadOS — smooth freehand drawing, pressure sensitivity support, eraser, undo/redo, and ideally stylus (S Pen) support. I've looked around but the Android ecosystem seems more fragmented for this. A few questions: Is there a go-to library that's considered the \"PencilKit of Android\"? Any experience with these? - [Adonit SDK]– stylus-focused - [Perfect Freehand] – stroke smoot",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "03927ac2e602fb6b",
+    "title": "Fresher Android Eng: HAL/C++ vs. Java/Kotlin Framework which path has better long-term value?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usvvs7/fresher_android_eng_halc_vs_javakotlin_framework/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi everyone, I am starting as a fresher Android Application and Framework Engineer at a company. My initial corporate training here will cover standard app development for a few weeks before diving into the core Android Framework APIs.As I plan my long-term career trajectory, I want to decide where to specialize. I am trying to choose between diving deep into the native/hardware layer or sticking to the managed code layer. Industry veterans, which path would you recommend a fresher focus on for ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d0f291f483cefc1a",
+    "title": "Confusion about Activity and Fragments and Android App architecture",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ut8it1/confusion_about_activity_and_fragments_and/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "A while ago I had posted that I am doing my first android internship without any experience and it been around 2 weeks. I was given a weekly roadmap from my seniors. First two weeks for revising Java and Kotlin and now I can say I know a lot more about Kotlin. Now from this week I am starting a figma design given to me in a XML Views based project. what i am confused about now is using Activity vs Fragment From my understanding as a former React frontend dev, Activity is like a web page itself i",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9777fd73777c64bf",
+    "title": "Using an Android handheld (with built-in Xbox gamepad) as a native controller for Windows PC via Bluetooth.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usjgxz/using_an_android_handheld_with_builtin_xbox/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi everyone, I own an Anbernic RG405M Android handheld running GammaOS custom firmware. I would like to know if it is possible, via a specific app, to connect the handheld to a Windows PC via Bluetooth and have it recognized natively as an Xbox Gamepad, allowing me to use it as a standard controller. Is it technically possible to develop an app like this? If so, what would be the estimated development costs? submitted by /u/HereWolfyx [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7acfe59b5798da72",
+    "title": "I've been thinking about an app idea and would love to get some feedback.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usreq6/ive_been_thinking_about_an_app_idea_and_would/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "&#x200B; The idea is a \\*\\*collaborative download app\\*\\* for Android where a group of nearby users can combine their mobile data to download large files faster. For example, imagine \\*\\*4 friends\\*\\* meet at a café to play a game, but a \\*\\*4 GB update\\*\\* is required before they can start. Instead of each person downloading the full 4 GB, the app splits the file into four 1 GB chunks. Each phone downloads a different chunk using its own mobile data connection, then the phones exchange those ch",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
