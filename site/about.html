@@ -38,6 +38,11 @@
     .nav-sep { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; color: #4A4840; }
     .nav-current { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; color: var(--accent); letter-spacing: 0.06em; }
     .nav-night { margin-left: auto; }
+    /* Night mode: --ink inverts to a light tone, so the nav bar must not
+       key its surface/text off it or it flips light. Keep it a dark strip. */
+    html[data-night="1"] .top-nav { background: var(--paper-b); }
+    html[data-night="1"] .nav-back { color: var(--ink-mid); }
+    html[data-night="1"] .nav-sep { color: var(--ink-muted); }
 
     /* MASTHEAD */
     .masthead {
