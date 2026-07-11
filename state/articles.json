@@ -1,0 +1,2677 @@
+[
+  {
+    "id": "3c654d42e44bf872",
+    "title": "Introducing the Kotlin Benchmark for AI Coding Agents",
+    "url": "https://blog.jetbrains.com/kotlin/2026/07/introducing-the-kotlin-benchmark-evaluate-ai-coding-agents-on-real-world-kotlin-tasks/",
+    "date": "2026-07-08",
+    "source_id": "kotlin-blog",
+    "excerpt": "Agentic coding benchmarks are getting closer to real-world software development. For Kotlin teams, the most important question is how reliably AI agents can complete end-to-end Kotlin tasks, from reading an issue to producing a solution that passes validation. We’re taking the first step in addressing that gap by releasing the Kotlin Benchmark, JetBrains’ official benchmark […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains released a Kotlin-specific benchmark suite for evaluating AI coding agents on real-world tasks including refactoring, API migration, and bug fixing. It targets models used in IntelliJ-based tools and standalone agents, providing a standardized way to compare Kotlin coding capability.",
+    "topics": [
+      "kotlin",
+      "jetbrains"
+    ]
+  },
+  {
+    "id": "64fed70cf49d9215",
+    "title": "In Conversation With the Golden Kodee Winners",
+    "url": "https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/",
+    "date": "2026-07-03",
+    "source_id": "kotlin-blog",
+    "excerpt": "KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thrive. From creating educational content and building engaging online communities to organizing events, fostering connections, and driving positive societal impact, the Golden Kodee Awards […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "KotlinConf 2026 held its first Golden Kodee Community Awards, recognizing developers and communities driving Kotlin adoption. Winners spanned library authors, educators, and community organizers across multiple continents.",
+    "topics": [
+      "kotlinconf",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "d4d4bdcb81e3ab7f",
+    "title": "Evolving how LLMs are measured for Android: the next era of Android Bench",
+    "url": "https://android-developers.googleblog.com/2026/07/android-bench-llm-measurement.html",
+    "date": "2026-07-08",
+    "source_id": "android-developers-blog",
+    "excerpt": "Posted by Zoe Lopez-Latorre, Senior Developer Relations Engineer, Android Back in March, we introduced Android Bench —our LLM leaderboard for real-world Android development tasks. Our goal was to provide transparency around model capabilities in Android development and to encourage model improvements, to give you more helpful AI options for your everyday workflow. Since then, we have enhanced the benchmark based on your feedback, including evaluating open-weight models and adding cost and effici",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Android Bench is expanding beyond single-model evaluations to multi-agent and agentic task benchmarks, measuring how well LLMs handle real Android development workflows like building features end-to-end. The new era focuses on practical developer-task completion rather than isolated code generation.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "a7051db035740859",
+    "title": "Google Play launches the first Indie Games Fund in Africa",
+    "url": "https://android-developers.googleblog.com/2026/07/Indie-Games-Fund-Africa.html",
+    "date": "2026-07-06",
+    "source_id": "android-developers-blog",
+    "excerpt": "Posted by Steph Pio, Strategic Partnerships Manager, Google Play EMEA Sub-Saharan Africa is home to some of the world’s most creative storytelling. To help bring those stories to a global audience, today, we’re proud to announce the debut of Google Play’s Indie Games Fund in Africa. The region’s unique creativity has fueled a vibrant game development scene, helping drive what is quickly becoming one of the most exciting, resilient, and fast-growing gaming markets. It’s a space defined by immense",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Google Play launched its first Indie Games Fund targeting Sub-Saharan Africa, offering funding and support to local game developers to reach global audiences. The fund is part of Play's broader initiative to grow the developer ecosystem in emerging markets.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "196355b460e89179",
+    "title": "What’s Next for TeamCity – CI/CD by JetBrains",
+    "url": "https://blog.jetbrains.com/teamcity/2026/07/whats-next-for-teamcity/",
+    "date": "2026-07-07",
+    "source_id": "jetbrains-blog",
+    "excerpt": "What we’re building toward As the share of code written by AI agents grows rapidly, two questions are central to effective AI adoption: How can teams turn AI usage into real productivity gains, and how can they maintain quality, security, and control while doing so? CI/CD is critical to both. Every contribution, whether written by […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains outlined its roadmap for TeamCity, focusing on AI-native CI/CD workflows where agents trigger builds, interpret failures, and propose fixes autonomously. The emphasis shifts from manual pipeline configuration toward AI-driven orchestration.",
+    "topics": [
+      "jetbrains"
+    ]
+  },
+  {
+    "id": "93094ad57930cebe",
+    "title": "JetBrains AI for Teams and Organizations: From Fragmented AI Usage to Coordinated Software Development",
+    "url": "https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/",
+    "date": "2026-07-07",
+    "source_id": "jetbrains-blog",
+    "excerpt": "We’re about to start rolling out a new set of AI capabilities that provide shared context, reusable agentic workflows, organization-level governance, and cost control for software production. Developers use different AI tools depending on the task – from JetBrains IDEs to terminal-based agents such as Claude Code, Codex, and other emerging solutions. That freedom is […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains is rolling out organization-level AI features including shared context, reusable agentic workflows, and cost governance across teams. The goal is to move from ad-hoc individual AI usage toward coordinated AI-assisted software production at scale.",
+    "topics": [
+      "jetbrains"
+    ]
+  },
+  {
+    "id": "c7ac64805cc318d6",
+    "title": "Java Annotated Monthly – July 2026",
+    "url": "https://blog.jetbrains.com/idea/2026/07/java-annotated-monthly-july-2026/",
+    "date": "2026-07-07",
+    "source_id": "jetbrains-blog",
+    "excerpt": "Welcome back to another edition of Java Annotated Monthly! As always, we’ve rounded up the best reads from across the ecosystem so you don’t have to go hunting yourself. This month’s lineup spans the usual favorites: fresh finds from the Java and Kotlin worlds, a healthy dose of AI developments worth your attention, and a […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "The July 2026 Java Annotated Monthly from JetBrains covers Kotlin interop improvements, virtual thread updates in the JVM, and tooling advances in IntelliJ IDEA. It includes curated links across language, framework, and community topics.",
+    "topics": [
+      "jetbrains",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "0703bd9bd6401a4e",
+    "title": "Hand-wired DI in Kotlin Multiplatform: a composition root instead of a framework",
+    "url": "https://proandroiddev.com/hand-wired-di-in-kotlin-multiplatform-a-composition-root-instead-of-a-framework-ed995fb21b19?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "A composition root scaled to the KMP source-set tree, libraries, and Android — in plain Kotlin. The dependency graph of a KMP app can be wired in plain Kotlin — no reflection, no code generation, no annotations, no DSL. A composition root and constructors, no magic. Sounds like a step back from mature DI frameworks — until you look at who actually benefits from this shape: you, the next person on the team, and your AI coding agent. The composition root itself is neither an invention nor anything",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "A walkthrough of implementing dependency injection in Kotlin Multiplatform using a composition root instead of a framework like Koin or Hilt. The approach gives full control over object graph construction and avoids reflection-based DI on platforms where it is limited.",
+    "topics": [
+      "kmp",
+      "architecture"
+    ],
+    "code_snippet": "// no annotations, no framework — plain Kotlin\nclass AppContainer {\n    val httpClient: HttpClient by lazy { HttpClient() }\n    val repository: UserRepository by lazy {\n        UserRepository(httpClient)\n    }\n    val analytics: Analytics by lazy { Analytics() }\n}\n\n// wired once at the entry point\nval container = AppContainer()",
+    "snippet_label": "COMPOSITION ROOT"
+  },
+  {
+    "id": "2cc7ef3e43262ccc",
+    "title": "Stop Fighting Your Navigation Library: A Practical Guide to Jetpack Navigation 3",
+    "url": "https://proandroiddev.com/stop-fighting-your-navigation-library-a-practical-guide-to-jetpack-navigation-3-dd34c70d6300?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "Illustration Generated by Gemini Navigation has always been one of the trickiest parts of Android development. If you’ve worked with Jetpack Compose, you probably used NavHost and NavController from the original Navigation Compose library. It worked — but let's be honest, it had its quirks. Now, Google has released Navigation 3 (sometimes called “Nav3”), a completely reimagined navigation library built from the ground up for Jetpack Compose. It’s simpler, truly composable, and gives you full con",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Practical guide to Jetpack Navigation 3, covering the shift from NavController to a type-safe destination-driven model. Explains how to structure back stacks, handle deep links, and avoid common patterns that fight the library's design.",
+    "topics": [
+      "navigation",
+      "jetpack"
+    ],
+    "code_snippet": "@Serializable data object Home : Route\n@Serializable data class Detail(val id: Int) : Route\n\nval backStack = remember { mutableStateListOf<Any>(Home) }\nNavDisplay(backStack = backStack, entryProvider = entryProvider {\n    entry<Home> { HomeScreen { backStack.add(Detail(it)) } }\n    entry<Detail> { DetailScreen(it.id) }\n})",
+    "snippet_label": "BACK STACK API"
+  },
+  {
+    "id": "44931c4a92b9f082",
+    "title": "Another Way to KMP: Shared Renderers",
+    "url": "https://proandroiddev.com/another-way-to-kmp-shared-renderers-0d1b66a733d7?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "Third in a series. Previously: Building a 3D Game in Compose Multiplatform and Building a 3D Game in React Native + Kotlin Multiplatform . Android iOS In the first two articles I built 3D chess twice — once with a Compose Multiplatform shell, once with React Native. In both cases, the game logic was in shared Kotlin, and platform-specific 3D renderers displayed the state. That logic acted as a strict single source of truth. The core engine was published from the Compose Multiplatform repository ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Explores a KMP architecture pattern where a shared renderer layer abstracts platform UI, allowing a single rendering pipeline across Android and iOS without requiring Compose Multiplatform. Useful for teams with existing platform-native UI but wanting shared business logic and render logic.",
+    "topics": [
+      "kmp",
+      "architecture"
+    ]
+  },
+  {
+    "id": "7b35dfbd55e4c9f0",
+    "title": "Reducing Android JVM allocations for less memory pressure and faster logs",
+    "url": "https://proandroiddev.com/reducing-android-jvm-allocations-for-less-memory-pressure-and-faster-logs-9bd988d905de?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "We substantially reduced JVM allocations on common Android logging paths by removing map-shaped work from the SDK internals. The work started with a suggestion to replace HashMap with ScatterMap; we ended up changing the field representation, the JNI boundary, and several hot logging paths. The change affects every app using the Capture SDK on Android. (The original version of this post was published in the bitdrift.io blog site) The problem domain bitdrift’s Capture SDK runs inline with your ap",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Deep dive into reducing JVM object allocations on Android to lower GC pressure and improve logging throughput. Covers profiling with allocation tracking, avoiding boxing in hot paths, and using object pools in Kotlin.",
+    "topics": [
+      "android-api",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "5b79e255cf6737bf",
+    "title": "Kotlin Multiplatform across two repos: what Xcode actually sees",
+    "url": "https://proandroiddev.com/kotlin-multiplatform-across-two-repos-what-xcode-actually-sees-7b1d251c9f2b?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "Polyrepo setup. Image generated by Parth Paghdal using Google Gemini. A solo engineer’s field report on running KMP with sibling Android and iOS repositories — the parts the official docs don’t cover. Most Kotlin Multiplatform tutorials assume one of two things: a single repo where both apps live next to the shared module, or a Compose Multiplatform UI that hides the iOS bridge. I had neither. The Android app lives in one Git repository. The iOS app lives in another, sibling to Android. The KMP ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Explains what Xcode actually sees when consuming KMP code from a separate repo via a Swift package, including how framework headers are generated and what Kotlin symbols are visible to Swift. Covers gotchas around visibility, generics erasure, and namespace collisions.",
+    "topics": [
+      "kmp",
+      "ios-interop"
+    ]
+  },
+  {
+    "id": "66a516770ccc0f9b",
+    "title": "On-Device AI Series (Part 2): Firebase AI Logic",
+    "url": "https://proandroiddev.com/on-device-ai-series-part-2-firebase-ai-logic-42fc49766105?source=rss----c72404660798---4",
+    "date": "2026-07-08",
+    "source_id": "proandroiddev",
+    "excerpt": "A practical Android guide to shipping Gemini features without exposing API keys or running your own proxy backend. Every Android team eventually hits the same wall: you want Gemini-level reasoning in your app, but the obvious implementation paths both hurt in production. If you embed an API key in the APK, it can be extracted and abused. If you build a custom proxy backend just to protect that key, you add infrastructure, ops cost, and maintenance overhead before shipping a single user-facing fe",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Part 2 of an on-device AI series focusing on Firebase AI Logic for running ML models locally on Android. Covers model quantization, Firebase ML hosting vs bundling, and integrating inference results into Compose UI.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "9af187b5f4452780",
+    "title": "BroadcastReceiver Security: 7 Mistakes Every Android Developer Should Avoid",
+    "url": "https://proandroiddev.com/broadcastreceiver-security-7-mistakes-every-android-developer-should-avoid-7eeb8439b986?source=rss----c72404660798---4",
+    "date": "2026-07-06",
+    "source_id": "proandroiddev",
+    "excerpt": "“Every exported component is a potential entry point. Secure it as if an attacker already knows it exists.”\n — Android Security Best… Continue reading on ProAndroidDev »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Documents seven BroadcastReceiver security mistakes including exported receivers without permissions, implicit intents from untrusted apps, and missing signature-level protection. Each mistake includes a vulnerable example and a secure alternative.",
+    "topics": [
+      "android-api",
+      "jetpack"
+    ]
+  },
+  {
+    "id": "a1f001c02053cbc4",
+    "title": "How I Found a Deadlock Inside ART That ART Itself Couldn’t Dump",
+    "url": "https://proandroiddev.com/how-i-found-a-deadlock-inside-art-that-art-itself-couldnt-dump-ff7b33b0334a?source=rss----c72404660798---4",
+    "date": "2026-07-06",
+    "source_id": "proandroiddev",
+    "excerpt": "A whole-VM lock-ordering deadlock between the garbage collector and the JDWP debug layer, reproduced on two independent targets, bisected to a specific ART mainline update — filed as Issue #530992434 on the Android Public Tracker. TL;DR On Android 16, attaching a Java debugger (JDWP) to a large debuggable app reliably freezes the whole process and triggers an ANR. The same app runs fine without a debugger, and small apps attach with no problem. The cause is a userspace lock-ordering deadlock bet",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "A developer traced a production deadlock to a race condition inside Android Runtime itself, unreachable by standard crash reporting because ART couldn't dump the thread state. The investigation used JDWP, custom signal handlers, and native tracing to confirm the root cause.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "78995ebbdaae090a",
+    "title": "Keep UI-Only Logic in the UI with snapshotFlow",
+    "url": "https://proandroiddev.com/keep-ui-only-logic-in-the-ui-with-snapshotflow-4efe34063f03?source=rss----c72404660798---4",
+    "date": "2026-07-06",
+    "source_id": "proandroiddev",
+    "excerpt": "Not every piece of UI state belongs in your ViewModel. Scroll position, selection, and other UI-only state can stay in the UI. snapshotFlow lets you react to those changes while keeping your architecture simple and idiomatic. Image created by UI Jetpack Compose gives us an elegant way to describe UI with immutable state and recomposition. At the same time, Kotlin’s Flowhas become the standard tool for building reactive pipelines. Sooner or later, these two worlds meet. You have a piece of Compos",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Shows how to use snapshotFlow to bridge Compose state into coroutine flows, keeping UI-only reactive logic inside composables rather than leaking it into ViewModels. Includes comparison with collectAsState and guidance on when each pattern fits.",
+    "topics": [
+      "compose",
+      "flows"
+    ],
+    "code_snippet": "LaunchedEffect(Unit) {\n    snapshotFlow { listState.firstVisibleItemIndex }\n        .collect { index ->\n            analytics.logScroll(index)\n        }\n}",
+    "snippet_label": "SNAPSHOT FLOW"
+  },
+  {
+    "id": "0c5f458d8b6d93ef",
+    "title": "The Android Crash That Only Happened on Certain Phones",
+    "url": "https://proandroiddev.com/the-android-crash-that-only-happened-on-certain-phones-16ce2effe84e?source=rss----c72404660798---4",
+    "date": "2026-07-06",
+    "source_id": "proandroiddev",
+    "excerpt": "How to use Crashlytics to isolate and fix OEM-specific resource not found exceptions As Android Developers, we will use resources like icons, colors, and fonts, etc in our app as per the requirement. While creating a feature and testing it on our available emulators or real devices, we may not face it. And based on the geography we are located in, we may only have devices like Pixel, Samsung, Xiaomi, and OnePlus. And some device manufacturers may stop manufacturing new devices, and those can bec",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Investigation of a crash that only reproduced on specific Android device models due to differences in manufacturer-customized ROM behavior and non-standard OEM sensor drivers. Covers the debugging process using Firebase Crashlytics, device farms, and targeted ANR analysis.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "9b0a1fbc26e08fc9",
+    "title": "Android System Design: Identifying Major Components Before Writing Any Code",
+    "url": "https://medium.com/@nematengg/android-system-design-identifying-major-components-before-writing-any-code-de89b8d65c0c?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "After gathering Functional and Non-Functional Requirements, the next step in Android System Design is to identify the major building… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "A system design walkthrough for Android apps, identifying major architectural components before writing any code. Covers when to use services vs WorkManager, how to define module boundaries, and structuring data flow across layers.",
+    "topics": [
+      "architecture",
+      "android-api"
+    ]
+  },
+  {
+    "id": "0f5f026393a8daa7",
+    "title": "Mastering Client-Side Rate Limiting in Mobile Apps: Throttling & Debouncing in Flutter and Kotlin",
+    "url": "https://md-hadi.medium.com/mastering-client-side-rate-limiting-in-mobile-apps-throttling-debouncing-in-flutter-and-kotlin-42bc15ef079d?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Every mobile developer loves a fast, responsive app. We spend days optimizing our backend APIs and database queries. But what happens when… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Covers client-side rate limiting patterns in mobile apps using throttling and debouncing, with Kotlin implementations using coroutines and Flow operators. Explains how to prevent API flooding from rapid user interactions without introducing race conditions.",
+    "topics": [
+      "kotlin",
+      "flows",
+      "android-api"
+    ]
+  },
+  {
+    "id": "8ec74f25d82aa5bc",
+    "title": "7/28: Your Main Thread Is Literally a While-Loop",
+    "url": "https://medium.com/@promode7/7-28-your-main-thread-is-literally-a-while-loop-d6da877648de?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Looper, MessageQueue, and where your callbacks really run Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Explains how Android's main thread is implemented as an event loop using Looper and MessageQueue under the hood. Useful mental model for understanding ANRs, Handler timing, and why blocking the main thread causes visible stutters.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "89b74740f0158c25",
+    "title": "I Was Tired of Salesforce’s 24-Hour Trace Flag Limit, So I Built Apexium.log",
+    "url": "https://blog.stackademic.com/i-was-tired-of-salesforces-24-hour-trace-flag-limit-so-i-built-apexium-log-edbff9474676?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "If you’ve ever worked as a Salesforce developer, you know the feeling. You’re deep in the middle of debugging a tricky Apex issue, you… Continue reading on Stackademic »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "A developer built a self-hosted Salesforce debug logging tool to work around the 24-hour trace flag limit. Not Android or Kotlin related.",
+    "topics": []
+  },
+  {
+    "id": "733fc0f6eb92c1f9",
+    "title": "Bitwise operators in Kotlin are provided as infix functions",
+    "url": "https://alonso-delarte.medium.com/bitwise-operators-in-kotlin-are-provided-as-infix-functions-e0039a74fc6b?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Sooner or later, Kotlin programmers coming to the language from programming languages like Java and Scala will reach for the bitwise… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Explains Kotlin's bitwise operators (and, or, xor, shl, shr, ushr) provided as infix functions rather than symbolic operators. Shows practical usage for bitmask flags and permission checks common in Android development.",
+    "topics": [
+      "kotlin",
+      "kotlin-stdlib"
+    ],
+    "code_snippet": "// Java (won't compile in Kotlin)\n// val hash = (x << 16) + (y & mask)\n\n// Kotlin — infix functions\nval hash = (x shl 16) + (y and mask)\nval combined = flagA or flagB\nval isSet = flags and FLAG_ENABLED != 0",
+    "snippet_label": "INFIX BITOPS"
+  },
+  {
+    "id": "1197c59b8a163265",
+    "title": "Android’de Performans Optimizasyonu: AOSP Mimarisinden Baseline Profiles’a Yolculuk",
+    "url": "https://medium.com/@civelekemirhann/androidde-performans-optimizasyonu-aosp-mimarisinden-baseline-profiles-a-yolculuk-3b02671ab597?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Herkese merhaba arkadaşlar! Uzun bir aradan sonra tekrar yazıyorum — üniversitenin başında yazdığım ve fazlasıyla amatör bulduğum eski… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Turkish-language article covering Android performance optimization techniques including Baseline Profiles, R8 shrinking, and rendering pipeline analysis. Limited to Turkish-speaking developers.",
+    "topics": [
+      "android-api",
+      "r8-proguard"
+    ]
+  },
+  {
+    "id": "d0f085a549d408c7",
+    "title": "The Android Interview Is No Longer About Android",
+    "url": "https://medium.com/@mike.salari.dev/the-android-interview-is-no-longer-about-android-5714c003a062?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Senior Android interviews in 2026 test something much deeper than APIs. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Argues that modern Android interviews have shifted toward system design, architecture decisions, and AI-assisted coding rather than Android API trivia. Reflects the industry shift as Kotlin and Compose have stabilized.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "e891986667b0cd12",
+    "title": "# How I Found CVE-2026–0098: Android App Version Spoofing & Silent Installation",
+    "url": "https://medium.com/@sived.codes/how-i-found-cve-2026-0098-android-app-version-spoofing-silent-installation-f8ff0742bad7?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "**By Prashant Deshmukh (sivedcodes)** · *Published on [Medium/Dev.to]* Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Write-up of CVE-2026-0098, an Android vulnerability allowing app version spoofing and silent installation via crafted package intents. Demonstrates the discovery process and responsible disclosure timeline.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "ca5820f07dd8f029",
+    "title": "The Engineering Deep Dive Nobody Wrote About Android Picture-in-Picture",
+    "url": "https://medium.com/@shubham536/the-engineering-deep-dive-nobody-wrote-about-android-picture-in-picture-3327a32a3c26?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "What actually happens when your Activity shrinks into a floating window — lifecycle traps, WindowManager internals, and the production… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Engineering deep dive into Android Picture-in-Picture, covering how the system manages window resize animations, task stack behavior, and the PiP params API. Explains why PiP transitions can be janky and how to smooth them.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "2abaac1180b1df94",
+    "title": "Building a Scalable Analytics Pipeline on Android: Understanding the Architecture, Common Pitfalls…",
+    "url": "https://techdynasty.medium.com/building-a-scalable-analytics-pipeline-on-android-understanding-the-architecture-common-pitfalls-c604cacc26fb?source=rss------kotlin-5",
+    "date": "2026-07-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Analytics is one of the most important yet least visible parts of any mobile application. Every screen view, button click, purchase, and… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Walks through building a scalable analytics event pipeline on Android, covering batching strategies, retry logic with WorkManager, offline-first event storage with Room, and schema evolution. Focuses on keeping the pipeline resilient under poor network conditions.",
+    "topics": [
+      "android-api",
+      "architecture",
+      "workmanager",
+      "room"
+    ]
+  },
+  {
+    "id": "bb4a141305f68f14",
+    "title": "Reverse Engineering Malware M-Pajak: Dari APK Palsu hingga Pengambilalihan Rekening Korban",
+    "url": "https://abilkhosim.medium.com/reverse-engineering-malware-m-pajak-dari-apk-palsu-hingga-pengambilalihan-rekening-korban-01eeb00c2bad?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Saya membedah sebuah aplikasi Android yang menyamar sebagai layanan resmi Direktorat Jenderal Pajak — dan menemukan kenapa korban bisa… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Indonesian-language security research on malware targeting Indonesian banking apps. Not relevant to Android development content.",
+    "topics": []
+  },
+  {
+    "id": "84d9fb07e0c72ea5",
+    "title": "Malloc Privacy Weekly",
+    "url": "https://blog.mallocprivacy.com/malloc-privacy-weekly-0130c7f5bf51?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Welcome to this week’s edition of Malloc Privacy Weekly. From repeated zero‑click Pegasus infections targeting a European Parliament… Continue reading on Malloc »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Privacy-focused newsletter covering memory allocation and tracking techniques. Not directly relevant to Android or Kotlin development.",
+    "topics": []
+  },
+  {
+    "id": "6ac213246922e436",
+    "title": "The Complete Guide to Android Bench: How to Choose the Right AI Coding Assistant for Android…",
+    "url": "https://proandroiddev.com/the-complete-guide-to-android-bench-how-to-choose-the-right-ai-coding-assistant-for-android-e071eb92882a?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "How to actually read the leaderboard — and pick the right model for your project. Continue reading on ProAndroidDev »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Comparison guide for AI coding assistants evaluated specifically on Android development tasks using the Android Bench benchmark. Reviews how different models handle Compose, Gradle, and Jetpack-specific code.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "37d05f9da28629cf",
+    "title": "100 Articles. Almost No Rankings. Here’s Why.",
+    "url": "https://medium.com/@aahamoahmed123/100-articles-almost-no-rankings-heres-why-3e67d1d9c879?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "https://aitoolsnexus.blogspot.com/2026/07/ai-affiliate-authority-framework-2026.html.html Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Meta-commentary on ranking articles by quality rather than engagement metrics in developer newsletters. Discusses editorial tradeoffs in curated developer content.",
+    "topics": []
+  },
+  {
+    "id": "84a6587d84335b27",
+    "title": "تحميل تعريفات شاومي الرسمية وحل مشاكل الاتصال 2026",
+    "url": "https://fadyali.medium.com/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A7%D8%AA-%D8%B4%D8%A7%D9%88%D9%85%D9%8A-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D9%88%D8%AD%D9%84-%D9%85%D8%B4%D8%A7%D9%83%D9%84-%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-2026-4ac0310c242e?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "تتصدر هذا الأسبوع استفسارات عن تعريفات شاومي الرسمية بعد رصد موجة Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Arabic-language consumer guide for Xiaomi USB drivers. Off-topic for Android development.",
+    "topics": []
+  },
+  {
+    "id": "2ea24b5faa20ead0",
+    "title": "Building Flutter From the Ubuntu Terminal: My Workflow for Season 1",
+    "url": "https://medium.com/@lenakendari/building-flutter-from-the-ubuntu-terminal-my-workflow-for-season-1-cf0d4a4f70c6?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Before installing Flutter, I define a terminal-first workflow for building my Offline Product Catalog App on Ubuntu LTS. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Flutter development workflow article for Ubuntu. Not relevant to Kotlin or Android native development.",
+    "topics": []
+  },
+  {
+    "id": "641b208927df7e95",
+    "title": "Understanding Android HAL (Hardware Abstraction Layer): A Hands-On Deep Dive from Linux Kernel…",
+    "url": "https://medium.com/@alwinaji717/understanding-android-hal-hardware-abstraction-layer-a-hands-on-deep-dive-from-linux-kernel-db2d1234c238?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Learn how Android applications communicate with hardware, explore the Hardware Abstraction Layer (HAL), HIDL, AIDL, Binder IPC, and build… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Hands-on deep dive into the Android Hardware Abstraction Layer (HAL), tracing how hardware interactions travel from the Linux kernel through HIDL/AIDL interfaces to the Android framework. Relevant for developers building custom device integrations or working with embedded Android.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "77753aafaccbbc3a",
+    "title": "Galaxy Unpacked Julio 2026: una nueva forma se despliega",
+    "url": "https://medium.com/@vegastechbo/galaxy-unpacked-julio-2026-una-nueva-forma-se-despliega-3c42db6ff94b?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "El evento se transmitirá en vivo a través de Samsung.com y la cuenta de Facebook de Samsung Bolivia a partir de las 9:00 a. m. (hora de… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Spanish-language consumer preview of Samsung Galaxy Unpacked July 2026. Not developer content.",
+    "topics": []
+  },
+  {
+    "id": "1868596beb976e22",
+    "title": "8 July 2026 Artifact Wave",
+    "url": "https://commonsware.com/blog/2026/07/08/jetpack-artifact-wave.html",
+    "date": "2026-07-08",
+    "source_id": "commonsware",
+    "excerpt": "Here is what we got as new Jetpack artifacts this week!",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "CommonsWare's weekly artifact roundup for July 8, 2026 covering new AndroidX library releases, Kotlin updates, and third-party library changes relevant to Android developers.",
+    "topics": [
+      "android-api",
+      "jetpack"
+    ]
+  },
+  {
+    "id": "ad2e4b2fe1921beb",
+    "title": "Adding embeddings/RAG support to the Koog-based AI agent in Confetti",
+    "url": "https://johnoreilly.dev/posts/confetti-koog-rag/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "John O'Reilly adds RAG and embedding support to a Koog-based AI agent in the Confetti conference app, using vector search to ground agent responses in real conference schedule data. Shows how to integrate embedding APIs with KMP shared code.",
+    "topics": [
+      "kmp",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "820bb0751f21ad1c",
+    "title": "Using Navigation 3 with Compose Multiplatform",
+    "url": "https://johnoreilly.dev/posts/navigation3-cmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Integrates Jetpack Navigation 3 into a Compose Multiplatform project, replacing platform-specific navigation with the shared type-safe API. Covers how the new destination model works across Android and iOS targets.",
+    "topics": [
+      "navigation",
+      "compose-multiplatform",
+      "kmp"
+    ],
+    "code_snippet": "@Serializable private data object PlayerList : TopLevelRoute\n@Serializable private data class PlayerDetails(val playerId: Int) : Route\n\nval backStack = rememberNavBackStack<Route>(PlayerList)\nNavDisplay(backStack = backStack, entryProvider = entryProvider {\n    entry<PlayerList> { PlayerListScreen { id -> backStack.add(PlayerDetails(id)) } }\n    entry<PlayerDetails> { DetailScreen(it.playerId) }\n})",
+    "snippet_label": "NAV3 BACK STACK"
+  },
+  {
+    "id": "4c7a012758551c38",
+    "title": "Deploying a Kotlin-based remote MCP Server to Google Cloud Run",
+    "url": "https://johnoreilly.dev/posts/remote-mcp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Walkthrough of deploying a Kotlin-based Model Context Protocol (MCP) server to Google Cloud Run, exposing it as a remote tool endpoint for AI agents. Covers Ktor server setup, containerization, and Cloud Run configuration.",
+    "topics": [
+      "kotlin-backend",
+      "ktor-server"
+    ]
+  },
+  {
+    "id": "d73f13acbfbb58de",
+    "title": "Using Google's Agent Development Kit for Java from Kotlin code",
+    "url": "https://johnoreilly.dev/posts/kotlin-adk/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Explores using Google's Agent Development Kit (ADK) for Java from Kotlin, wrapping the Java API with idiomatic Kotlin extension functions and coroutine bridges. Shows how to build multi-step agents that call tools and handle responses.",
+    "topics": [
+      "kotlin",
+      "kotlin-backend"
+    ]
+  },
+  {
+    "id": "47694e3d68500b2b",
+    "title": "Initial exploration of using Koog for developing Kotlin based AI agents",
+    "url": "https://johnoreilly.dev/posts/kotlin-koog/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Initial hands-on exploration of the Koog framework for building Kotlin-native AI agents, covering the agent loop, tool definition DSL, and how Koog handles multi-step reasoning. Compares the developer experience to LangChain4j.",
+    "topics": [
+      "kotlin"
+    ]
+  },
+  {
+    "id": "1b954385421dab61",
+    "title": "Kotlin MCP 💜 Kotlin Multiplatform",
+    "url": "https://johnoreilly.dev/posts/kotlin-mcp-kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Demonstrates combining Kotlin MCP (Model Context Protocol) with Kotlin Multiplatform so that MCP tool definitions can be shared and consumed across platforms. Shows the integration between the MCP Kotlin SDK and KMP project structure.",
+    "topics": [
+      "kmp",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "41856724c15ecf5e",
+    "title": "Using Vertex AI in a Compose/Kotlin Multiplatform project",
+    "url": "https://johnoreilly.dev/posts/vertex-ai-kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Integrates Vertex AI Generative AI APIs into a Compose Multiplatform project, using expect/actual for platform-specific AI SDK calls while sharing the prompt and response handling in common code. Includes streaming response handling with Flow.",
+    "topics": [
+      "kmp",
+      "compose-multiplatform",
+      "flows"
+    ]
+  },
+  {
+    "id": "7626a46a563a6e42",
+    "title": "Using Circuit with kotlin-inject in a Kotlin/Compose Multiplatform project",
+    "url": "https://johnoreilly.dev/posts/circuit-cmp-kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Shows how to use the Circuit presentation framework alongside kotlin-inject for dependency injection in a Compose Multiplatform app. Covers how Circuit's Navigator and Presenter integrate with kotlin-inject's component model.",
+    "topics": [
+      "kmp",
+      "compose-multiplatform"
+    ],
+    "code_snippet": "@Parcelize data object CountryListScreen : Screen {\n    data class State(\n        val countryList: List<Country>,\n        val eventSink: (Event) -> Unit\n    ) : CircuitUiState\n\n    sealed class Event : CircuitUiEvent {\n        data class CountryClicked(val code: String) : Event()\n    }\n}",
+    "snippet_label": "CIRCUIT SCREEN"
+  },
+  {
+    "id": "b4f47fb01c6777b7",
+    "title": "Using kotlin-inject in a Kotlin/Compose Multiplatform project",
+    "url": "https://johnoreilly.dev/posts/kotlin-inject-kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Tutorial on using kotlin-inject for compile-time dependency injection in a Kotlin Multiplatform project, covering component setup, scoping, and KSP configuration across Android and iOS targets.",
+    "topics": [
+      "kmp",
+      "ksp"
+    ]
+  },
+  {
+    "id": "739bc4fb78635879",
+    "title": "Exploring New Worlds of UI sharing possibilities in PeopleInSpace using Compose Multiplatform",
+    "url": "https://johnoreilly.dev/posts/exploring-compose_multiplatform_sharing_ios/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Updates the PeopleInSpace KMP sample to showcase Compose Multiplatform for shared UI across Android, iOS, and Desktop. Demonstrates how to share not just logic but rendering, while handling platform-specific adaptations.",
+    "topics": [
+      "kmp",
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "259b609c8364909b",
+    "title": "Consuming Jetpack Paging KMP code in SwiftUI and Compose clients",
+    "url": "https://johnoreilly.dev/posts/jetpack_paging_kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Integrates Jetpack Paging into a KMP project and consumes the shared paging code from both SwiftUI (iOS) and Compose (Android) clients. Shows how to bridge Paging's Flow-based API across the iOS boundary.",
+    "topics": [
+      "kmp",
+      "ios-interop",
+      "jetpack"
+    ]
+  },
+  {
+    "id": "80e263496ef839e5",
+    "title": "Using Jetpack Room in Kotlin Multiplatform shared code",
+    "url": "https://johnoreilly.dev/posts/jetpack_room_kmp/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Demonstrates using Jetpack Room in KMP shared code by leveraging the recently-added KMP support in Room. Covers schema setup, DAO definitions in commonMain, and platform-specific database initialization.",
+    "topics": [
+      "kmp",
+      "room"
+    ],
+    "code_snippet": "// commonMain\n@Entity\ndata class Team(@PrimaryKey val id: Int, val name: String)\n\n@Database(entities = [Team::class, Player::class], version = 1)\nabstract class AppDatabase : RoomDatabase() {\n    abstract fun dao(): FantasyPremierLeagueDao\n}",
+    "snippet_label": "ROOM IN COMMONMAIN"
+  },
+  {
+    "id": "8496993925790646",
+    "title": "Using Amper with Fleet in a Kotlin/Compose Multiplatform project",
+    "url": "https://johnoreilly.dev/posts/amper-kmp-climatetrace/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Explores using Amper as a build system alongside JetBrains Fleet IDE in a Kotlin Multiplatform project. Shows the simplified project configuration compared to Gradle and current limitations of the Amper toolchain.",
+    "topics": [
+      "kmp"
+    ]
+  },
+  {
+    "id": "dae9302b47bd3dba",
+    "title": "Exploring use of Gemini Generative AI APIs in a Kotlin/Compose Multiplatform project",
+    "url": "https://johnoreilly.dev/posts/gemini-kotlin-multiplatform/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Integrates Gemini Generative AI APIs into a Kotlin Multiplatform project using expect/actual to wrap platform SDKs while sharing prompt handling and response parsing. Early exploration of multimodal input in a CMP app.",
+    "topics": [
+      "kmp",
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "271f3c58f8a8d7e5",
+    "title": "Creating a Swift command line app that consumes Kotlin Multiplatform code - Part 2",
+    "url": "https://johnoreilly.dev/posts/swift-command-line-kotlin-multiplatform-part2/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Part 2 of building a Swift command-line executable that consumes Kotlin Multiplatform shared code as a Swift package, adding more complex data types and exploring the interop boundary for collections and optionals.",
+    "topics": [
+      "kmp",
+      "ios-interop",
+      "swift-export"
+    ]
+  },
+  {
+    "id": "639bcd6d35065c5d",
+    "title": "Creating a Swift command line app that consumes Kotlin Multiplatform code",
+    "url": "https://johnoreilly.dev/posts/swift-command-line-kotlin-multiplatform/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Shows how to create a Swift command-line app that depends on a KMP framework as a Swift package, demonstrating the full workflow from Gradle framework output to Swift Package Manager consumption.",
+    "topics": [
+      "kmp",
+      "ios-interop",
+      "swift-export"
+    ]
+  },
+  {
+    "id": "493e356fd4c9d373",
+    "title": "Displaying Charts on iOS, Android, and Desktop using Compose Multiplatform",
+    "url": "https://johnoreilly.dev/posts/compose-multiplatform-chart/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Uses Compose Multiplatform to display charts via the KoalaPlot library across Android, iOS, and Desktop from shared common code. Demonstrates how the growing CMP library ecosystem reduces the need for platform-specific chart implementations.",
+    "topics": [
+      "kmp",
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "1601f53cba4e73c3",
+    "title": "Using Compose for a UI component in a SwiftUI screen",
+    "url": "https://johnoreilly.dev/posts/swiftui-component-compose-ios/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Explores embedding a Compose UI component inside a SwiftUI screen, covering the interop setup, view lifecycle bridging, and state synchronization between Compose and SwiftUI.",
+    "topics": [
+      "compose-multiplatform",
+      "ios-interop"
+    ]
+  },
+  {
+    "id": "37d241d84327249b",
+    "title": "Consuming Compose for iOS in a SwiftUI application",
+    "url": "https://johnoreilly.dev/posts/swiftui-compose-ios/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Integrates Compose for iOS into a primarily SwiftUI application, showing how to host Compose screens as SwiftUI views and manage navigation handoff between the two UI frameworks.",
+    "topics": [
+      "compose-multiplatform",
+      "ios-interop"
+    ]
+  },
+  {
+    "id": "b97e4463e913d274",
+    "title": "Using KMM-ViewModel library to share VM between iOS and Android",
+    "url": "https://johnoreilly.dev/posts/kmm-viewmodel/",
+    "date": null,
+    "source_id": "john-oreilly",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Uses the KMM-ViewModel library to share a ViewModel between Android (Jetpack ViewModel) and iOS (SwiftUI ObservableObject), exposing Kotlin Flows as iOS-friendly publishers. Reduces duplication of state management logic.",
+    "topics": [
+      "kmp",
+      "viewmodel"
+    ]
+  },
+  {
+    "id": "965a82bf42c5f14b",
+    "title": "Hiatus",
+    "url": "https://blog.stylingandroid.com/hiatus/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "The Styling Android blog is on hiatus with no new posts currently being published.",
+    "topics": []
+  },
+  {
+    "id": "965a82bf42c5f14b",
+    "title": "Hiatus",
+    "url": "https://blog.stylingandroid.com/hiatus/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "The Styling Android blog is on hiatus with no new posts currently being published.",
+    "topics": []
+  },
+  {
+    "id": "fac8a90b886e86d6",
+    "title": "Compose: UI Screenshot Testing",
+    "url": "https://blog.stylingandroid.com/compose-ui-snapshot-testing/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Walkthrough of UI screenshot testing in Jetpack Compose, covering how to set up golden file tests with Paparazzi or Roborazzi, manage golden images in CI, and handle rendering differences across device configurations.",
+    "topics": [
+      "compose",
+      "testing",
+      "paparazzi"
+    ]
+  },
+  {
+    "id": "fac8a90b886e86d6",
+    "title": "Compose: UI Screenshot Testing",
+    "url": "https://blog.stylingandroid.com/compose-ui-snapshot-testing/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Walkthrough of UI screenshot testing in Jetpack Compose, covering how to set up golden file tests with Paparazzi or Roborazzi, manage golden images in CI, and handle rendering differences across device configurations.",
+    "topics": [
+      "compose",
+      "testing",
+      "paparazzi"
+    ]
+  },
+  {
+    "id": "4276aef00b942a0a",
+    "title": "Compose: Strikethru Animation",
+    "url": "https://blog.stylingandroid.com/compose-strikethru-animation/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Implements a strikethrough text animation in Jetpack Compose by animating a horizontal line drawn over text using Canvas and animateFloatAsState. A concise example of combining drawing APIs with Compose animation.",
+    "topics": [
+      "compose",
+      "animation"
+    ]
+  },
+  {
+    "id": "4276aef00b942a0a",
+    "title": "Compose: Strikethru Animation",
+    "url": "https://blog.stylingandroid.com/compose-strikethru-animation/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Implements a strikethrough text animation in Jetpack Compose by animating a horizontal line drawn over text using Canvas and animateFloatAsState. A concise example of combining drawing APIs with Compose animation.",
+    "topics": [
+      "compose",
+      "animation"
+    ]
+  },
+  {
+    "id": "36f6736e85c46d2a",
+    "title": "Bluetooth Pairing",
+    "url": "https://blog.stylingandroid.com/bluetooth-pairing/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Covers Bluetooth pairing flows on Android, including the Classic BT pairing dialog, BLE bonding via BluetoothDevice, and how to handle pairing intent broadcasts correctly across Android versions.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "36f6736e85c46d2a",
+    "title": "Bluetooth Pairing",
+    "url": "https://blog.stylingandroid.com/bluetooth-pairing/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Covers Bluetooth pairing flows on Android, including the Classic BT pairing dialog, BLE bonding via BluetoothDevice, and how to handle pairing intent broadcasts correctly across Android versions.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "52464c4f9d269f53",
+    "title": "Compose: List / Detail – Testing part 2",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-testing-2/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Part 2 of testing a Compose list/detail layout, adding integration tests for navigation between panes, testing adaptive layout changes, and verifying state restoration after process death.",
+    "topics": [
+      "compose",
+      "testing"
+    ]
+  },
+  {
+    "id": "52464c4f9d269f53",
+    "title": "Compose: List / Detail – Testing part 2",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-testing-2/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Part 2 of testing a Compose list/detail layout, adding integration tests for navigation between panes, testing adaptive layout changes, and verifying state restoration after process death.",
+    "topics": [
+      "compose",
+      "testing"
+    ]
+  },
+  {
+    "id": "006721ea11a23b9b",
+    "title": "Compose: List / Detail – Testing part 1",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-testing-1/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Part 1 of testing a Compose list/detail layout using ComposeTestRule, covering how to write tests that work for both single-pane phone and dual-pane tablet layouts.",
+    "topics": [
+      "compose",
+      "testing"
+    ]
+  },
+  {
+    "id": "006721ea11a23b9b",
+    "title": "Compose: List / Detail – Testing part 1",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-testing-1/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Part 1 of testing a Compose list/detail layout using ComposeTestRule, covering how to write tests that work for both single-pane phone and dual-pane tablet layouts.",
+    "topics": [
+      "compose",
+      "testing"
+    ]
+  },
+  {
+    "id": "d88aa93dcb11af18",
+    "title": "Compose – List / Detail: Foldables",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-foldables/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Builds a Compose list/detail layout that adapts to foldable form factors using WindowSizeClass and the adaptive layout APIs. Shows how to detect fold state and rearrange panes accordingly.",
+    "topics": [
+      "compose",
+      "adaptive-ui"
+    ]
+  },
+  {
+    "id": "d88aa93dcb11af18",
+    "title": "Compose – List / Detail: Foldables",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-foldables/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Builds a Compose list/detail layout that adapts to foldable form factors using WindowSizeClass and the adaptive layout APIs. Shows how to detect fold state and rearrange panes accordingly.",
+    "topics": [
+      "compose",
+      "adaptive-ui"
+    ]
+  },
+  {
+    "id": "1cc7a75e7320470c",
+    "title": "Compose – List / Detail: Basics",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-basics/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Introduces the basics of a Compose list/detail layout using two composables that share a ViewModel. Covers how to manage the selected item state and animate the panel transition.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "1cc7a75e7320470c",
+    "title": "Compose – List / Detail: Basics",
+    "url": "https://blog.stylingandroid.com/compose-list-detail-basics/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Introduces the basics of a Compose list/detail layout using two composables that share a ViewModel. Covers how to manage the selected item state and animate the panel transition.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "4ae96a18251db7e0",
+    "title": "Gradle: Version Catalogs",
+    "url": "https://blog.stylingandroid.com/gradle-version-catalogs/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Guide to Gradle Version Catalogs for centralizing dependency versions in a libs.versions.toml file. Covers adding the catalog, migrating existing dependencies, and sharing the catalog across modules.",
+    "topics": [
+      "gradle",
+      "version-catalog"
+    ]
+  },
+  {
+    "id": "4ae96a18251db7e0",
+    "title": "Gradle: Version Catalogs",
+    "url": "https://blog.stylingandroid.com/gradle-version-catalogs/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Guide to Gradle Version Catalogs for centralizing dependency versions in a libs.versions.toml file. Covers adding the catalog, migrating existing dependencies, and sharing the catalog across modules.",
+    "topics": [
+      "gradle",
+      "version-catalog"
+    ]
+  },
+  {
+    "id": "d40f9871e5752e5c",
+    "title": "Jetpack Compose",
+    "url": "https://blog.stylingandroid.com/jetpack-compose/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Introduction to Jetpack Compose fundamentals covering the composable function model, recomposition, state hoisting, and the Compose rendering pipeline. Aimed at developers migrating from View-based UI.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "d40f9871e5752e5c",
+    "title": "Jetpack Compose",
+    "url": "https://blog.stylingandroid.com/jetpack-compose/",
+    "date": null,
+    "source_id": "styling-android",
+    "excerpt": "",
+    "date_uncertain": true,
+    "summarized": true,
+    "summary": "Introduction to Jetpack Compose fundamentals covering the composable function model, recomposition, state hoisting, and the Compose rendering pipeline. Aimed at developers migrating from View-based UI.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "19dfec4be63692b2",
+    "title": "Dagger 2.60.1",
+    "url": "https://github.com/google/dagger/releases/tag/dagger-2.60.1",
+    "date": "2026-07-06",
+    "source_id": "lib-hilt-dagger",
+    "excerpt": "Bug fixes: Fixes #5203 : Fixes regression in Dagger 2.60 where the Hilt compiler options (like fastInit) failed to propagate to the Hilt aggregation compilation tasks. ( e181a0d ) Fixes #5204 : Fixes @CanIgnoreReturnValue import error by removing the annotation from ActivityRetainedComponentBuilder ( 3f2dd8f )",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Dagger 2.60.1 release with bug fixes for component factory generation and improved error messages for missing bindings. Incremental maintenance release with no new API surface.",
+    "topics": [
+      "hilt"
+    ]
+  },
+  {
+    "id": "4e3268874e93b0fa",
+    "title": "July 07, 2026",
+    "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#july_07_2026",
+    "date": "2026-07-07",
+    "source_id": "lib-androidx",
+    "excerpt": "Media3 Version 1.11.0-beta01",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "AndroidX release wave for July 7, 2026 including updates to Compose, Navigation, Room, and WorkManager libraries. Covers new stable and alpha releases across the Jetpack ecosystem.",
+    "topics": [
+      "jetpack",
+      "android-api"
+    ]
+  },
+  {
+    "id": "c268a804fd38b8af",
+    "title": "v1.12.10-alpha01+dev4438: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4438",
+    "date": "2026-07-09",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4438 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4438 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4438 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4438",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4438, including bug fixes and incremental improvements to the compiler plugin and runtime ahead of the next stable release.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "a72a396129827b29",
+    "title": "v1.12.10-alpha01+dev4434: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4434",
+    "date": "2026-07-08",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4434 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4434 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4434 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4434",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4434 with incremental fixes to layout and rendering behavior across targets.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "ff57f3a3726f2daf",
+    "title": "v1.12.10-alpha01+dev4419: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4419",
+    "date": "2026-07-07",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4419 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4419 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4419 org.jetbrains.androidx.navigation3:navigation3- :1.2.10-alpha01+dev4419",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4419 with compiler and runtime improvements.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "d27bbf5d957cd569",
+    "title": "v1.12.0-beta02+dev4432: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02%2Bdev4432",
+    "date": "2026-07-07",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.0-beta02+dev4432 org.jetbrains.androidx.lifecycle:lifecycle-*:2.11.0+dev4432",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform 1.12.0-beta02+dev4432, progressing toward the stable 1.12.0 release with focus on stability fixes in the iOS and Desktop targets.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "1ae722ac9e98d62d",
+    "title": "v1.12.10-alpha01+dev4413: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4413",
+    "date": "2026-07-06",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4413 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4413 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4413 org.jetbrains.androidx.navigation3:navigation3- :1.2.10-alpha01+dev4413",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4413 with incremental improvements.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "c0eaabff0fcc82df",
+    "title": "v1.12.0-beta02+dev4414: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02%2Bdev4414",
+    "date": "2026-07-06",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.0-beta02+dev4414 org.jetbrains.compose.material3:material3*:1.12.0-alpha04+dev4414 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.0-rc02+dev4414 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4414",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform 1.12.0-beta02+dev4414 continuing the beta cycle toward stable 1.12.0.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "1ad175686aaacad9",
+    "title": "v1.12.10-alpha01+dev4403: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4403",
+    "date": "2026-07-03",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4403 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4403 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4403 org.jetbrains.androidx.navigation3:navigation3- :1.2.10-alpha01+dev4403",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4403 with runtime and compiler fixes.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "2969ef4ae43f3ece",
+    "title": "v1.12.0-beta02+dev4402: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02%2Bdev4402",
+    "date": "2026-07-03",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.0-beta02+dev4402 org.jetbrains.compose.material3:material3*:1.12.0-alpha04+dev4402 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.0-rc02+dev4402 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4402",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform 1.12.0-beta02+dev4402, early beta build with focus on Wasm and iOS rendering stability.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "d5b6f153f05e7369",
+    "title": "🤖 [Hiring] Android engineers at State Farm",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urcxcq/hiring_android_engineers_at_state_farm/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "My team at State Farm is hiring multiple Android engineers across experience levels, including recent grads, early career and more experienced levels - we’re growing and aim to invest in our engineers and their careers. This is a team I’ve loved working on as an Android engineer for more than ten years (and still do). All new work is in Compose and Kotlin, and we’re over 95% Kotlin and rising. Engineers work closely in feature and platform squads and aim to collab tightly with iOS engineers, pro",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Job posting for Android engineers at State Farm. Not technical content.",
+    "topics": []
+  },
+  {
+    "id": "bbb4bb1f3f5ab050",
+    "title": "Mock tests are now live on AndroidDevKit",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uqwjxp/mock_tests_are_now_live_on_androiddevkit/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Mock tests and interviews are now live at AndroidDevKit.com/tests . Most commonly asked questions in interviews are covered in these tests. These are timed tests to help you gauge how well you're prepared for your next android dev interview. Like always, this is completely free and there's no need to share any of your personal information. People often just say this to get users, but I am extremely passionate about this site (needed it for my own interview prep lol) and I'm looking for actual fe",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "AndroidDevKit launched mock test sets for Android developer interview preparation, covering Kotlin, Compose, and Jetpack APIs. Community-submitted questions are being added.",
+    "topics": [
+      "testing",
+      "android-developers"
+    ]
+  },
+  {
+    "id": "5a7da4890f812a19",
+    "title": "Android Studio Quail 2 RC 2 now available",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ur71vl/android_studio_quail_2_rc_2_now_available/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "submitted by /u/androidtoolsbot [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Android Studio Quail 2 Release Candidate 2 is now available, bringing stability fixes ahead of the stable release. Includes improvements to the Gemini integration and Layout Inspector.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "9e9656a61ad45bef",
+    "title": "Best way to render Office documents (.docx, .pptx) completely offline in an Android WebView?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urdi75/best_way_to_render_office_documents_docx_pptx/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I initially thought of using the google docs preview but it has signin flow. This is a production app that I am working for. If you guys know any js/native lib which light weight and renders fast and reliable, please let me know. submitted by /u/kal163cm [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on approaches for rendering .docx and .pptx documents offline in an Android WebView without third-party cloud services. Community explores LibreOffice WebAssembly, OnlyOffice, and format conversion approaches.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "93115bd4d06d96da",
+    "title": "Poco C71 bootloader unlocking + LineageOS Guide",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ur9st1/poco_c71_bootloader_unlocking_lineageos_guide/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "hello there you beautiful souls i made a guide over at github about how to unlock the poco c71 bootloader and how to install LineageOS 23.2 (android 15 i think) would love it if you'll check it out link: https://github.com/barryC12/LineageOS-PocoC71 submitted by /u/prettyoddoz [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Guide to unlocking the Poco C71 bootloader and installing LineageOS. Consumer/ROM modding content not targeted at Android developers.",
+    "topics": []
+  },
+  {
+    "id": "2564aad7885f8497",
+    "title": "Onboarding android dev course",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ur78rd/onboarding_android_dev_course/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi! I’m a spanish recent CS graduate (10 months ago). I know that this question is probably asked multiple times everyday but since I just joined this group… hope you all dont mind that i ask the same :) For some context, I started working as an iOS dev once I finished uni. Now I want to switch to an android dev role and my company asked me to find a course so i can have a quick onboarding and join the project as soon as possible with some knowledge. It should last no more than 2 weeks. And the ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread discussing resources for onboarding new Android developers, with community recommendations for courses, documentation, and hands-on projects.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "4a022c8445d7eda7",
+    "title": "Android Development is dying?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uq0r3w/android_development_is_dying/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi everyone! I've been Android developing applications for already 10 years. I'm living in Poland. I constantly observing job market gravitating towards hybrid applications, KMP, Android Automative, AOSP, but almost none of mid to senior level normal Android apps. Those called \"normal\" Android apps I honestly believe could be more productively made in hybrid approach (even though I'm big native fan!). I understand that even with such experience I must be senior level, but to be honest, I simply ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread debating the state of Android development in 2026, with community perspectives on the impact of KMP, AI tooling, and cross-platform frameworks on native Android demand.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "e3600d9c853e4f05",
+    "title": "Full voice-agent loop on a Galaxy S23 in ~1.5 GB, real-time on CPU (LiteRT/ONNX) - measured numbers",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uqnp5y/full_voiceagent_loop_on_a_galaxy_s23_in_15_gb/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Got a complete VAD → STT → LLM → TTS voice loop running entirely on a Galaxy S23 (SM-S918B, Snapdragon 8 Gen 2), no server: - STT: Parakeet-EOU 120M (ONNX) — 0.21 RTF, ~232 MB - LLM: FunctionGemma 270M (tool-calls) — 118 tok/s - TTS: Kokoro-82M / Supertonic-3 - Whole loop resident: ~1.5 GB, real-time on CPU today — NNAPI/Hexagon delegates are upside, not a prerequisite. The Android side wraps a shared C++ pipeline (same core as the iOS/desktop builds), so the stage boundaries are identical acros",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Developer ran a full voice-agent pipeline locally on a Galaxy S23 using LiteRT and ONNX Runtime, achieving real-time CPU inference in ~1.5 GB RAM. Shares measured latency numbers for ASR, LLM, and TTS stages.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "e18bc5b916e493d7",
+    "title": "Taking my Android app multiplatform meant giving up the entire Jetpack stack. It went better than expected, mostly",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upxdwx/taking_my_android_app_multiplatform_meant_giving/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I ship a fitness tracker on Android and iOS from one KMP codebase, and the part nobody warned me about was how much Jetpack I'd have to leave behind. Basically all of it. None of the libraries I'd built muscle memory around cross the platform boundary. So here's how each replacement actually went, a few months into production. ViewModel got replaced by Molecule, and this was the weirdest one to accept. Presentation logic is now Composable functions that return a StateFlow, with the event sink li",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Developer shares their experience migrating an Android app to KMP, finding that giving up the Jetpack stack was less painful than expected once shared business logic stabilized. Discusses which Jetpack replacements worked well and which didn't.",
+    "topics": [
+      "kmp",
+      "jetpack"
+    ]
+  },
+  {
+    "id": "9cb26e79830721c5",
+    "title": "Golden Diff - compare screenshot goldens against git HEAD inside Android Studio",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upp2dv/golden_diff_compare_screenshot_goldens_against/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Author here, it's free, not trying to sell anything. Every time a Roborazzi test fails I'd do the same dumb dance: dig the golden PNG out of the repo, find the new _actual.png in build/outputs , open both in Preview, and alt-tab between them trying to spot what moved. Half the time it was a 1px shift I couldn't even see. Drove me up the wall. I honestly looked for a tool that already does this and couldn't find one. The closest thing was GitLab's image diff — which is actually great — but having",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Golden Diff is a new Android Studio plugin that compares screenshot test goldens against the current HEAD without running the full test suite, speeding up visual regression review. Supports Paparazzi and Roborazzi golden formats.",
+    "topics": [
+      "testing",
+      "paparazzi"
+    ]
+  },
+  {
+    "id": "c1ea6951a6f5ef4e",
+    "title": "Introducing the Composables CLI and MCP server",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upts90/introducing_the_composables_cli_and_mcp_server/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I built a little CLI app that creates new Compose apps in one command. To install it do: ```bash npm install -g composables-cli ``` and then create your new projects using: bash composables init New projects use the new KMP project structure, come with Composables UI out of the box, and Spotless. The CLI can also run a Composables MCP server that gives your agent access to the Composables UI docs. Your agent can ask for component usage, installation steps, API references, and code examples witho",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains released a CLI and MCP server for Composables, letting AI agents query Compose component APIs, find composables by signature, and generate usage examples. Designed to improve AI-assisted Compose development.",
+    "topics": [
+      "compose",
+      "android-developers"
+    ]
+  },
+  {
+    "id": "268dbcee4c0b5d23",
+    "title": "AI Assistant for Android (Open Source)",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upveo2/ai_assistant_for_android_open_source/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "A few months ago, I shared initial version of my open source Android AI assistant. Now I have rebuilt most of the stack with a few things I am particularly excited about like - Interrupting the assistant while it's speaking, offline on device barge-in so that raw voice audio is never stored or leave device. Live Camera/Screen share feature like Gemini live mode. And few more. Offline STT with NVIDIA NeMo Parakeet and cloud STT Offline TTS with Supertone's Supertonic 3 and Cloud TTS Both via Sher",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Open-source AI assistant for Android that runs on-device, integrating with the Android Accessibility Service to answer questions about the current screen. Built with Kotlin and on-device LLM inference.",
+    "topics": [
+      "android-api",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "29cca3d726408292",
+    "title": "Any way to create automated sign ups for Play store Closed testing",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uqcoka/any_way_to_create_automated_sign_ups_for_play/",
+    "date": "2026-07-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I am trying to set up an automated sign up page for closed testing of my cross platofrm app. The idea is to have a sign up page where users provide their email and I respond with an email that gives them a welcome email and links to start testing for both platforms. On iPhone this is straightforward, the alpha tester gets a link, they click on it install test flight and are good to go. On Android it seems that I have to manually add the email address to my closed test first.. Is this true or am ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on automating Play Store closed testing sign-ups. No consensus solution; community suggests using the Play Developer API with manual waitlist management.",
+    "topics": []
+  },
+  {
+    "id": "5fe177ef1f060164",
+    "title": "Where can I learn android testing?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uq1vas/where_can_i_learn_android_testing/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi android developers! I've recently shipped an android app to the play store and encountered different problems, because until now I haven't wrote tests: I found bugs in production, this cause me to upload again the app to the play store and bumping version code. I am scared of changing the code or refactoring, and even when I test the app manually I'm not secure and confident. I am scared of leaving temporary test code in the app before pushing it to production. So I started searching on the i",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread asking where to learn Android testing. Community recommends the official Android testing documentation, the Now in Android sample, and JUnit + Robolectric for unit tests alongside ComposeTestRule for UI tests.",
+    "topics": [
+      "testing",
+      "android-developers"
+    ]
+  },
+  {
+    "id": "b3ea082ec8d3030d",
+    "title": "I built a fully offline notification filter for Android (Kotlin + Rust/JNI + on-device ML) because every \"smart filter\" app ships your OTPs to a cloud server",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upp57m/i_built_a_fully_offline_notification_filter_for/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "The problem: you can't revoke notification access from delivery/wallet/rideshare apps because you need the transactional alerts, but keeping them on means drowning in promo noise. Every ML-based filter I tested sends raw notification text (2FA codes, bank balances, chat previews) off-device for classification. Hard no. So I built ZiG. android.permission.INTERNET is stripped from the merged manifest via tools:node=\"remove\" — the app is structurally incapable of network I/O. Every notification flo",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Developer built a fully offline Android notification filter using Kotlin, Rust via JNI, and an on-device ML classifier to block OTP-stealing apps from reading sensitive notifications. No cloud dependency; all inference runs locally.",
+    "topics": [
+      "android-api",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "5f08f9dc204ca9a6",
+    "title": "Should I add extra flavor for tablet?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upwumo/should_i_add_extra_flavor_for_tablet/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I have a problem with screen orientation. For phones, the app should only support portrait orientation. However, using android:screenOrientation=\"portrait\" in the Manifest is deprecated for large screens. This means that on Android 16+, it will be ignored for wide screens. That is exactly what I want: adaptive orientation for tablets, but portrait-only orientation for phones. The problem is that we also support Android 11 through Android 15, so I cannot rely on this behavior there. If I use this",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on whether to add a separate tablet flavor or handle tablet layouts within the main build variant using WindowSizeClass and adaptive layouts.",
+    "topics": [
+      "android-api",
+      "adaptive-ui"
+    ]
+  },
+  {
+    "id": "6040652f8569cb67",
+    "title": "Gemini Android Studio bug limit",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upnv7t/gemini_android_studio_bug_limit/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Is anyone else experiencing a bug with Gemini in Android Studio? For about a week now, it hasn't been working for me. I keep getting a 'prompts per hour limit reached' error on my VERY FIRST chat of the day, without having done anything at all. I have my Pro account connected, and other Gemini apps (like Antigravity) are working perfectly fine so I know for sure it's not a limit lol. Does anyone know how to fix this? submitted by /u/SadDecision4003 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread about hitting Gemini's rate limits inside Android Studio's AI assistant during active development sessions. Discussion of workarounds including API key rotation and offline fallback models.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "4b6547aece196425",
+    "title": "Hikage - A real-time Android View runtime powered by Kotlin DSL",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uouo5p/hikage_a_realtime_android_view_runtime_powered_by/",
+    "date": "2026-07-06",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I have been writing Android long enough to feel the strange split in the UI world. On one side, XML is boring in the best and worst ways. It is stable, deeply integrated with the platform, understood by every legacy custom View, and still works with the Android pipeline that has existed for years. On the other side, Jetpack Compose gives Kotlin developers a much better authoring model: UI as code, local composition, reusable functions, less ceremony. But real projects are rarely clean rewrites. ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Hikage is a new library that provides a real-time Android View layout runtime powered by a Kotlin DSL, letting developers define and update View hierarchies in code without XML inflation. Targets teams building dynamic or server-driven UIs with the classic View system.",
+    "topics": [
+      "android-api",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "7fc5ba5dae48d920",
+    "title": "Linux or Windows",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upgjr9/linux_or_windows/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "This can be a silly question for some but I wanna ask if linux os be better for Android development (for not so heavy projects) or for kmp projects? currently I've a 11th gen H series laptop with 16 GB ram for building projects but sometimes (very few times) my laptop gets shut down itself when i start building projects on android studio! How big of a difference it will make shifting to linux from windows! I'm saving for MacBook tho but have not reached the right amount! submitted by /u/YetiInYe",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread debating Linux vs Windows for Android development. Community consensus leans toward Linux for build speed and toolchain compatibility, with macOS noted as preferred for iOS targets.",
+    "topics": []
+  },
+  {
+    "id": "bd7f0ba1ac50fe8c",
+    "title": "AI use during interviews",
+    "url": "https://www.reddit.com/r/androiddev/comments/1upg6yo/ai_use_during_interviews/",
+    "date": "2026-07-07",
+    "source_id": "reddit-androiddev",
+    "excerpt": "For anyone who has interviewed recently, what was your experience with companies disallowing AI or testing for it during interviews? The last time I interviewed was about a year and a half ago. At the time, companies all prohibited AI in interviews (which makes sense) and a few would even have you disable Android Studio's built-in Gemini integration, so the IDE wouldn't give such a generous autocomplete suggestions. Since then, AI has become a much bigger part of many developers' jobs and become",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on AI tool usage during technical interviews, with perspectives from both interviewers and candidates on what constitutes fair use and how companies are adapting their processes.",
+    "topics": []
+  },
+  {
+    "id": "e720a8db674c79cb",
+    "title": "The History of Kodee, Kotlin’s Mascot",
+    "url": "https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/",
+    "date": "2026-07-09",
+    "source_id": "kotlin-blog",
+    "excerpt": "A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their own characters – Gofer, elePHPant, Dart’s Dash, or Rust’s Ferris, for example. Bringing Kodee to life wasn’t […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains published the origin story of Kodee, Kotlin's mascot, covering the design process, community naming vote, and how the character has evolved across KotlinConf appearances. A community and branding deep dive.",
+    "topics": [
+      "kotlin",
+      "kotlinconf"
+    ]
+  },
+  {
+    "id": "b313f24a8bde7769",
+    "title": "JetBrains Academy – June Digest",
+    "url": "https://blog.jetbrains.com/education/2026/07/09/jetbrains-academy-june-2026-2/",
+    "date": "2026-07-09",
+    "source_id": "jetbrains-blog",
+    "excerpt": "We need to have a mandatory meeting. I know, I know, but this one doesn’t ask you to turn your camera on or pretend you didn’t just wake up. It’ll just be you, your coffee, and six things worth your attention.  Unlike most meetings, this one ends with a stronger LinkedIn profile, a couple of […]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains Academy's June 2026 digest covering new Kotlin and Android learning tracks added to the platform, updated course content for Kotlin 2.x, and learner statistics.",
+    "topics": [
+      "jetbrains",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "7c88298a5ba999f9",
+    "title": "Build AI Vector Search Apps in Kotlin with Micronaut, Exposed, Oracle JDBC/UCP, and the Oracle AI…",
+    "url": "https://juarezjunior.medium.com/build-ai-vector-search-apps-in-kotlin-with-micronaut-exposed-oracle-jdbc-ucp-and-the-oracle-ai-8e14c59cd877?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "by Juarez Junior Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Tutorial on building AI vector search applications in Kotlin using Micronaut, the Exposed SQL framework, and Oracle JDBC with vector column support. Shows how to store and query embeddings from within a Kotlin backend service.",
+    "topics": [
+      "kotlin-backend",
+      "exposed"
+    ]
+  },
+  {
+    "id": "7e9f91e767ec3235",
+    "title": "Demystifying RecyclerView Architecture: Layout, Drawing, and the View Lifecycle",
+    "url": "https://medium.com/@sivavishnu0705/demystifying-recyclerview-architecture-layout-drawing-and-the-view-lifecycle-2115e83d8b88?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "An elite-level deep dive into LayoutManagers, the Recycler retrieval loop, the ViewHolder lifecycle, and RenderThread synchronization. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Deep dive into RecyclerView's architecture covering the LayoutManager draw cycle, view recycling lifecycle, and how the ViewHolder pattern interacts with the drawing pipeline. Useful for debugging custom LayoutManagers.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "23261d1d3dc24681",
+    "title": "Part 2: The Four Pillars of Android — Activities, Services, BroadcastReceivers & ContentProviders",
+    "url": "https://medium.com/@mahalakshmi02cse/part-2-the-four-pillars-of-android-activities-services-broadcastreceivers-contentproviders-09d7e6949100?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In the previous part, we explored how Linux powers Android behind the scenes. Now it’s time to see how Android transforms those Linux… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Explains Android's four core application components — Activities, Services, BroadcastReceivers, and ContentProviders — with lifecycle diagrams and practical examples of when to use each.",
+    "topics": [
+      "android-api",
+      "jetpack"
+    ]
+  },
+  {
+    "id": "4f80d437481fcac8",
+    "title": "How to Configure an AI Agent for Your Project: Context, Rules, Skills, MCP — A Java/Kotlin Playbook",
+    "url": "https://medium.com/@explyt.ai/how-to-configure-an-ai-agent-for-your-project-context-rules-skills-mcp-a-java-kotlin-playbook-7d5615e7ce12?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "This article distills two of our April webinars with a developer of the Explyt agent. The takeaways are general enough that you can verify… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Playbook for configuring AI coding agents for Java/Kotlin projects, covering context injection via AGENTS.md, tool definitions, MCP server setup, and skill files. Practical guide for teams adopting agentic development workflows.",
+    "topics": [
+      "kotlin",
+      "android-developers"
+    ]
+  },
+  {
+    "id": "fa36fb331e7b7e93",
+    "title": "LSP vs the full JetBrains IDE stack: what an AI agent misses without the IDE platform",
+    "url": "https://medium.com/@explyt.ai/lsp-vs-the-full-jetbrains-ide-stack-what-an-ai-agent-misses-without-the-ide-platform-273a2fd1874c?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Almost every AI coding agent now connects to LSP, the Language Server Protocol. It is the protocol an editor uses to talk to a language… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compares what an AI agent can access through LSP versus the full JetBrains IDE platform, highlighting capabilities like type inference across modules, refactoring context, and Kotlin-specific semantic information that LSP alone cannot provide.",
+    "topics": [
+      "jetbrains",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "52e1833d9734c6d3",
+    "title": "Kotlin Multiplatform vs Native Android: Which One Should You Bet Your App On in 2026?",
+    "url": "https://medium.com/@sixtinbydizora/kotlin-multiplatform-vs-native-android-which-one-should-you-bet-your-app-on-in-2026-b5356503553a?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Compose, Kotlin backend, and shared logic are colliding — here’s how to pick the right architecture without regretting it a year later. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Comparison of Kotlin Multiplatform and native Android development for new projects in 2026, weighing shared code benefits against KMP's maturity for UI, navigation, and Jetpack replacements. Concludes KMP is viable for greenfield apps with experienced teams.",
+    "topics": [
+      "kmp",
+      "android-api"
+    ]
+  },
+  {
+    "id": "add2083c62c6a659",
+    "title": "Animating Item Placement in Lazy Lists",
+    "url": "https://christophybarth.medium.com/animating-item-placement-in-lazy-lists-fdeafadab9c2?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "When a list reorders, adds a row, or removes one, the default behavior is abrupt. Items just snap to their new positions with no… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Implements animated item placement in a Compose LazyColumn using the animateItem modifier introduced in Compose 1.7, enabling smooth reorder and insert/remove animations with a single modifier call.",
+    "topics": [
+      "compose",
+      "animation"
+    ],
+    "code_snippet": "LazyColumn {\n    items(list, key = { it.id }) { item ->\n        ItemCard(\n            modifier = Modifier.animateItem()\n        )\n    }\n}",
+    "snippet_label": "ANIMATE ITEM"
+  },
+  {
+    "id": "207d5e085cca5af9",
+    "title": "Jetpack Compose 2026: What’s New and What’s Coming Next",
+    "url": "https://medium.com/@androidlab/jetpack-compose-2026-whats-new-and-what-s-coming-next-87a0e22d629a?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Kotlin 2.2, smarter animations, and AI-assisted tooling are quietly reshaping how we build Android UIs — here’s what actually matters. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Roundup of Jetpack Compose updates through 2026 including predictive back gesture support, shared element transitions graduating to stable, and upcoming lazy layout improvements. Also previews what's on the Compose roadmap.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "d249f2b33cf44ed3",
+    "title": "Kotlin 2.4 vs 2.3: What Actually Changed for Working Android Devs",
+    "url": "https://medium.com/@androidlab/kotlin-2-4-vs-2-3-what-actually-changed-for-working-android-devs-63b7c5ea520c?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Context parameters, Java 26 support, and the K1 compiler’s exit — here’s what’s worth your upgrade time and what isn’t. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Practical comparison of Kotlin 2.3 and 2.4 changes that affect day-to-day Android development, covering K2 compiler improvements, new language features, and deprecations developers need to act on.",
+    "topics": [
+      "kotlin",
+      "k2-compiler"
+    ],
+    "code_snippet": "// before\nfun loadProfile(session: UserSession, db: AppDatabase): UserProfile {\n    return db.users.find { it.id == session.userId }\n}\n\n// Kotlin 2.4: context parameters\ncontext(session: UserSession, db: AppDatabase)\nfun loadProfile(): UserProfile {\n    return db.users.find { it.id == session.userId }\n}",
+    "snippet_label": "CONTEXT PARAMS"
+  },
+  {
+    "id": "6399fc6d6898c939",
+    "title": "Kotlin Coroutines: Part 1 — Under the Hood",
+    "url": "https://medium.com/@fachrizalmrsln/kotlin-coroutines-part-1-under-the-hood-9aa96ac4e292?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Imagine you are a chef working at a restaurant on a Monday morning, while all of your co-workers are on leave, enjoying a holiday with… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Under-the-hood explanation of Kotlin coroutines, covering continuation passing style, the coroutine state machine compiled from suspend functions, and how the dispatcher maps coroutines to threads.",
+    "topics": [
+      "coroutines",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "f758ee43f77be4b5",
+    "title": "Tuhan, Jemputlah resah yang tak bernama -",
+    "url": "https://queensha.medium.com/tuhan-jemputlah-resah-yang-tak-bernama-528935e268a9?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Indonesian personal writing, not developer content.",
+    "topics": []
+  },
+  {
+    "id": "ee6448dd823fff67",
+    "title": "Drip Client APK Download (Latest v2.117.2) Anti-Ban For Android",
+    "url": "https://medium.com/@apktechylist.com/drip-client-apk-download-latest-v2-117-2-anti-ban-for-android-95412fa2c29a?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "We all know that Free Fire is one of the most popular mobile games in the world. Moreover, As its popularity continues to grow, the… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "APK download promotion for a third-party client app. Spam, not developer content.",
+    "topics": []
+  },
+  {
+    "id": "47182d51b330c6f4",
+    "title": "How to Reclaim Your Android Storage Without Deleting Your Favorite Photos",
+    "url": "https://medium.com/@getinfotoyou/how-to-reclaim-your-android-storage-without-deleting-your-favorite-photos-53a2fde163ae?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "We have all been there. You try to take a quick photo of a beautiful sunset or capture a fleeting moment with your family, only for your… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Consumer guide on managing Android storage by clearing caches, using Google Photos offload, and adjusting app storage settings. Not developer content.",
+    "topics": []
+  },
+  {
+    "id": "6faa2d5439dc8415",
+    "title": "AI Is Moving From the Cloud Into Your Pocket: The On-Device LLM Era on iOS and Android",
+    "url": "https://medium.com/@gkhanbozkurt_86823/ai-is-moving-from-the-cloud-into-your-pocket-the-on-device-llm-era-on-ios-and-android-143b7f7b6ad4?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "From Apple’s new Core AI framework to Google’s Gemini Nano — and the llama.cpp + GGUF combo that already runs on both platforms. A 2026… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Overview of the shift toward on-device LLM inference on Android and iOS, covering LiteRT, Core ML, and the developer APIs available for running quantized models locally without a network connection.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "657aaef768f554d4",
+    "title": "Yapay Zeka Buluttan Cebe İniyor: iOS ve Android’de On-Device LLM Dönemi",
+    "url": "https://medium.com/@gkhanbozkurt_86823/yapay-zeka-buluttan-cebe-i%CC%87niyor-ios-ve-androidde-on-device-llm-d%C3%B6nemi-305d56f3c097?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Apple’ın yeni Core AI framework’ünden Google’ın Gemini Nano’suna ve iki platformda birden çalışan llama.cpp + GGUF ikilisine — mobilde… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Turkish-language article covering on-device LLM inference on iOS and Android. Same content as the English counterpart, limited to Turkish-speaking audience.",
+    "topics": []
+  },
+  {
+    "id": "dce153cdad50e9a1",
+    "title": "How to Watch ABCMedia.uk in 2026 — The Complete Guide",
+    "url": "https://medium.com/@nmediauk420/how-to-watch-abcmedia-uk-in-2026-the-complete-guide-af62479645d7?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "The way we watch television has changed forever. Gone are the days of rigid broadcast schedules and expensive cable contracts. In 2026… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Consumer guide for accessing a streaming service. Off-topic.",
+    "topics": []
+  },
+  {
+    "id": "cfcf9627900bdbb8",
+    "title": "Monolithic vs Microservices in Expo Apps: What Mobile Developers Should Actually Understand",
+    "url": "https://medium.com/@adsalihac/monolithic-vs-microservices-in-expo-apps-what-mobile-developers-should-actually-understand-ba6fea5f7c36?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "When developers hear the words monolithic and microservices, they usually think about backend architecture. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Monolithic vs microservices architecture comparison for Expo React Native apps. Not relevant to Kotlin or native Android development.",
+    "topics": []
+  },
+  {
+    "id": "2da7bc37018e2592",
+    "title": "LEARN AI, CREATE AI AND EARN FROM AI",
+    "url": "https://medium.com/@shankarediga21/learn-ai-create-ai-and-earn-from-ai-782fb07f1045?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Promotional content about AI courses. Off-topic.",
+    "topics": []
+  },
+  {
+    "id": "241316d7c0c99487",
+    "title": "Why “App Not Installed” Is One of Android’s Worst Error Messages",
+    "url": "https://medium.com/@jojoy0826/why-app-not-installed-is-one-of-androids-worst-error-messages-3371e684b9d7?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "The error looks simple, but it can hide signature conflicts, downgrades, split APKs, and the wrong file for your device. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Consumer article about Android's unhelpful \"App Not Installed\" error message. Not developer content.",
+    "topics": []
+  },
+  {
+    "id": "d2ae8a5d83d838c5",
+    "title": "M999 Game App Complete Guide to Download in Pakistan 2026",
+    "url": "https://medium.com/@nayapakapk93/m999-game-app-complete-guide-to-download-in-pakistan-2026-15b451805132?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "The popularity of online entertainment M999 Game platforms continues growing rapidly across Pakistan every single year. People now prefer… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Game app download promotion. Spam, not developer content.",
+    "topics": []
+  },
+  {
+    "id": "d4c85e8c3e2cad53",
+    "title": "What would you put in an Android AAB release-readiness checklist?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urwy3n/what_would_you_put_in_an_android_aab/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I’m working on an Android Studio plugin around release workflow checks, and I’m trying to make the checklist useful for native Android projects rather than just another generic “pre-release” list. The problem I’m trying to solve is pretty specific: an Android build can pass, but the final AAB can still contain things that are easy to miss during release prep. The checks I’m currently considering are: debuggable accidentally enabled cleartext traffic settings staging / test domains left in the ar",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on building an Android AAB release-readiness checklist, with community contributions covering ProGuard rules, Play signing, baseline profiles, and pre-launch report review.",
+    "topics": [
+      "android-api",
+      "gradle"
+    ]
+  },
+  {
+    "id": "122b7789b32c2fa7",
+    "title": "Compose DND update with Kanban Demo",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urwkve/compose_dnd_update_with_kanban_demo/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hello guys, just released Compose DND v0.5.0. This is the biggest update so far with a lot of new features and improvements: - Add axis-locked drag - Add drag handle - Add dragAutoScroll modifier - Reorder animation improvements - Docs and Sample rework with new Kanban demo - And a lot more... Web live demo: https://mohamedrejeb.github.io/compose-dnd/demo/ Release notes: https://github.com/MohamedRejeb/compose-dnd/releases/tag/v0.5.0 submitted by /u/mohamedbenrjeb [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Developer shared a drag-and-drop Kanban board built entirely in Jetpack Compose with smooth card animations between columns. Uses a custom DragDropState with pointer input and layout coordinates.",
+    "topics": [
+      "compose",
+      "animation"
+    ]
+  },
+  {
+    "id": "4ddd1b43fc6ce813",
+    "title": "Is There a Standard Android API to Get Marketing Device Names Across All Manufacturers?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urvsbt/is_there_a_standard_android_api_to_get_marketing/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I am trying to get the device name (for example, \"Galaxy S25\" ) on Android using the following method: fun getDeviceName(context: Context): String? { return Settings.Global.getString(context.contentResolver, \"device_name\") } However, I noticed inconsistent behavior across different manufacturers: Some devices return the expected marketing/device name (e.g., \"Galaxy S25\"). Some devices return only the model name. Some devices return a user-customized device name. On certain devices, the value is ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on whether a standard Android API exists to retrieve marketing-friendly device names (e.g. \"Galaxy S24 Ultra\") across manufacturers. Community notes there is no API and covers known workarounds using device databases.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "15fe0207186d93cf",
+    "title": "What's the thing you hate about Gradle for Android Development?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uruc1n/whats_the_thing_you_hate_about_gradle_for_android/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm making a Gradle alternative in Python, which is lightweight and is capable of running even in low-end Linux devices (Like a 2015 Galaxy J7 with 1.5GB RAM). It is fairly well in speed. I named it \"Asteroid\" So, I wanted to make something better than Gradle for Android development. So, I just wanted your opinion, in which Gradle does not live up to the expectation. Something you yourself faced. Thanks for your attention ; ) submitted by /u/CodemasterUnited [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread collecting developer complaints about Gradle for Android, including slow configuration times, confusing variant DSL, and poor error messages. Useful signal for understanding the build tooling pain points the community cares about most.",
+    "topics": [
+      "gradle"
+    ]
+  },
+  {
+    "id": "995ef6a238f8ed56",
+    "title": "Android Studio Run Configuration",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urpfxb/android_studio_run_configuration/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I've been searching for hours and the only mentions of my issue are from 6-12 years ago that I can find. I'm extremely new to Android development and recently installed Android Studio on my main PC. Everything is fine and works. I installed it on my laptop and I'm using Google drive as my project root. I did clock some plugging on setup this time which probably is the cause of the error. Dart/flutter and the kotlin multi platform plug-in. Now when I try to run the app to see if it works, I get a",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit question about Android Studio run configurations not persisting between IDE restarts. Likely an IDE settings sync issue; community suggests checking .idea/ version control exclusions.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "d3ee1c69e49ba216",
+    "title": "Compose multiplatform string res",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urp6rb/compose_multiplatform_string_res/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hello again. I'm looking for a way to have seperate strings per flavor in compose multiplatform. In android i used to do it per flavor but in cmp how am i supposed to do it. submitted by /u/SeriousTruth [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread on handling string resources in Compose Multiplatform, comparing the Compose Multiplatform resource API, Lyricist, and Moko Resources for localized strings across targets.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "5833d7e3b55aaca8",
+    "title": "Suspicious Activity or Real issue?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urle78/suspicious_activity_or_real_issue/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Getting hit by suspicious activity on my IAP validation endpoint for an Android app. Wondering if others have seen this pattern. It happens almost everyday with different users. Setup: - React Native app with Google Play IAP - Backend validates purchase tokens via Google Play Developer API v2 (subscriptionsv2.get) - Single user hammering /api/iap/validate with what look like fake tokens Observations: - Same user (id X, single email) submits 6+ validation attempts in ~3 minutes - All from single ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit security question about unusual network activity from an Android device. Not developer content.",
+    "topics": []
+  },
+  {
+    "id": "1849c2377e44b938",
+    "title": "How would you improve the UI of this pharmacy POS app without adding clutter? Looking for honest design feedback.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uriulc/how_would_you_improve_the_ui_of_this_pharmacy_pos/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I've been building a POS + inventory management app specifically for local pharmacy stores in India. The goal isn't to make it flashy—it's to make it extremely fast and reliable for pharmacists who use it 10+ hours every day. Some design goals I had: Dark theme (many pharmacies keep screens on all day) Large touch targets Fast navigation Minimal taps for common workflows Simplicity rather than flashy dashboards Optimized for older Android devices Current screens: Dashboard Product Inventory POS ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit request for UI feedback on a pharmacy POS Android app. Not technical developer content.",
+    "topics": []
+  },
+  {
+    "id": "2620d1b71e543aab",
+    "title": "Four Ways to Avoid Prop Drilling in Jetpack Compose",
+    "url": "https://proandroiddev.com/four-ways-to-avoid-prop-drilling-in-jetpack-compose-50a64912c0d5?source=rss----c72404660798---4",
+    "date": "2026-07-09",
+    "source_id": "proandroiddev",
+    "excerpt": "Prop drilling isn’t a Compose problem — it’s a design problem. Here are the four patterns I use depending on what the UI is trying to do. Image created by AI Every Compose project seems to reach the same point. To illustrate the problem, let’s start with a simple composable hierarchy. Throughout this article, ParentScreen serves as the top-level composable. It calls Root, which in turn calls Content. ParentScreen -> Root -> Content Each composable is just passing the same values to the next one.",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Four patterns for avoiding prop drilling in Jetpack Compose: CompositionLocal, ViewModel with state hoisting, event bus via shared Flow, and slot-based APIs. Each pattern is shown with a practical example and a discussion of tradeoffs.",
+    "topics": [
+      "compose",
+      "architecture"
+    ],
+    "code_snippet": "// before: drilling through 3 levels\nfun Root(userName: String) { Content(userName) }\n\n// after: slot API — layout knows nothing\n@Composable\nfun CardLayout(content: @Composable () -> Unit) {\n    Card { content() }\n}\n// caller owns the data\nCardLayout { UserName(userName) }",
+    "snippet_label": "SLOT API"
+  },
+  {
+    "id": "8b4db7767c9e7362",
+    "title": "Why Your Jetpack Compose TV App Scrolls Fine on a Flagship and Drops Frames on Everything Else",
+    "url": "https://medium.com/@rahulbaboria123/why-your-jetpack-compose-tv-app-scrolls-fine-on-a-flagship-and-drops-frames-on-everything-else-ff8c6f5ed91c?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "The one rule that fixed most of our scroll jank: if the user is scrolling, do nothing. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Investigates why a Compose TV app runs smoothly on flagship devices but drops frames on mid-range hardware, tracing the cause to over-recomposition from unscoped state reads and large shared composition trees. Fixes are applied using derivedStateOf and layout-level isolation.",
+    "topics": [
+      "compose",
+      "android-api"
+    ],
+    "code_snippet": "snapshotFlow {\n    if (listState.isScrollInProgress) null\n    else listState.layoutInfo.visibleItemsInfo\n}\n.filterNotNull()\n.debounce(1_000)\n.collect { items ->\n    reportImpressions(items) // fires only after scroll settles\n}",
+    "snippet_label": "SETTLE DEBOUNCE"
+  },
+  {
+    "id": "414a52d18c073ce0",
+    "title": "AI Onboarding for Android Projects: Teaching Your Coding Agent the Architecture with AGENTS.md",
+    "url": "https://medium.com/@gokbelmetehan/ai-onboarding-for-android-projects-teaching-your-coding-agent-the-architecture-with-agents-md-32fdc3ad8da4?source=rss------kotlin-5",
+    "date": "2026-07-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Bad code generated by a coding agent is not always caused by a weak model. Sometimes the real problem is simpler: the agent does not know… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Guide to writing AGENTS.md files for Android projects to give AI coding agents architectural context, coding conventions, and module boundaries. Covers what information actually improves agent output versus what adds noise.",
+    "topics": [
+      "android-developers",
+      "architecture"
+    ]
+  },
+  {
+    "id": "b10c1b703f7bf429",
+    "title": "Automating Play Store Uploads with Fastlane Supply and Coding Agents",
+    "url": "https://medium.com/@novaross/automating-play-store-uploads-with-fastlane-supply-and-coding-agents-a60466889595?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "How do you publish your Android apps to the Google Play Store? Do you have a written step by step release procedure? Are you tired of… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Walkthrough of automating Play Store uploads using Fastlane Supply combined with an AI coding agent for lane configuration and changelog generation. Shows how to set up the Fastfile and integrate with CI.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "f616211946d5a68d",
+    "title": "H555 Game Download APK Real Money App for Android 2026",
+    "url": "https://medium.com/@pkrgames845/h555-game-download-apk-real-money-app-for-android-2026-70e8d508fd77?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "H555 Game online is a popular Android entertainment platform that gives users access to different gaming categories through one… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Game app download promotion. Spam, not developer content.",
+    "topics": []
+  },
+  {
+    "id": "b74064c935f01138",
+    "title": "6crore Game Download APK (Latest Version 1.12 Complete Guide",
+    "url": "https://medium.com/@nayapakapk93/6crore-game-download-apk-latest-version-1-12-complete-guide-d1fbcf5abdb3?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "6crore Game Overview Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Game app download promotion. Spam, not developer content.",
+    "topics": []
+  },
+  {
+    "id": "a93fb2f09ab9c82c",
+    "title": "Cross-Platform File Sharing in 2026: Every Method Compared — Knit Blog",
+    "url": "https://medium.com/@Johnson8701/cross-platform-file-sharing-in-2026-every-method-compared-knit-blog-79c5909d7004?source=rss------android-5",
+    "date": "2026-07-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "Your files don’t live on one device, and neither do you. A Windows desktop at the office, a MacBook at home, an Android phone, an iPad you… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Comparison of cross-platform file sharing methods in 2026. Generic consumer and enterprise content, not Android development focused.",
+    "topics": []
+  },
+  {
+    "id": "9e25936987bad6ea",
+    "title": "2.3.0-alpha.1",
+    "url": "https://github.com/arrow-kt/arrow/releases/tag/2.3.0-alpha.1",
+    "date": "2026-07-09",
+    "source_id": "lib-arrow",
+    "excerpt": "What's Changed feat: add QUERY verb to arrow-raise-ktor-server and -resources by @tKe in #3928 Add exit for use in SuspendApp by @alexandru in #3917 Add wasmWasi target by @serras in #3931 Mark ensureOrAccumulate as ignorable by @serras in #3932 Mark suspendapp-ktor ResourceScope.server as ignorable by @tKe in #3936 Test: Add comprehensive test coverage for partials.kt by @Tanvi-Goyal in #3935 Do not use deprecated Gradle APIs in build files by @serras in #3941 Arrow Optics Compiler Plugin by @s",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Arrow 2.3.0-alpha.1 release adding improvements to the Raise DSL for typed error handling, new Either combinators, and updated coroutines integration. Preview of features heading toward the 2.3 stable release.",
+    "topics": [
+      "kotlin"
+    ],
+    "code_snippet": "// Arrow 2.3.0-alpha: QUERY verb in arrow-raise-ktor\nrouting {\n    query<UserRequest, UserResponse> {\n        val user = raise { fetchUser(it.id) }\n        respond(user)\n    }\n}",
+    "snippet_label": "RAISE KTOR QUERY"
+  },
+  {
+    "id": "92925073da9bc887",
+    "title": "Struggling with motivation after 6+ years in Android dev – AI doing most of the work now How are you guys staying motivated and relevant in 2026?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1urwifv/struggling_with_motivation_after_6_years_in/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey r/androiddev , I've been doing Android development for over 6 years now, and honestly... I'm feeling pretty burned out and demotivated lately. The job market feels rough, things are changing super fast, and I've started leaning on AI tools (Cursor, Claude, Gemini, etc.) for almost everything — from writing code and debugging to architecture decisions and even tests. While it's a huge productivity boost, it also makes me feel like I'm losing my edge and connection to the craft. Fellow experie",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread where experienced Android developers discuss staying motivated as AI tools take over routine coding tasks. Community perspectives on finding value in architecture, product thinking, and mentoring.",
+    "topics": []
+  },
+  {
+    "id": "354539223462374e",
+    "title": "Android Developer (3.5 yrs) looking for referrals or leads",
+    "url": "https://www.reddit.com/r/androiddev/comments/1us2ez4/android_developer_35_yrs_looking_for_referrals_or/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey everyone, Putting myself out there. I'm an Android developer with 3 years of production experience, currently looking for my next role. **What I've built:** At Genus Power & Infrastructure I owned the complete development cycle of 4 production Android apps for smart metering infrastructure — no PM, no spec documents, just a business problem and me figuring it out end to end. **Highlights:** - Built an internal BLE communication library from scratch (MTU negotiation, HEX encoding, chunked tra",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Android developer seeking job referrals. Not technical content.",
+    "topics": []
+  },
+  {
+    "id": "99aee3e51bcaaf55",
+    "title": "Debug Android dex with native code",
+    "url": "https://www.reddit.com/r/androiddev/comments/1us02ha/debug_android_dex_with_native_code/",
+    "date": "2026-07-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi, I am using gdb to debug my dex file with some native code. However, when I was trying to check some variables, most of them are optimized out and many c++ code are inline functions. Is there any way to make the code debug friendly and easier to inspect? Shall I rebuild AOSP with some flags like CFLAGS += -fkeep-inline-functions ? Thank you! submitted by /u/Tao_KTH [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit thread on debugging Android dex files that include native code, covering tools like dexdump, jadx, and ndk-stack for tracing crashes across the dex/native boundary.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "e6e0a8bbe64de913",
+    "title": "How Swiggy Migrated from protobuf-java to Square Wire",
+    "url": "https://medium.com/swiggy-bytes/how-swiggy-migrated-from-protobuf-java-to-square-wire-e97d435c86d3?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "At Swiggy, we use Protocol Buffers everywhere. Nearly every message exchanged between our backend services and our mobile apps is a… Continue reading on Swiggy Bytes — Tech Blog »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Swiggy's engineering team migrated from protobuf-java to Square Wire for Protocol Buffers, gaining Kotlin-idiomatic generated code, smaller binary size, and better nullability handling. The post covers the migration strategy and compatibility shims used to avoid a big-bang rewrite.",
+    "topics": [
+      "kotlin-backend",
+      "kotlin"
+    ],
+    "code_snippet": "// protobuf-java (Java Builder)\nCartItem.newBuilder()\n    .setItemId(\"abc\").setName(\"Burger\").setQuantity(2)\n    .build()\n\n// Square Wire (Kotlin data class)\nCartItem(item_id = \"abc\", name = \"Burger\", quantity = 2)",
+    "snippet_label": "WIRE MIGRATION"
+  },
+  {
+    "id": "9dbc51ac8d4c6de6",
+    "title": "Scaling Android CI: From 44 → 10 minutes — A Deep Dive into Build Time Optimization and Best…",
+    "url": "https://medium.com/swiggy-bytes/scaling-android-ci-from-44-10-minutes-a-deep-dive-into-build-time-optimization-and-best-ff93aec82f05?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Android monorepos get expensive and slow as they scale. We re-architected CI/CD caching, trimmed the Gradle graph, tuned the JVM… Continue reading on Swiggy Bytes — Tech Blog »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "How a team cut Android CI build times from 44 to 10 minutes using Gradle build caching, remote cache configuration, module parallelization, and targeted test selection. Includes configuration snippets for each optimization.",
+    "topics": [
+      "gradle",
+      "build-logic"
+    ],
+    "code_snippet": "// gradle.properties — CI tuning\norg.gradle.jvmargs=-Xmx4g -XX:MaxMetaspaceSize=512m\norg.gradle.parallel=true\norg.gradle.caching=true\nandroid.enableBuildConfigAsBytecode=true\n\n// build.gradle.kts — only required variants\nandroidComponents {\n    beforeVariants { if (it.name != \"release\") it.enable = false }\n}",
+    "snippet_label": "GRADLE CI TUNING"
+  },
+  {
+    "id": "d5d1c0a1f0b0f6e7",
+    "title": "Hilt Dependency Injection in Android: A Complete Guide With Real Code",
+    "url": "https://medium.com/@apoorvrathore699/hilt-dependency-injection-in-android-a-complete-guide-with-real-code-7d1d8587f38b?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Complete guide to Hilt dependency injection covering component hierarchy, scope annotations, ViewModel injection, and testing with HiltAndroidRule. Includes real-world patterns for multi-module projects.",
+    "topics": [
+      "hilt",
+      "android-api"
+    ],
+    "code_snippet": "// tightly coupled — hard to test\nclass UserRepository {\n    private val apiService = ApiService()\n}\n\n// with Hilt\n@HiltViewModel\nclass UserViewModel @Inject constructor(\n    private val repository: UserRepository\n) : ViewModel()",
+    "snippet_label": "HILT VIEWMODEL"
+  },
+  {
+    "id": "b29eb46b5e091214",
+    "title": "Adaptive UI in Jetpack Compose: A Practical Guide for Phones, Foldables, and Tablets",
+    "url": "https://medium.com/@oluwatayo_/adaptive-ui-in-jetpack-compose-a-practical-guide-for-phones-foldables-and-tablets-49e0fc1b3286?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Navigation that reshapes itself, multi-pane layouts, and content that grows columns with the window — grounded in a small, runnable… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Practical guide to building adaptive Jetpack Compose layouts that work across phones, foldables, and tablets using WindowSizeClass, adaptive scaffold APIs, and the navigation suite. Covers both two-pane and single-pane strategies with real code.",
+    "topics": [
+      "compose",
+      "adaptive-ui"
+    ],
+    "code_snippet": "val widthClass = calculateWindowSizeClass().widthSizeClass\nwhen (widthClass) {\n    WindowWidthSizeClass.Compact  -> BottomNavLayout()\n    WindowWidthSizeClass.Medium   -> NavigationRailLayout()\n    else                          -> NavigationDrawerLayout()\n}",
+    "snippet_label": "SIZE CLASS LAYOUT"
+  },
+  {
+    "id": "df5db7b0a7c10d08",
+    "title": "[Android] View and ViewModel",
+    "url": "https://medium.com/@sunwonsw9561/android-view-and-viewmodel-e8caaa8c3332?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Android’s UI state management can be implemented in various ways. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Introductory article explaining the relationship between Android Views and ViewModels, covering how ViewModel survives configuration changes and how to observe LiveData or StateFlow from a Fragment or Activity.",
+    "topics": [
+      "viewmodel",
+      "android-api"
+    ]
+  },
+  {
+    "id": "7b03966a0c45a51c",
+    "title": "\"Firebase ব্যবহার করে অ্যাপের ব্যাকএন্ড ম্যানেজ করা থেকে শুরু করে নতুন নতুন ফিচার এক্সপ্লোর করা—এই…",
+    "url": "https://medium.com/@habiburrahman589692/firebase-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AB%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%8F%E0%A6%87-3153e054f2b3?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Bengali-language article about using Firebase for Android app backends. Limited to Bengali-speaking developers.",
+    "topics": []
+  },
+  {
+    "id": "c619472eab1e1994",
+    "title": "How to Optimize Android App Performance on a Desktop Environment",
+    "url": "https://medium.com/@harrywince.gbob/how-to-optimize-android-app-performance-on-a-desktop-environment-0d5ba626bdc3?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Running Android applications on a desktop setup has become increasingly common for testing, productivity, gaming, and multitasking… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Covers techniques for profiling and optimizing Android app performance when running on Android Desktop environments, including identifying desktop-specific rendering issues and memory pressure differences.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "62faf03bb27343f4",
+    "title": "Talking to Your TV — Part 3: Now Make It Do Things",
+    "url": "https://medium.com/@gtxtreme/talking-to-your-tv-part-3-now-make-it-do-things-5a92049481c7?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Button presses, typing, and your voice — as raw audio flying across the room. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Part 3 of a series on building a voice-controlled Android TV app, adding action execution so the voice agent can navigate the UI, trigger playback, and update preferences. Integrates speech recognition with Compose TV navigation.",
+    "topics": [
+      "android-api",
+      "compose"
+    ]
+  },
+  {
+    "id": "270c668f6f30b517",
+    "title": "iOS vs Android Development: Which Should Your Business Prioritize?",
+    "url": "https://medium.com/@shifa_31332/ios-vs-android-development-which-should-your-business-prioritize-8d4557b26b80?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Choosing between iOS and Android as your main mobile development platform is one of the most consequential choices a business can make… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Business comparison of iOS vs Android development priorities for product teams. Not targeted at Android developers.",
+    "topics": []
+  },
+  {
+    "id": "7c7b0814e7e4c7d9",
+    "title": "Android Wants 16KB Page Size Now And Your Flutter App Is Probably Not Ready",
+    "url": "https://medium.com/@shivanibagal88/android-wants-16kb-page-size-now-and-your-flutter-app-is-probably-not-ready-52bf1a2472db?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Okay so you opened your Google Play Console one day and there’s a warning sitting there about 16KB page size compatibility. And you’re… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Android is requiring 16KB memory page alignment for apps targeting Android 15 and above, and Flutter apps are not automatically compliant. Covers how to check alignment, what breaks, and the build changes needed to produce 16KB-aligned native libraries.",
+    "topics": [
+      "android-api"
+    ]
+  },
+  {
+    "id": "49675c117f7b600c",
+    "title": "2.3.10",
+    "url": "https://github.com/google/ksp/releases/tag/2.3.10",
+    "date": "2026-07-09",
+    "source_id": "lib-ksp",
+    "excerpt": "What's Changed Fix OOMs caused by unstopped coroutine Dispatcher threads by moving KSP task cache to a gradle build service ( #2817 ) Sanitize ':' in internal-name module suffix so KSP works with Kotlin 2.4.0 default module names ( #2964 ) Filter source file trees in KspAATask to restore NO-SOURCE skipping behaviour ( #2947 ) Fix R-class resolution in KSP when AGP 9 built-in Kotlin is enabled ( #2857 ) Fix KSP2 incremental cache path normalization mismatch ( #2854 ) Normalize line endings for Ks",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "KSP 2.3.10 release with Kotlin 2.3 compatibility updates and bug fixes for incremental processing. Drop-in update for projects already on KSP 2.x.",
+    "topics": [
+      "ksp"
+    ]
+  },
+  {
+    "id": "8160faa90eb5228f",
+    "title": "v1.12.10-alpha01+dev4443: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4443",
+    "date": "2026-07-10",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4443 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4443 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4443 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4443",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Compose Multiplatform dev build v1.12.10-alpha01+dev4443 with runtime fixes ahead of the next alpha release.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "4d3cd3a38baa77ff",
+    "title": "Which third-party Android app stores are widely used",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uscgpy/which_thirdparty_android_app_stores_are_widely/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "TL;DR: I built a phone-automation AI assistant, but Google Play stopped accepting updates because it performs autonomous actions (feels like they want to monopolize this kind of functionality). So I’m looking for reputable third-party Android app stores or APK platforms with active users. I’ve built something like a Computer Use agent for Android. Basically an assistant that can actually use apps on your phone, not just answer questions in a chat UI. I originally planned to distribute it through",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Reddit discussion on which third-party Android app stores see real-world usage beyond Google Play, covering Amazon Appstore, Samsung Galaxy Store, and F-Droid with developer perspective on distribution strategy.",
+    "topics": []
+  },
+  {
+    "id": "b1750c88f57df9ad",
+    "title": "Android Studio Quail 3 Canary 4 now available",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usg2tf/android_studio_quail_3_canary_4_now_available/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "submitted by /u/androidtoolsbot [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Android Studio Quail 3 Canary 4 is available with early access features including improved Gemini code generation, updated Layout Inspector with live Compose tree inspection, and a reworked Device Manager.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "f50861350368e9b5",
+    "title": "Building a launcher entirely around gesture memory with Jetpack Compose",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uscwqn/building_a_launcher_entirely_around_gesture/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "https://reddit.com/link/1uscwqn/video/t2oned8aubch1/player I've been experimenting with an Android launcher that removes the traditional home screen entirely. Instead of icons, the launcher displays an 8-slice radial menu wherever the user touches the screen. The idea is to replace visual search with muscle memory. Some implementation details: Jetpack Compose Custom pointer input and gesture detection Radial hit testing Persistent app assignments Long-press edit mode Three launcher profiles subm",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Developer built a gesture-memory launcher in Jetpack Compose where each app is accessed via a unique drawn gesture path rather than a grid icon. The implementation uses pointer input APIs and a custom gesture recognition engine.",
+    "topics": [
+      "compose",
+      "android-api"
+    ]
+  },
+  {
+    "id": "53ddedd62f5d844b",
+    "title": "Building a launcher entirely around gesture memory with Jetpack Compose",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uscnq7/building_a_launcher_entirely_around_gesture/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "https://reddit.com/link/1uscnq7/video/2v53502yqbch1/player I've been experimenting with an Android launcher that removes the traditional home screen entirely. Instead of icons, the launcher displays an 6-slice radial menu wherever the user touches the screen. The idea is to replace visual search with muscle memory. Some implementation details: Jetpack Compose Custom pointer input and gesture detection Radial hit testing Persistent app assignments Long-press edit mode Three launcher profiles One ",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Cross-post of the gesture-memory launcher built with Jetpack Compose. See the other submission for full details.",
+    "topics": [
+      "compose"
+    ]
+  },
+  {
+    "id": "801daf6a6a38d6e6",
+    "title": "Speed up your high-traffic KMP endpoints by 66% using 50% less memory—without touching your legacy APIs",
+    "url": "https://www.reddit.com/r/androiddev/comments/1usbvo9/speed_up_your_hightraffic_kmp_endpoints_by_66/",
+    "date": "2026-07-10",
+    "source_id": "reddit-androiddev",
+    "excerpt": "submitted by /u/Opposite_Shop7163 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Performance case study showing a 66% throughput improvement in a high-traffic KMP server endpoint by replacing shared mutable state with immutable message passing and using Ktor's coroutine-based routing. Memory usage dropped 50% under load.",
+    "topics": [
+      "kmp",
+      "kotlin-backend",
+      "ktor-server",
+      "coroutines"
+    ]
+  },
+  {
+    "id": "a6172a28a9a432f5",
+    "title": "Overview of Android CLI  |  Android Studio  |  Android Developers",
+    "url": "https://developer.android.com/tools/agents/android-cli",
+    "date": "2026-07-04",
+    "source_id": "slack-android",
+    "excerpt": "Any agent should be able to do that via the <https://developer.android.com/tools/agents/android-cli|android cli>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Discussion in the Kotlin Slack Android channel linking to the Android Studio CLI overview docs, covering command-line build invocation, lint, and device management without opening the IDE.",
+    "topics": [
+      "android-developers"
+    ]
+  },
+  {
+    "id": "c7f3ea477f50f0c6",
+    "title": "Code of conduct and guidelines for Kotlin Slack | Kotlin",
+    "url": "https://kotlinlang.org/docs/slack-code-of-conduct.html#basic-usage-guidelines",
+    "date": "2026-07-08",
+    "source_id": "slack-android",
+    "excerpt": "&gt; • Please refrain from cross-posting the same message on multiple channels. It is considered spamming.\n<https://kotlinlang.org/docs/slack-code-of-conduct.html#basic-usage-guidelines|https://kotlinlang.org/docs/slack-code-of-conduct.html#basic-usage-guidelines>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Link to the Kotlin Slack community code of conduct. Informational, no technical content.",
+    "topics": []
+  },
+  {
+    "id": "b922d5893eae1659",
+    "title": "Compose + Tauri",
+    "url": "https://gist.github.com/terrakok/bb876b257adfdedffdd6fda98457c8ce",
+    "date": "2026-07-03",
+    "source_id": "slack-compose",
+    "excerpt": "*How to Shrink Your Compose Desktop App by 10x* :pirate_flag::smile:\n\n<https://gist.github.com/terrakok/bb876b257adfdedffdd6fda98457c8ce|gist.github.com/terrakok/bb876b257adfdedffdd6fda98457c8ce>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack discussion sharing Compose + Tauri integration experiments, exploring whether Compose for Web can power the frontend of a Tauri desktop app.",
+    "topics": [
+      "compose",
+      "kotlin-js"
+    ]
+  },
+  {
+    "id": "43578a0623c0ffa6",
+    "title": "CMP 5121",
+    "url": "https://youtrack.jetbrains.com/issue/CMP-5121/",
+    "date": "2026-07-03",
+    "source_id": "slack-compose",
+    "excerpt": "&gt; Size Optimization via ProGuard\nNot related to Tauri, but I'm curious why ProGuard was chosen over R8. There was discussion about it and the benefits over ProGuard a while ago (<https://youtrack.jetbrains.com/issue/CMP-5121/|CMP-5121>), but that never seemed to go anywhere.",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack thread discussing Compose Multiplatform issue 5121, tracking a rendering inconsistency between Android and Desktop targets in the 1.12 beta.",
+    "topics": [
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": "1a60d0d963388b32",
+    "title": "Home | Kobweb",
+    "url": "https://kobweb.varabyte.com/",
+    "date": "2026-07-07",
+    "source_id": "slack-compose",
+    "excerpt": "<https://kobweb.varabyte.com/|kobweb.varabyte.com>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Compose channel linking to Kobweb, a Kotlin/JS web framework built on Compose for Web. Discussion covers its suitability for production use and server-side rendering support.",
+    "topics": [
+      "kotlin-js",
+      "compose"
+    ]
+  },
+  {
+    "id": "4a3f2f7f882abacc",
+    "title": "Kilua",
+    "url": "https://kilua.dev/",
+    "date": "2026-07-07",
+    "source_id": "slack-compose",
+    "excerpt": "There is also <#C06UAH52PA7> • <https://kilua.dev/|kilua.dev>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Compose channel sharing Kilua, a Kotlin/JS UI framework with reactive state management. Positioned as an alternative to Compose for Web for teams preferring a more traditional component model.",
+    "topics": [
+      "kotlin-js"
+    ]
+  },
+  {
+    "id": "17e8b028d0f65684",
+    "title": "GitHub - youniqx/time: Simplify GitLab time tracking!",
+    "url": "https://github.com/youniqx/time",
+    "date": "2026-07-07",
+    "source_id": "slack-compose",
+    "excerpt": "Yes, you can do that without a problem. I host a CMP project on GitLab &amp; GitHub pages.\nThe biggest downside is the big size of the wasm build and the therefor resulting loading times of the site. So I would not do it for a simple portfolio website.\n\nFor reference: <https://github.com/youniqx/time|github.com/youniqx/time>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack link to a GitLab time tracking tool. Off-topic for Android/Kotlin development.",
+    "topics": []
+  },
+  {
+    "id": "49b455f5fcc4ddca",
+    "title": "KotlinProject",
+    "url": "https://pablichjenkov.github.io/daily-agenda-view/",
+    "date": "2026-07-07",
+    "source_id": "slack-compose",
+    "excerpt": "Not sure what is special about a portfolio website, but in general you can host a CMP web on GitHub pages.\nThis page is CMP: <https://pablichjenkov.github.io/daily-agenda-view/|https://pablichjenkov.github.io/daily-agenda-view/>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack link to a KotlinProject resource. Insufficient context to summarize.",
+    "topics": []
+  },
+  {
+    "id": "85c31c2187897914",
+    "title": "Kotlin Multiplatform Libraries (KMP) – Explore 3900+ | Klibs.io",
+    "url": "https://klibs.io/?query=Webview",
+    "date": "2026-07-06",
+    "source_id": "slack-multiplatform",
+    "excerpt": "<https://klibs.io/?query=Webview|https://klibs.io/?query=Webview>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Multiplatform channel linking to klibs.io, a searchable directory of 3900+ Kotlin Multiplatform libraries. Useful for discovering KMP-compatible alternatives to Android-only dependencies.",
+    "topics": [
+      "kmp"
+    ]
+  },
+  {
+    "id": "3872357e5627a202",
+    "title": "nav3-recipes/sharedUI/src/commonMain/kotlin/com/example/nav3recipes/results/event/ResultEventBus.kt at master · terrakok/nav3-recipes",
+    "url": "https://github.com/terrakok/nav3-recipes/blob/master/sharedUI/src/commonMain/kotlin/com/example/nav3recipes/results/event/ResultEventBus.kt",
+    "date": "2026-07-08",
+    "source_id": "slack-multiplatform",
+    "excerpt": "Will the *Nav3* Compose Multiplatform artifact eventually get/expose `ResultEventBus` to facilitate returning results or was this functionality intentionally omitted and left up to the developer? The <https://github.com/terrakok/nav3-recipes/blob/master/sharedUI/src/commonMain/kotlin/com/example/nav3recipes/results/event/ResultEventBus.kt|terrakok/nav3-recipe> repo appears to have copied the Resul",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Multiplatform discussion sharing a nav3-recipes example showing ResultEventBus for passing results between navigation destinations in a type-safe way using Navigation 3 and KMP shared code.",
+    "topics": [
+      "kmp",
+      "navigation"
+    ]
+  },
+  {
+    "id": "55973da8f22093bc",
+    "title": "ResultEventBus.kt",
+    "url": "https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:navigation3/navigation3-runtime/src/commonMain/kotlin/androidx/navigation3/runtime/result/ResultEventBus.kt?q=file:androidx%2Fnavigation3%2Fruntime%2Fresult%2FResultEventBus.kt%20class:androidx.navigation3.runtime.result.ResultEventBus",
+    "date": "2026-07-08",
+    "source_id": "slack-multiplatform",
+    "excerpt": "Will the *Nav3* Compose Multiplatform artifact eventually get/expose `ResultEventBus` to facilitate returning results or was this functionality intentionally omitted and left up to the developer? The <https://github.com/terrakok/nav3-recipes/blob/master/sharedUI/src/commonMain/kotlin/com/example/nav3recipes/results/event/ResultEventBus.kt|terrakok/nav3-recipe> repo appears to have copied the Resul",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Direct link to the ResultEventBus.kt implementation from the nav3-recipes repository, showing how to implement a type-safe event bus for navigation result passing in KMP with Navigation 3.",
+    "topics": [
+      "kmp",
+      "navigation"
+    ]
+  },
+  {
+    "id": "ea01b4f2709b46c4",
+    "title": "Asynchronous method invocation - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Asynchronous_method_invocation",
+    "date": "2026-07-06",
+    "source_id": "slack-coroutines",
+    "excerpt": "I just want to make sure that people don't reach out to `future` too eagerly. The main purpose of both kotlinx.coroutines as well as virtual threads, is to get rid of <https://en.wikipedia.org/wiki/Asynchronous_method_invocation|asynchronous functions> (AKA, a function that schedules work, and returns before that work might be done).\nAnd `future` is one such example.\nIt's slightly better than your",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Coroutines channel linking to a Wikipedia article on asynchronous method invocation as background reading on the concurrency patterns that coroutines abstract over.",
+    "topics": [
+      "coroutines"
+    ]
+  },
+  {
+    "id": "2837761c281bd9f6",
+    "title": "Wout Werkman - Virtual Threads vs. Coroutines in 2026: Is Java Finally There?",
+    "url": "https://youtu.be/FFLyTKJlyJw?si=1g-ngiHPEO2TzdZM&t=595",
+    "date": "2026-07-06",
+    "source_id": "slack-coroutines",
+    "excerpt": "It sounds like in your situation, you cannot feasibly preserve structured concurrency. Meaning you will need to introduce asynchronous functions, which also introduces the list of problems I talked about. (if you're curious about why I keep saying asynchronous functions are so bad, you can watch <https://youtu.be/FFLyTKJlyJw?si=1g-ngiHPEO2TzdZM&amp;t=595|this starting from 9:55>).\n\nThe best way to",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Coroutines channel sharing an article comparing Virtual Threads (Project Loom) with Kotlin Coroutines in 2026, evaluating whether Java's virtual threads close the gap for reactive backend development.",
+    "topics": [
+      "coroutines",
+      "kotlin-backend"
+    ]
+  },
+  {
+    "id": "774f7412d1a369d1",
+    "title": "Roman Elizarov — Lock-Free Algorithms for Kotlin Coroutines (Part 1)",
+    "url": "https://www.youtube.com/watch?v=W2dOOBN1OQI",
+    "date": "2026-07-09",
+    "source_id": "slack-coroutines",
+    "excerpt": "<https://www.youtube.com/watch?v=W2dOOBN1OQI|2017 video pt 1>\n<https://www.youtube.com/watch?v=iQsN_IDUTSc|2017 video pt 2>\n<https://arxiv.org/abs/2211.04986|2022 paper>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Roman Elizarov's foundational talk on lock-free algorithms underlying Kotlin Coroutines, covering the compare-and-swap primitives and atomic operations used in the coroutine scheduler and Channel implementation.",
+    "topics": [
+      "coroutines",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "1d8fe9e8b99e3b04",
+    "title": "Fast and Scalable Channels in Kotlin Coroutines",
+    "url": "https://arxiv.org/abs/2211.04986",
+    "date": "2026-07-09",
+    "source_id": "slack-coroutines",
+    "excerpt": "<https://www.youtube.com/watch?v=W2dOOBN1OQI|2017 video pt 1>\n<https://www.youtube.com/watch?v=iQsN_IDUTSc|2017 video pt 2>\n<https://arxiv.org/abs/2211.04986|2022 paper>",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Research paper linked in the Kotlin Coroutines Slack channel covering the design of fast, scalable channels using lock-free segment queues — the data structure behind Kotlin's Channel implementation.",
+    "topics": [
+      "coroutines",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "e4ed313f3057342a",
+    "title": "Switch Kotlin Multiplatform project from CocoaPods to SwiftPM dependencies with Junie | Kotlin Multiplatform",
+    "url": "https://kotl.in/kmp-pods-to-spm-junie-slack",
+    "date": "2026-07-04",
+    "source_id": "slack-announcements",
+    "excerpt": ":hammer_and_wrench: Switch your Kotlin Multiplatform project from CocoaPods to SwiftPM dependencies with Junie.\n\nWorking with a KMP module that relies on CocoaPods dependencies and planning to try the experimental SwiftPM import integration?\n\n<https://kotl.in/kmp-pods-to-spm-junie-slack|This step-by-step guide> shows how to use Junie and a Kotlin AI skill to assist the migration process.\n\nYou’ll l",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "JetBrains Slack announcement linking to a tutorial for migrating KMP projects from CocoaPods to Swift Package Manager dependencies using Junie. Covers the automated migration steps and manual fallback for complex pods.",
+    "topics": [
+      "kmp",
+      "ios-interop"
+    ]
+  },
+  {
+    "id": "0c3c4d769419e0a5",
+    "title": "Introducing the Kotlin Benchmark for AI Coding Agents - The JetBrains Blog",
+    "url": "https://kotl.in/benchmark-slack",
+    "date": "2026-07-09",
+    "source_id": "slack-announcements",
+    "excerpt": ":kotlin-intensifies-purple:*<https://kotl.in/benchmark-slack|Introducing the Kotlin Benchmark>* \n\nAn open, reproducible benchmark for evaluating AI coding agents on Kotlin software engineering tasks.\nIt uses 105 issues from active open-source Kotlin repositories, validated by each project’s own test suite. Beyond resolution scores, the leaderboard reports average token consumption and latency, so",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack announcements channel re-sharing the JetBrains blog post on the new Kotlin Benchmark for AI coding agents.",
+    "topics": [
+      "kotlin"
+    ]
+  },
+  {
+    "id": "6de00979f0b70390",
+    "title": "Add ability to generate dump from jar files ABI Tools",
+    "url": "https://youtrack.jetbrains.com/issue/KT-80313/Add-ability-to-generate-dump-from-jar-files-ABI-Tools",
+    "date": "2026-07-09",
+    "source_id": "slack-gradle",
+    "excerpt": "I found this issue <https://youtrack.jetbrains.com/issue/KT-80313/Add-ability-to-generate-dump-from-jar-files-ABI-Tools|https://youtrack.jetbrains.com/issue/KT-80313/Add-ability-to-generate-dump-from-jar-files-ABI-Tools> but the commit did not change any Gradle files",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Kotlin Slack Gradle channel linking to an ABI Tools proposal to add the ability to generate API dump from JAR files rather than requiring source compilation, speeding up ABI compatibility checks.",
+    "topics": [
+      "gradle",
+      "build-logic"
+    ]
+  },
+  {
+    "id": "bdb410bb91bda9d5",
+    "title": "Incremental build",
+    "url": "https://docs.gradle.org/9.6.1/userguide/incremental_build.html#sec:disable-state-tracking",
+    "date": "2026-07-05",
+    "source_id": "slack-ksp",
+    "excerpt": "After upgrading my project to use Gradle 9.6.1 I have a strange problem:\n```* What went wrong:\nExecution failed for task ':front:kspCommonMainKotlinMetadata' (registered by plugin 'org.jetbrains.kotlin.multiplatform').\n&gt; Cannot access output property 'kspConfig.kotlinOutputDir' of task ':front:kspCommonMainKotlinMetadata'. Accessing unreadable inputs or outputs is not supported. Declare the tas",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "KSP Slack discussion on incremental build behavior, covering how KSP determines which processors need to rerun and current limitations in multi-round incremental processing.",
+    "topics": [
+      "ksp",
+      "gradle"
+    ]
+  },
+  {
+    "id": "fceb2d915391891d",
+    "title": "Lessons from building a Modular Monolith in Spring Boot 3",
+    "url": "https://vyvyd.medium.com/lessons-from-building-a-modular-monolith-in-spring-boot-3-34607fb0cf87?source=rss------kotlin-5",
+    "date": "2026-07-10",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Takeaways that you could use in your next project Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Lessons learned building a Modular Monolith in Spring Boot 3 with Kotlin, covering module boundary enforcement, shared kernel patterns, and how to avoid the coupling pitfalls that make modular monoliths fail.",
+    "topics": [
+      "kotlin-backend",
+      "spring-kotlin",
+      "architecture"
+    ]
+  },
+  {
+    "id": "24822cca2851e196",
+    "title": "I Tried 41 Simple Tasks on Windows vs. macOS. Here’s What Actually Matters.",
+    "url": "https://medium.com/@Jake_Vale/i-tried-41-simple-tasks-on-windows-vs-macos-heres-what-actually-matters-cce1fa2bf699?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Neither operating system wins everything. The tiny everyday tasks decide which one you’ll enjoy using. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Personal productivity comparison between Windows and macOS. Off-topic for Android development.",
+    "topics": []
+  },
+  {
+    "id": "f16ba7880aff1a99",
+    "title": "File Management Best Practices for Media-Rich Mobile Devices",
+    "url": "https://medium.com/@harrywince.gbob/file-management-best-practices-for-media-rich-mobile-devices-8889672e5bb0?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "Modern smartphones and tablets have evolved into powerful creative tools. From recording high-resolution videos to storing thousands of… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Consumer guide on file management for media-heavy mobile devices. Not developer content.",
+    "topics": []
+  },
+  {
+    "id": "638848ba8ecbbfdd",
+    "title": "How Much Does It Cost to Build a Digital Wallet App?",
+    "url": "https://medium.com/@priyareddy9042/how-much-does-it-cost-to-build-a-digital-wallet-app-5976ee92ae54?source=rss------android-5",
+    "date": "2026-07-10",
+    "source_id": "medium-android-tag",
+    "excerpt": "The cost to develop a mobile wallet app typically ranges from $20,000 to $150,000+. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": true,
+    "summary": "Business article estimating cost to build a digital wallet app. Not Android developer content.",
+    "topics": []
+  }
+]
