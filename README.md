@@ -1,7 +1,7 @@
 # Kotlin Digest
 
 **Weekly information compiled for Android and Kotlin engineers.**  
-Assembled by the community. Powered by raw signal.
+Assembled by the community.
 
 ---
 
