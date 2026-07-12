@@ -1,13 +1,13 @@
 # Kotlin Digest
 
-**Weekly intelligence for Android and Kotlin engineers.**  
+**Weekly information compiled for Android and Kotlin engineers.**  
 Assembled by the community. Powered by raw signal.
 
 ---
 
 ## What this is
 
-Kotlin Digest scouts the Kotlin and Android ecosystem — official blogs, library releases, conference talks, individual developer writing — and assembles it into a weekly, chapter-structured edition hosted on GitHub Pages.
+Kotlin Digest scouts the Kotlin and Android official blogs, library releases, conference talks, individual developer writing — and assembles it into a weekly, chapter-structured edition hosted on GitHub Pages.
 
 Chapters are ordered by a living **Topic Bible**: a scored, decaying keyword graph that reflects what the community is actually talking about right now. Topics trending hard this week appear first. Topics fading appear later, or disappear until the discussion picks back up.
 
@@ -17,19 +17,17 @@ This project is entirely open source. The pipeline that generates it, the source
 
 ---
 
-## Editorial philosophy
+#Read it before contributing a source:
 
-This is the most important part of this document. Read it before contributing a source.
+## Editorial philosophy
 
 **We draw from primary sources only.**
 
 A primary source is someone writing their own thoughts: a developer publishing a post-mortem, a library author announcing a release, a conference speaker sharing what they learned, an engineer documenting a pattern they discovered in production. These are people forming opinions and sharing them — raw signal from inside the ecosystem.
 
-We do not ingest newsletters, link roundups, or digest publications — including well-regarded ones. This is a deliberate architectural decision, not a slight against the people who produce them.
+We do not ingest newsletters, link roundups, or digest publications — including well-regarded ones. This is a deliberate architectural decision.
 
 Here is why it matters technically: our Topic Bible derives its scores from the content we ingest. If we ingest a newsletter that has already curated this week's Kotlin news, the Bible scores what the newsletter editor decided was important — not what the community actually wrote about. We end up measuring a filter, not the thing being filtered. One newsletter mentioning a topic once carries the same weight as twenty engineers independently writing about it. The signal degrades. The magazine becomes a reflection of other magazines.
-
-We also do not feed from competitor digest publishers for the same reason: we would end up showing the same thing they show, ordered the same way, because we derived our sense of importance from theirs. The whole point of building our own scoring system is to see the ecosystem on its own terms.
 
 **What we look for in a source:**
 
