@@ -2985,5 +2985,155 @@
     "excerpt": "&#x200B; The idea is a \\*\\*collaborative download app\\*\\* for Android where a group of nearby users can combine their mobile data to download large files faster. For example, imagine \\*\\*4 friends\\*\\* meet at a café to play a game, but a \\*\\*4 GB update\\*\\* is required before they can start. Instead of each person downloading the full 4 GB, the app splits the file into four 1 GB chunks. Each phone downloads a different chunk using its own mobile data connection, then the phones exchange those ch",
     "date_uncertain": false,
     "summarized": false
+  },
+  {
+    "id": "db86ad5377a3ad05",
+    "title": "SharedFlow in Kotlin — A Simple Guide for Android Developers",
+    "url": "https://medium.com/@nikhilkhant/sharedflow-in-kotlin-a-simple-guide-for-android-developers-43cd4bc4afba?source=rss------kotlin-5",
+    "date": "2026-07-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Learn what SharedFlow is, when to use it, and how it is different from StateFlow and LiveData with simple examples. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8fa47c9d2f3cd9f1",
+    "title": "The Android interview question that has no right answer",
+    "url": "https://medium.com/@mike.salari.dev/the-android-interview-question-that-has-no-right-answer-a1ac3486fc68?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "A senior Android candidate sat across from me and answered every question correctly. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "821faf5db6ae340c",
+    "title": "Column-Level Encryption / Decryption with Oracle `DBMS_CRYPTO` in Spring Boot",
+    "url": "https://medium.com/@anil.senocak/column-level-encryption-decryption-with-oracle-dbms-crypto-in-spring-boot-84cf47a2c8fa?source=rss------kotlin-5",
+    "date": "2026-07-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "The problem Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ed95f9df1fafbbe3",
+    "title": "PAK5D Game APK(V1.10) Download in Pakistan Complete Guide",
+    "url": "https://medium.com/@nayapakapk93/pak5d-game-apk-v1-10-download-in-pakistan-complete-guide-99605e186475?source=rss------android-5",
+    "date": "2026-07-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "PAK5D Game is a modern entertainment platform designed for Pakistani users who enjoy mobile and desktop gaming experiences. It offers… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6ffb3763da69e071",
+    "title": "The Complete Guide to Android CLI: A Faster Way to Build, Debug, and Automate Android Apps",
+    "url": "https://proandroiddev.com/the-complete-guide-to-android-cli-a-faster-way-to-build-debug-and-automate-android-apps-d23b8311b41a?source=rss------android-5",
+    "date": "2026-07-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Android development has traditionally revolved around Android Studio. Continue reading on ProAndroidDev »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "468eb5d34a82f38f",
+    "title": "حل مشاكل محاكي PPSSPP على أندرويد 13 و 14 و 15",
+    "url": "https://fadyali.medium.com/%D8%AD%D9%84-%D9%85%D8%B4%D8%A7%D9%83%D9%84-%D9%85%D8%AD%D8%A7%D9%83%D9%8A-ppsspp-%D8%B9%D9%84%D9%89-%D8%A3%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-13-%D9%88-14-%D9%88-15-6ccf6cd727d3?source=rss------android-5",
+    "date": "2026-07-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "يعتبر محاكي PPSSPP طفرة تقنية حقيقية لعشاق الألعاب؛ حيث يمنحك القدرة Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "01c4db12e93692b3",
+    "title": "أفضل محاكي للأجهزة الضعيفة 1 جيجا رام وتشغيل فري فاير",
+    "url": "https://fadyali.medium.com/%D8%A3%D9%81%D8%B6%D9%84-%D9%85%D8%AD%D8%A7%D9%83%D9%8A-%D9%84%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9-%D8%A7%D9%84%D8%B6%D8%B9%D9%8A%D9%81%D8%A9-1-%D8%AC%D9%8A%D8%AC%D8%A7-%D8%B1%D8%A7%D9%85-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%81%D8%B1%D9%8A-%D9%81%D8%A7%D9%8A%D8%B1-0f2b8542821e?source=rss------android-5",
+    "date": "2026-07-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "يواجه ملايين اللاعبين حول العالم تحدياً كبيراً عند محاولة تشغيل الألعاب Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7ce820bcf976cc9f",
+    "title": "Wireshark Alternative Android",
+    "url": "https://ebrasha.medium.com/wireshark-alternative-android-441e45f06d1b?source=rss------android-5",
+    "date": "2026-07-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "How Abdal PacketView brings local, app-aware packet capture to Android without trying to replace everything Wireshark does on the desktop. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "c6b0293466b796dc",
+    "title": "Title Portable Foldable Phone Stand – Adjustable Desk Holder | Only $12.99",
+    "url": "https://medium.com/@shahidakbar2223/title-portable-foldable-phone-stand-adjustable-desk-holder-only-12-99-eedbab659706?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "78281a38cf8992e8",
+    "title": "Building a Practical Kotlin Multiplatform Platform Kit: Lessons from My BlrKotlin x InMobi Talk",
+    "url": "https://medium.com/@vikasacsoni9211/building-a-practical-kotlin-multiplatform-platform-kit-lessons-from-my-blrkotlin-x-inmobi-talk-3b79ac404875?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Last weekend, I had the opportunity to speak at the BlrKotlin x InMobi Android Meetup in Bengaluru, where I shared something I’ve been… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9b317edac89f008a",
+    "title": "Dear Google, I Loved My Pixel 7… Until It Became a Safety Hazard.",
+    "url": "https://medium.com/@tharunsabari8/dear-google-i-loved-my-pixel-7-until-it-became-a-safety-hazard-993fea61ad7c?source=rss------android-5",
+    "date": "2026-07-11",
+    "source_id": "medium-android-tag",
+    "excerpt": "Three swollen batteries. Nearly ₹15,000 spent. Two years of ownership. One flagship phone that slowly turned from my favorite Android… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "793570e75bbf4b59",
+    "title": "Do you care about obfuscating your Android apps?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1utunwu/do_you_care_about_obfuscating_your_android_apps/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "For those building or maintaining Android apps: do you do anything to make reverse engineering harder, or do you just stick with what R8/ProGuard provides? I’m curious about how people handle this today: do you use any tool or service? build something in-house? rely only on R8/ProGuard? or just don’t think it’s worth the effort? And overall, are you happy with your current approach? submitted by /u/Relevant-Republic-17 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9350efc0f53d0843",
+    "title": "Which languages would you prioritize after English for an Android app?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uu96dj/which_languages_would_you_prioritize_after/",
+    "date": "2026-07-12",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm adding multilingual support to my new Android app and would like to get some input from other Android developers. The app is a privacy-focused utility , so the target audience isn't necessarily the same as a typical social or entertainment app. If you were localizing your app, which languages would you add, and how would you prioritize the first 5–10 languages after English? Here's the list I'm currently considering: Spanish Portuguese German French Arabic Hindi Indonesian Japanese Italian T",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "601b7bd9e2b109d7",
+    "title": "Porting an iOS app to Android",
+    "url": "https://www.reddit.com/r/androiddev/comments/1utsa5t/porting_an_ios_app_to_android/",
+    "date": "2026-07-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi ! Last week I just released my first app on iOS after a couple of years of hard work (no vibe coding) since I started learning dev during Covid when I couldn't perform gigs anymore, and started working on different apps, but decided to focus on one 2 years ago and here we are. Anyway, as I don't think I can invest the time to learn Android dev as I'm a full time musican/composer/producer and learning iOS dev was already something time-consuming, I'm trying to see what are the best options for",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f9a5e27f3ff19a1d",
+    "title": "Is this effect possible on android?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1uu0bjt/is_this_effect_possible_on_android/",
+    "date": "2026-07-12",
+    "source_id": "reddit-androiddev",
+    "excerpt": "submitted by /u/meowterspace [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
