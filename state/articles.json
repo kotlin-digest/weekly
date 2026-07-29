@@ -7715,5 +7715,355 @@
     "excerpt": "Over the past few weeks I have started porting functions of my home personal web server to have Android apps extend functionality, and have gone as far as developing apps to do various things I used paid apps and/or other apps for in the past. Examples include: asAndroid.apk - an app that connects via VPN to my home web server, sends push notices (since GMail email notices do not work / never ding/pop-up) - door alarms, weather alerts (replaces Storm Shield) - Police scanner geofenced TTS alerts",
     "date_uncertain": false,
     "summarized": false
+  },
+  {
+    "id": "0dd80518394d809a",
+    "title": "Celebrating 5 years of Jetpack Compose",
+    "url": "https://android-developers.googleblog.com/2026/07/five-years-of-jetpack-compose.html",
+    "date": "2026-07-28",
+    "source_id": "android-developers-blog",
+    "excerpt": "Posted by Rebecca Franks, Developer Relations Engineer, Nick Butcher, Product Manager, Loryn Hairston, Product Marketing Manager, Android Today, we officially celebrate five years since the release of Jetpack Compose 1.0. From version 1.0, announced on July 28th, 2021 , to our latest 1.11 release , we’ve seen the APIs evolve significantly over the years, and we’re taking a moment to celebrate. When we officially announced the 1.0 release, we promised a simpler, faster, and more intuitive way to ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7ef15164f25002e7",
+    "title": "The State of CI/CD 2026 Survey Is Now Open",
+    "url": "https://blog.jetbrains.com/teamcity/2026/07/take-cicd-survey/",
+    "date": "2026-07-28",
+    "source_id": "jetbrains-blog",
+    "excerpt": "CI/CD is changing rapidly. Or is it?.. AI-assisted development is increasing the volume of code being written, software systems are becoming more distributed, and engineering teams are continuously rethinking how they build, test, and ship applications. At the same time, organizations are modernizing their CI/CD platforms, adopting new workflows, and experimenting with AI in their […]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "5999526e38910235",
+    "title": "R8 Just Made Kotlin Coroutines on Android 2x Faster and You Didn’t Have to Touch a Single Line",
+    "url": "https://medium.com/@muhamadsyafii4/r8-just-made-kotlin-coroutines-on-android-2x-faster-and-you-didnt-have-to-touch-a-single-line-332b01c7f0b3?source=rss------kotlin-5",
+    "date": "2026-07-29",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Picture this: you bump your Android Gradle Plugin version, rebuild, run the app exactly as before — no code changes — and suddenly every… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "30cfc515bbcb1856",
+    "title": "Kotlin Inlining Masterclass: inline, noinline, & crossinline Demystified",
+    "url": "https://medium.com/@hsinha610/kotlin-inlining-masterclass-inline-noinline-and-crossinline-demystified-7e6b7731d774?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "If you’ve spent any time writing Kotlin, you’ve undoubtedly come across higher-order functions — functions that take other functions as… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "5d14ed5c3b313dfe",
+    "title": "Sealed Classes in Kotlin: Build Safer and More Predictable Applications",
+    "url": "https://techdynasty.medium.com/sealed-classes-in-kotlin-build-safer-and-more-predictable-applications-6175f4d05a7c?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Imagine you’re building a login screen. After the user taps the Login button, only a few outcomes are possible: the request is loading… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ee9ce526c45c77df",
+    "title": "Android Data Synchronization: Beyond Room & WorkManager",
+    "url": "https://medium.com/@nematengg/android-data-synchronization-beyond-room-workmanager-c7c2ce2da146?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "If you’ve been developing Android applications for a while, you’ve probably heard the standard advice: Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "76e1927cc5810fe4",
+    "title": "State Management in Jetpack Compose: A Practical Guide",
+    "url": "https://medium.com/@apoorvrathore699/state-management-in-jetpack-compose-a-practical-guide-9140690bf5da?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "094782c8657292d1",
+    "title": "I Built an AI-Powered Banglish Keyboard That Converts Text Instantly — Here’s How",
+    "url": "https://rafiulislam25.medium.com/i-built-an-ai-powered-banglish-keyboard-that-converts-text-instantly-heres-how-4d5eed0a1dae?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "From a simple idea to a dual-platform tool powered by Groq AI Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "39bef8cf05004c3e",
+    "title": "Jetpack Compose Fundamentals — Part 7: Understanding Recomposition in Jetpack Compose",
+    "url": "https://medium.com/@vaibhavi.rana99/jetpack-compose-fundamentals-part-7-understanding-recomposition-in-jetpack-compose-c8d21ef430b9?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In the previous article, we learned how to build efficient scrolling lists using LazyColumn and LazyRow. We also explored why Compose… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "faf502e726037dfa",
+    "title": "Kotlin Coroutines: coroutineScope vs supervisorScope — Simply Explained",
+    "url": "https://medium.com/@sunildhiman90/kotlin-coroutines-coroutinescope-vs-supervisorscope-simply-explained-29e20a942d3a?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "You’ve seen both in Kotlin coroutine code. But do you instinctively know which one to reach for — and why? Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "fee283164468831b",
+    "title": "Flutter 3.44 Will Silently Break Your Android Build — Here’s the One-Line Fix",
+    "url": "https://medium.com/@alaxhenry0121/flutter-3-44-will-silently-break-your-android-build-heres-the-one-line-fix-cfebe0291e6e?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Android Gradle Plugin 9 now bundles Kotlin support directly. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2bfaf86f51a33d30",
+    "title": "How to build an Android launcher from scratch (with Kotlin & Jetpack Compose)",
+    "url": "https://medium.com/@jacksonfdam/how-to-build-an-android-launcher-from-scratch-with-kotlin-jetpack-compose-87ccd445823f?source=rss------kotlin-5",
+    "date": "2026-07-28",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Most Android tutorials build an app. This one builds the app that launches every other app — a home launcher, the thing that draws your… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "76e7b2cbdf1f6445",
+    "title": "I Built a GUI Simulator for Android Automotive OS Vehicle Properties — Then a Real Emulator Told Me…",
+    "url": "https://medium.com/@bhargavamandapati/i-built-a-gui-simulator-for-android-automotive-os-vehicle-properties-then-a-real-emulator-told-me-90051ffb3818?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Notes from building AAOS Vehicle Property Simulator, a Python/Tkinter desktop tool for getting, setting, and troubleshooting vehicle… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f2b733d66d0e80b2",
+    "title": "The growth of InterLink is driven by ecosystem revenue-sharing.",
+    "url": "https://medium.com/@samanahmadeneaz/the-growth-of-interlink-is-driven-by-ecosystem-revenue-sharing-818b652fb7de?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "969ba2662e1450c8",
+    "title": "I Didn’t Plan to Build a Translator App. A Grocery Store Conversation Changed My Mind.",
+    "url": "https://medium.com/@ganeshajay369/i-didnt-plan-to-build-a-translator-app-a-grocery-store-conversation-changed-my-mind-e771d3ab26a4?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Sometimes the best app ideas don’t come from brainstorming sessions. They come from watching people struggle with everyday problems. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ccfe64af1d934ba1",
+    "title": "777CB Game Download APK Latest Version Complete Guide",
+    "url": "https://medium.com/@nayapakapk93/777cb-game-download-apk-latest-version-complete-guide-f5b9380773f5?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "777CB Game is a mobile gaming app designed for users who enjoy entertainment application and love to play Android game. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8945ce8849e4ed46",
+    "title": "best custom website design agency for startups",
+    "url": "https://medium.com/@njtechnos1/best-custom-website-design-agency-for-startups-70a2cafdfcc4?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Best Custom Website Design Agency for Startups Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "47d81bb1ca3b49f6",
+    "title": "Why Are We Still Using 4 Different Apps Just to Drive Somewhere?",
+    "url": "https://medium.com/@MZTECHOFFICIAL/why-are-we-still-using-4-different-apps-just-to-drive-somewhere-9cbb062bfd17?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "We’ve all been there: you start a drive, and within minutes you’re switching between one app for directions, another for traffic alerts… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8354e32a0d4d21b7",
+    "title": "What Is RAG and Why Every Mobile Developer Should Learn It?",
+    "url": "https://medium.com/@anandgaur2207/what-is-rag-and-why-every-mobile-developer-should-learn-it-8625ddea6a2d?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "A complete article from basics to advanced, written specially for mobile developers. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6f3c4c3cedbeb88c",
+    "title": "Por que milhares de candidatos estão trocando os livros por um aplicativo na preparação para ESA e…",
+    "url": "https://medium.com/@guimaxguima/por-que-milhares-de-candidatos-est%C3%A3o-trocando-os-livros-por-um-aplicativo-na-prepara%C3%A7%C3%A3o-para-esa-e-6784eba54982?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Todos os anos, milhares de jovens iniciam a preparação para conquistar uma vaga na Escola de Sargentos das Armas (ESA) ou na Escola de… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "095d9f0804055b0f",
+    "title": "Android Malware Analysis: Fake PSCA E-Challan Campaign",
+    "url": "https://medium.com/@afzaalsubhani14/android-malware-analysis-fake-psca-e-challan-campaign-937e431ece99?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "79d63c25b26ad02a",
+    "title": "Five Signs Your WhatsApp Is Being Monitored",
+    "url": "https://haloldroid.medium.com/5-signs-your-whatsapp-is-being-monitored-and-how-to-stop-it-in-30-seconds-18649428d4fb?source=rss------android-5",
+    "date": "2026-07-29",
+    "source_id": "medium-android-tag",
+    "excerpt": "Your battery drains fast? WhatsApp Web shows unknown device? You are not paranoid. Here is what I found after testing 20+ phones. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "5dfdad94b50d7386",
+    "title": "v1.12.0-beta04+dev4563: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta04%2Bdev4563",
+    "date": "2026-07-29",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.0-beta04+dev4563",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "25593cdcf161aa39",
+    "title": "v1.12.10-alpha01+dev4557: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4557",
+    "date": "2026-07-28",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4557 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4557 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4557 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4557",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7c92463fa6a3579b",
+    "title": "1.12.0-beta03",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta03",
+    "date": "2026-07-28",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "Changes since 1.12.0-beta02 Features Desktop (prerelease fix) Bump Compose Hot Reload to 1.2.0-rc01 #5643 Fixes iOS (prerelease fix) Fix crash when cancelling text input #3208 Fix rare crash that occurs when iOS accesses a disposed AccessibilityElement #3214 Fix crash on iOS 14 caused by referencing CAFrameRateRangeDefault , which is only available on iOS 15+ #3219 (prerelease fix) Fix an issue where taps near the screen edge could be missed when the back-swipe gesture recognizer was tracking to",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "80dbf1ea28ff4177",
+    "title": "I'm a student building an open-source offline mesh messenger in Kotlin (BLE, no servers) — looking for architecture feedback and contributors",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v9mexr/im_a_student_building_an_opensource_offline_mesh/",
+    "date": "2026-07-29",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey r/androiddev , I've been building Ping — an Android app that lets phones chat, share live GPS location, and send photos/video with zero internet, zero cellular, and no server in the loop. Every phone is a relay: a message hops phone-to-phone over Bluetooth LE until it reaches whoever it's addressed to, even if sender and recipient are never in range of each other at the same time. Built with disaster response in mind — floods, earthquakes, anywhere the network is down or overloaded exactly w",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "4479fd113d6c48bd",
+    "title": "Already deprecated",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v8w2al/already_deprecated/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "https://preview.redd.it/5vm6q4mujyfh1.png?width=2294&format=png&auto=webp&s=6159e66bf90ea070fe3432ebebe1002701d309dc Link to the issue: https://issuetracker.google.com/issues/536954147 The Compose preview screenshot testing plugin seems to have been already deprecated. Big F if true, it was nice to have an official tool for screenshot tests :( submitted by /u/cvb941 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "4bab61a3990b34d3",
+    "title": "Dealing with copycat apps",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v9kggd/dealing_with_copycat_apps/",
+    "date": "2026-07-29",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi there, I’m pretty new to Android dev but have published my first app with some minor success. I have close to 300 confirmed paid downloads over the last couple of months. A few weeks after publishing on the GooglePlay store an app popped up with the exact same name in the same category. It was just different enough not to be called a clone, but looked really cheap and thrown together, but used a lot of the same language I used in my app description. I don’t currently have a registered tradema",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a39044e6cf192b79",
+    "title": "How do you handle promo access for Android IAPs?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v9bgy2/how_do_you_handle_promo_access_for_android_iaps/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm updating my mobile game, which is free with a single non-consumable IAP to unlock the full game. I'm trying to work out the best way to give people free access to the IAP on Android for things like: Reviews Giveaways Competitions Promotions Google Play doesn't seem to offer a simple solution for this. Or am I missing something? What are other indie developers doing in practice? Separate review builds? Internal testing? Firebase App Distribution? Your own backend with self generated redeemabl",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b4ad17c96afbff8d",
+    "title": "Should I use a foreground service, WorkManager, or is there a modern Android API to detect reliable immediate Wi-Fi disconnect after process death",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v8utkm/should_i_use_a_foreground_service_workmanager_or/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I’m building an Android app where the user selects a trusted home Wi-Fi, and the app should notify them when they disconnect from it or when that Wi-Fi loses validated internet access. The app targets SDK 36 and has a minimum SDK of 30. My original implementation registered a `ConnectivityManager.NetworkCallback` with a `PendingIntent` from `Application.onCreate()`, then enqueued an expedited WorkManager request when the receiver was invoked. I also had a 15-minute periodic WorkManager fallback.",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "baaff02ed6505b1d",
+    "title": "NotificationListenerService trap: classifier was killing MediaStyle notifs",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v8xbmw/notificationlistenerservice_trap_classifier_was/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Been building an on-device AI assistant into a custom Android launcher (AOSP Launcher3 base), and hit a bug worth sharing since it's an easy trap. The setup: a NotificationListenerService feeds every posted notification into a rule-based + behavioral classifier (spam/promo detection, bill detection, etc.) so the launcher can triage what's worth surfacing. Worked great in testing. Then a user reported that after using Android Auto for a while, the play/pause button in YouTube Music would just sto",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d10f3e5d08c74f0c",
+    "title": "Drebin451 - Ship and share private Android builds with ease",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v99ee2/drebin451_ship_and_share_private_android_builds/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey folks, There have been a few solutions over the years for distributing Android apps before they are ready for a major store like the Play Store. This includes Testflight, Firebase App Distribution, Microsoft App Center, and even the Play Store itself with its additions for Alpha and Beta testing. But a lot of these have either shut down or take quite a bit of setup to get up and running. We created Drebin451 as an alternative to all these. On the free tier, you get 1 GB of storage for your A",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "044ef8523e3506b5",
+    "title": "Will a Real-time BLE advertisement streaming to a WebSocket via Foreground Service work even when the screen is off (without active GATT)?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v8ttse/will_a_realtime_ble_advertisement_streaming_to_a/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm building an Android pipeline where I need to passively listen to Bluetooth LE broadcast packets in real time and immediately relay that payload to a WebSocket server. To save battery on the peripheral side, I do not want to establish an active GATT connection—I just want to capture the BLE advertising/broadcast packets as they come in. My target setup: Foreground Service running a BluetoothLeScanner with low-latency settings. Packet parsing directly inside the callback and immediately emitti",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2d518b5c8b039462",
+    "title": "Found an emulator that had been running since yesterday morning — so I wrote something that notices",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v92ecc/found_an_emulator_that_had_been_running_since/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "An emulator you forgot is the most expensive thing on a Mac: about a gig of RAM and a chunk of a core, for a device you stopped looking at yesterday. Android Studio never brings it up, and in Activity Monitor it's `qemu-system-aarch64` next to a dozen helpers. I made a small menu bar app that lists it as one line — named after the AVD — with how long it's been up, and a button to stop it. Same for iOS simulators, Docker containers, dev servers, tunnels and automation browsers left behind by scri",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2bc0f6d6ea357509",
+    "title": "Why does Android seem heck-bent on eliminating app notifications?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1v91cdc/why_does_android_seem_heckbent_on_eliminating_app/",
+    "date": "2026-07-28",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I wrote my own app to have notification sounds play for GMail emails (routing my email to my home web server and then sending push notices to my phone) as well as weather alerts and Home Assistant style notices for door/window/water/fire alarms. It works great today, even has a embedded TTS engine so it sounds like Storm Sheild how it plays audio on a weather alert. The app persists on reboot so it never misses an alert. I'm digging into what changes with the upgrade to Android 17 from Android 1",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
