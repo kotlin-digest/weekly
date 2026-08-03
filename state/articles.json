@@ -9475,5 +9475,285 @@
     "excerpt": "​\"Hi! I’ve been a hobbyist app developer for a couple of years now, with a few apps published on the Play Store. ​I’ve always been annoyed by not being able to play audio simultaneously from two apps on Android without having to rely on features specific to Samsung or other brands. I love Pixels... but I wanted to, for example, listen to the news and music at the same time. ​I knew this was pretty much impossible without rooting the device, using existing GitHub projects and such. But after spen",
     "date_uncertain": false,
     "summarized": false
+  },
+  {
+    "id": "2921d752cb64c04d",
+    "title": "What Happened When I Lost My KeyStore File",
+    "url": "https://proandroiddev.com/what-happened-when-i-lost-my-keystore-file-8ddfc0b35843?source=rss----c72404660798---4",
+    "date": "2026-08-02",
+    "source_id": "proandroiddev",
+    "excerpt": "Image generated using AI I Lost My Android Keystore. Here’s What Happened This is a cautionary tale, one you’ve probably heard before. Never lose the keystore file you sign your Android application with . But if you do lose it, is there anything you can actually do about it? Or do you just throw away the possibility to update your application in the Google Play store? Fortunately, if your application uses Play App Signing, losing your keystore doesn’t necessarily mean you’ve lost the ability to ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d868370b1e5834ef",
+    "title": "Context parameters in production Kotlin: what the docs don’t emphasise",
+    "url": "https://medium.com/@raphaelpanta/context-parameters-in-production-kotlin-what-the-docs-dont-emphasise-1bb70ce3b262?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "They became Stable in Kotlin 2.4.0. Here’s where they replace a ThreadLocal, where they lose to constructor injection, and what breaks if… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "45e9550fac51c702",
+    "title": "Jetpack Compose Fundamentals — Part 8: Mastering State, remember, rememberSaveable, State Hoisting…",
+    "url": "https://medium.com/@vaibhavi.rana99/jetpack-compose-fundamentals-part-8-mastering-state-remember-remembersaveable-state-hoisting-8234c8417863?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In the previous article, we explored Recomposition and learned how Jetpack Compose automatically updates only the parts of the UI affected… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b9d3e13367d07b23",
+    "title": "Sharing Business Logic Between Android and iOS: Why Kotlin Multiplatform Is Finally Worth It",
+    "url": "https://medium.com/@sixtinbydizora/sharing-business-logic-between-android-and-ios-why-kotlin-multiplatform-is-finally-worth-it-f7256c7ced9b?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Your team writes the same networking logic twice. Then debugs the same bug twice. Then ships the fix on two different release schedules… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "12104523fc986ce9",
+    "title": "Modern Architecture with Kotlin Multiplatform: Building One Codebase for Every Platform in 2026",
+    "url": "https://medium.com/@sixtinbydizora/modern-architecture-with-kotlin-multiplatform-building-one-codebase-for-every-platform-in-2026-996de0b9e4de?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "How KMP is quietly killing the “write it twice” tax on mobile teams Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3566e70ca8f85066",
+    "title": "Thinking Like the Compose Runtime — Part 3: How Compose Never Loses Its Place",
+    "url": "https://blog.devgenius.io/thinking-like-the-compose-runtime-part-3-how-compose-never-loses-its-place-7f9f2b07f8ef?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In Part 2, we ended with an important question. Continue reading on Dev Genius »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1b368606eb7a07e7",
+    "title": "Combining Remote Compose with AI-Generated Interfaces: The Future of Adaptive Android UI",
+    "url": "https://medium.com/@androidlab/combining-remote-compose-with-ai-generated-interfaces-the-future-of-adaptive-android-ui-f680d19165b3?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "How server-driven UI and generative AI are quietly rewriting the rules of Android development. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "299e670778138660",
+    "title": "Kotlin 2.4’s K2-Only Compiler: What Every Android & Backend Dev Needs to Know",
+    "url": "https://medium.com/@androidlab/kotlin-2-4s-k2-only-compiler-what-every-android-backend-dev-needs-to-know-b82e302e82c1?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Faster builds, cleaner code, and the end of an era — here’s what actually changed under the hood. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "87ba4d952f056f7f",
+    "title": "Episode #38",
+    "url": "https://medium.com/kotlinkenya-android254/episode-38-5f7dcbf4cf4d?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Know your meme Continue reading on KotlinKenya & Android254 »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "99539dfa08e14fd6",
+    "title": "13/28: The 16ms Frame Budget Is a Lie (Now)",
+    "url": "https://medium.com/@promode7/13-28-the-16ms-frame-budget-is-a-lie-now-241c0c222b46?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Refresh rates, VRR, and why you actually drop frames Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "56bd4636807b2eda",
+    "title": "Preventing Race Conditions with Mutex in Kotlin Coroutines",
+    "url": "https://muhmmadnabil.medium.com/preventing-race-conditions-with-mutex-in-kotlin-coroutines-d3d2dd802028?source=rss------kotlin-5",
+    "date": "2026-08-03",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Modern mobile applications perform many operations concurrently. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d3033edc53173c32",
+    "title": "Google Play Asked Me to Remove Storage Permissions from My Flutter App — Here’s the Fix",
+    "url": "https://medium.com/codex/google-play-asked-me-to-remove-storage-permissions-from-my-flutter-app-heres-the-fix-485050eed849?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "Avoid Play Console warnings by migrating to Android Photo Picker and removing unnecessary storage permissions. Continue reading on CodeX »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "40550aa9d400fb3d",
+    "title": "MVVM vs MVI in Android: XML Views and Jetpack Compose, Side by Side",
+    "url": "https://medium.com/@devawais/mvvm-vs-mvi-in-android-xml-views-and-jetpack-compose-side-by-side-e944d301d8fc?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "By Awais — Android developer, devawais.com Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "bbcd380092c6e618",
+    "title": "MVVM vs MVI in Android: A Practical Guide to Choosing the Right Architecture",
+    "url": "https://medium.com/@devawais/mvvm-vs-mvi-in-android-a-practical-guide-to-choosing-the-right-architecture-b9d39355c94b?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "By Awais — Senior Mobile App Developer, devawais.com Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8dbee72a312774c5",
+    "title": "Reality : Anxiety Is Real And I Think We All Have It",
+    "url": "https://medium.com/@papercraftpublishers/reality-anxiety-is-real-and-i-think-we-all-have-it-f7209870e5e0?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "Do you know that strange dread that washes over you when you close TikTok and just sit there? That’s not boredom. That’s reality anxiety. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "daf29b829a3ce40d",
+    "title": "How I Built a Flipkart-Style Order Tracking Timeline in Flutter",
+    "url": "https://medium.com/@ankii8946/how-i-built-a-flipkart-style-order-tracking-timeline-in-flutter-c5581af35b9b?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "When we shop online, one of the first things we check after placing an order is where our package has reached. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "19183681a9d7696a",
+    "title": "Update Your Target API Level by August 31, 2026: What It Means, Why It Matters, and How to Prepare",
+    "url": "https://medium.com/@AmitGuptaAppschance/update-your-target-api-level-by-august-31-2026-what-it-means-why-it-matters-and-how-to-prepare-34daa479bdb2?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "Google Play’s latest Target API Level requirement is approaching. Here’s everything Android developers need to know before the August 31… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "da6d71ba724ea8cb",
+    "title": "How to Use Crunchyroll for Free in 2025 — Every Option Explained",
+    "url": "https://medium.com/@jawadaliicom/how-to-use-crunchyroll-for-free-in-2025-every-option-explained-65b4c6091c43?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "Crunchyroll's premium plan not fitting your budget? Here's a complete, honest breakdown of every free option available — from the official… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "00126537e80a0a7b",
+    "title": "How to Use NetMirror APK on Android — A Simple Guide",
+    "url": "https://medium.com/@zaydenhale672/how-to-use-netmirror-apk-on-android-a-simple-guide-bdbca170fe34?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "These days, almost everyone wants to watch movies and shows on their phone, but not everyone wants to pay for yet another monthly… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "cbd8bd145f3aae8e",
+    "title": "I Finally Found a Map App That Doesn’t Overheat My Phone ⚡",
+    "url": "https://medium.com/@MZTECHOFFICIAL/i-finally-found-a-map-app-that-doesnt-overheat-my-phone-3ff1aa0b0086?source=rss------android-5",
+    "date": "2026-08-03",
+    "source_id": "medium-android-tag",
+    "excerpt": "Picture this: You’re driving through an unfamiliar area, approaching a tight highway split, and right when you need to know which lane to… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3fb677ea2b301297",
+    "title": "14 YOE in Android, feeling like mobile is dying. Is pivoting to Kotlin backend realistic?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ve6ngy/14_yoe_in_android_feeling_like_mobile_is_dying_is/",
+    "date": "2026-08-03",
+    "source_id": "reddit-androiddev",
+    "excerpt": "500 companies, lived through the shift from Eclipse and early Java all the way to Jetpack Compose, Coroutines, and modern Kotlin architecture. Lately (last two years), though, I can't shake the feeling that the mobile dev world is stagnant or dying down. The market feels saturated, team sizes are shrinking, and a lot of the exciting work seems gone. Most of it now feels like boilerplate UI, API integration, and maintenance. And many less jobs. I'm considering pivoting toward backend development ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "aa029befe510865b",
+    "title": "Looking for interview prep partner",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ve06j2/looking_for_interview_prep_partner/",
+    "date": "2026-08-03",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Bit about me. I am a senior android dev. Currently working for FAANG company in California. I am looking for people who are also prepping for interviews. I wanted to focus on low level design, system design, data modelling etc. If you are also looking please message me or comment in the post submitted by /u/molesterman069 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "717fb5ac297d5969",
+    "title": "build a UI withoutXML or Compose",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vdqv48/build_a_ui_withoutxml_or_compose/",
+    "date": "2026-08-02",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm building the UI for my little Android game without XML or Compose. I wrote my own wrapper classes for the views and can use them in a kind of custom DSL. submitted by /u/koje1971 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "cc60ad50bac887c4",
+    "title": "Stop Ignoring Compose Stability (Yes, Even with Strong Skipping Mode) | Shreyas Patil's Blog",
+    "url": "https://www.reddit.com/r/androiddev/comments/1ve52zo/stop_ignoring_compose_stability_yes_even_with/",
+    "date": "2026-08-03",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Do you think you won't need to take care of composable function's stability after Strong skipping mode?🤔 submitted by /u/shreyaspatil99 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "873f76c32606e1c6",
+    "title": "NVIDIA's Canary 180M on a phone - offline transcription and translation in four languages",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vdeh3o/nvidias_canary_180m_on_a_phone_offline/",
+    "date": "2026-08-02",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I added NVIDIA's Canary 180M to speech-android (Apache-2.0 Kotlin SDK, I maintain it). The part that surprised me is that it translates as well as transcribes — English, German, Spanish, French, and between any of those four, out of the same two graphs. No network. I hadn't realised you could get that in 273 MB. Numbers on a Galaxy S23 Ultra, int8, CPU only. About 4 seconds to load, then decode at RTF 0.15 for a 3-second utterance and 0.25 for a 12-second one. It gets relatively more expensive a",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "28f9f169f3911ebd",
+    "title": "Agents connected to Android Studio can't read files",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vdef6b/agents_connected_to_android_studio_cant_read_files/",
+    "date": "2026-08-02",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Android Studio Quail 3 | 2026.1.3 Build #AI-261.26222.65.2613.15948027, built on July 27, 2026 Tried to change models/api, same error, plz help submitted by /u/breaksomexx [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f996622d74757b94",
+    "title": "Android's UsageStatsManager was overcounting screen time by 20% — here's the fix",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vd3fw5/androids_usagestatsmanager_was_overcounting/",
+    "date": "2026-08-02",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Building a screen-time tracking feature and noticed my numbers didn't match Android's own Digital Wellbeing report. Mine said 405 minutes, Android said 335. Turns out UsageStatsManager's raw session events include time when the screen is on but not actually interactive (lock screen showing, screen on during a call, etc.) — so naive session-duration summing overcounts significantly. Fix : switched from raw usage events to event-based session reconstruction, filtering specifically for screen-inter",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "cad708c2570ca7bd",
+    "title": "I built an Android app that lets me create Android apps entirely from my phone",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vdao22/i_built_an_android_app_that_lets_me_create/",
+    "date": "2026-08-02",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I've been working on a personal project called Frankenstein. The goal is simple: make Android development possible directly from an Android phone. Here's the project and an uncut lab recording: https://stitchlab.dev/ The public site intentionally focuses on what it can do rather than how it's built. Current capabilities include: Creating Android projects from prompts Editing existing projects Building installable APKs on-device Installing and launching them on the same phone Managing project fil",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
