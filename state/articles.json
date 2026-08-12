@@ -12145,5 +12145,265 @@
     "excerpt": "Hello, I just started closed testing for my Android RTS game ( https://www.youtube.com/watch?v=k1GLmnUOrz0 ). Most users have access but one that is using grapheneOS is getting error message \"device not compatible with this version\". What I checked: Device integrity requirement is set to basic in play console, user phone reports \"Labels: [MEETS_BASIC_INTEGRITY]\" so that should not be the issue All countries are enabled for the closed test User phone (Pixel10) meets SDK-Level and RAM requirements",
     "date_uncertain": false,
     "summarized": false
+  },
+  {
+    "id": "d5d3aa6c1ad473c6",
+    "title": "Media3 1.11 - What's new?",
+    "url": "https://android-developers.googleblog.com/2026/08/media3-1-11-whats-new.html",
+    "date": "2026-08-11",
+    "source_id": "android-developers-blog",
+    "excerpt": "Posted by Toni Heidenreich, Software Engineer, Android Media3 1.11 is out. Powering the vast majority of top Android media apps, this release brings new features, bug fixes, and improvements across playback, editing, and UI components. We're expanding our Jetpack Compose UI modules with customizable Player slots and easy to use defaults, interactive gestures, state observers, and short-form video preloading using PlayerPool . We also modernized the Media3 Cast integration with SystemUI Output Sw",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "64f0f25f6db603d1",
+    "title": "Two Bugs, One Setting: How DKA Silently Broke Our Fragments",
+    "url": "https://proandroiddev.com/two-bugs-one-setting-how-dka-silently-broke-our-fragments-de9567449e6c?source=rss----c72404660798---4",
+    "date": "2026-08-11",
+    "source_id": "proandroiddev",
+    "excerpt": "Every Android dev has seen the DKA checkbox in Developer Options. Almost nobody tests with it on. I didn’t either, until I had to track down two production bugs, months apart, that only reproduced with it on. The first bug looked like a media picker that forgot how to respond to taps. The second looked like a profile screen that forgot how to navigate. Different features, different symptoms, different code paths. But the root cause was the same: state was initialized in a lifecycle callback that",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "0bf11c79ed0988ba",
+    "title": "Clean Function 을 작성하기 위한 규칙",
+    "url": "https://medium.com/@DevYoon/clean-function-%EC%9D%84-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EA%B7%9C%EC%B9%99-2e231e19d922?source=rss------kotlin-5",
+    "date": "2026-08-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "깨끗한 함수 작성을 위한 핵심 원칙은 무엇인가? 함수는 단일 책임 원칙을 준수하고, 불필요한 부수 효과(side effect)를 피하며, 매개변수를 최소화하고, 관련 데이터를 데이터 클래스로 묶어 관리해야 합니다. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e507ea7638a5a778",
+    "title": "Jetpack Compose Runtime — Part 5: Snapshots — The Invisible State System",
+    "url": "https://gaandlaneeraja.medium.com/jetpack-compose-runtime-part-5-snapshots-the-invisible-state-system-ecbad83384e6?source=rss------kotlin-5",
+    "date": "2026-08-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Snapshots. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7b6279b20f6779c7",
+    "title": "Why Kotlin is the Programming Language You Should Learn Next",
+    "url": "https://sergiiriabokon.medium.com/why-kotlin-is-the-programming-language-you-should-learn-next-83239d24ac75?source=rss------kotlin-5",
+    "date": "2026-08-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "From eliminating the “Billion Dollar Mistake” to becoming Google’s preferred language for Android, here is why Kotlin is taking over the… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2a6ab23479f972e1",
+    "title": "10 Android Interview Topics Every Developer Should Know",
+    "url": "https://medium.com/@abdulqadirtr/10-android-interview-topics-every-developer-should-know-ded3feb28cb3?source=rss------kotlin-5",
+    "date": "2026-08-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Android interviews are rarely limited to syntax or basic API knowledge. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b48d5de82175531b",
+    "title": "Migrating FCM Send Targets from Registration Tokens to Installation IDs",
+    "url": "https://medium.com/@uphyca_inc./migrating-fcm-send-targets-from-registration-tokens-to-installation-ids-c297de3c3c75?source=rss------kotlin-5",
+    "date": "2026-08-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "What actually changes on the client and on the server — including one format detail Firebase has never documented. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6436f1b7a5f3d607",
+    "title": "Worker, CoroutineWorker, RxWorker: Choosing the Right One Once You Know What WorkManager Is Doing…",
+    "url": "https://abinash6000.medium.com/worker-coroutineworker-rxworker-choosing-the-right-one-once-you-know-what-workmanager-is-doing-c82323343646?source=rss------kotlin-5",
+    "date": "2026-08-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Choosing between Worker, CoroutineWorker, and RxWorker comes down to what language you are writing your app in and how your project… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8c1ff440a341f173",
+    "title": "Kotlin Coroutines Part 2: Dispatchers: What Actually Happens on Each One, How the Thread Pools Are…",
+    "url": "https://medium.com/@ramadan123sayed/kotlin-coroutines-part-2-dispatchers-what-actually-happens-on-each-one-how-the-thread-pools-are-98a0b716e68b?source=rss------kotlin-5",
+    "date": "2026-08-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In Part 1 we established that coroutines are fundamentally a lifecycle tool. Structured concurrency gives you ownership, cancellation, and… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "81be1937103cb2ec",
+    "title": "Kotlin Coroutines Part 1: Structured Concurrency: The Mental Model That Makes Everything Else…",
+    "url": "https://medium.com/@ramadan123sayed/kotlin-coroutines-part-1-structured-concurrency-the-mental-model-that-makes-everything-else-c5252c1c733a?source=rss------kotlin-5",
+    "date": "2026-08-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Most Android developers learn coroutines backwards. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "dba19e76aff06023",
+    "title": "var config by prefs.byBoolean(): The Easiest Way to Sync SharedPreferences and Jetpack Compose",
+    "url": "https://yongjhih.medium.com/var-config-by-prefs-byboolean-the-easiest-way-to-sync-sharedpreferences-and-jetpack-compose-89f342b89b09?source=rss------kotlin-5",
+    "date": "2026-08-11",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "cb58e69ea6705b3b",
+    "title": "Kotlin Scope Functions: let, run, with, apply, also — Explained Clearly",
+    "url": "https://medium.com/@apoorvrathore699/kotlin-scope-functions-let-run-with-apply-also-explained-clearly-684376d8662e?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "c3c9383cbee9a020",
+    "title": "Why I Don’t Trust Cloud Notes by Default",
+    "url": "https://medium.com/@ayang3000_62280/why-i-dont-trust-cloud-notes-by-default-8221f08a0d45?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "A note should not need a network, an account, and a company’s continued permission to exist Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "aafd6e2bd675cc44",
+    "title": "PLAYRUPEES Game Download APK Latest Version For Android 2026",
+    "url": "https://medium.com/@pkrgames845/playrupees-game-download-apk-latest-version-for-android-2026-ed04d4d449f6?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "PlayRupees Game online as a Mobile Game site combines a number of gaming categories and promotions in one account. Related to XC777 /… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "529597a81e0b5980",
+    "title": "Behind the scene: ActivityResultLauncher in Android",
+    "url": "https://medium.com/@nirmale.ashwin9696/behind-the-scene-activityresultlauncher-in-android-514a9a836304?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Recently, I was working on a project where one Android application needed to launch an Activity exposed by another application and receive… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9b9a0fd1c01f5a93",
+    "title": "How to Inspect Dio HTTP Requests in Flutter — Without Shipping the Inspector to Production",
+    "url": "https://medium.com/@alifhasnain/how-to-inspect-dio-http-requests-in-flutter-without-shipping-the-inspector-to-production-884eec30ea5b?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "A Chucker-style network inspector with native Android and iOS UIs, and a build-level guarantee it cannot reach a release build. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b7fdba44cbeec6da",
+    "title": "Top Yono Apps 2026: Best Sign-up Bonus aur Real Rewards Kaise Chune?",
+    "url": "https://medium.com/@shubhamsaini36102/top-yono-apps-2026-best-sign-up-bonus-aur-real-rewards-kaise-chune-a4b416cc6274?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Aaj ke digital daur mein Yono apps ka craze tezi se badh raha hai. Har koi apne smartphone par aisi reliable aur entertaining apps chahta… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "47dbaaf7ee87940f",
+    "title": "Adaptive Android Apps with Jetpack Compose: Build Once for Every Screen",
+    "url": "https://medium.com/@anandgaur2207/adaptive-android-apps-with-jetpack-compose-build-once-for-every-screen-0e85639e6f71?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Have you ever opened an app on a tablet and felt like you were looking at a stretched phone app? A huge blank space on both sides, one… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e1c57d37732f9b43",
+    "title": "The Hidden Software Inside Every Smartphone",
+    "url": "https://medium.com/@muruganantham52524/the-hidden-software-inside-every-smartphone-f196660afc75?source=rss------android-5",
+    "date": "2026-08-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Explore kernels, bootloaders, apps, memory, networking, and the programming languages behind modern mobile devices. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6a488779443850b5",
+    "title": "v1.12.10-alpha01+dev4632: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4632",
+    "date": "2026-08-12",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4632 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4632 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4632 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4632",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a33b8640cf1ba962",
+    "title": "v1.12.0-rc02+dev4633: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-rc02%2Bdev4633",
+    "date": "2026-08-12",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.12.0-rc02+dev4633",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "15fef954b5c40ece",
+    "title": "1.12.0-rc01",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-rc01",
+    "date": "2026-08-11",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "Changes since 1.12.0-beta03 Highlights Desktop MCP server was introduced for Compose Hot Reload that enables AI agents to interact with a running Compose application in real time #5671 Features Desktop Update bundled Compose Hot Reload version to 1.2.0 #5671 Fixes iOS (prerelease fix) Fix application build when using old Xcode 16 SDK: the _OBJC_CLASS_$_UIViewLayoutRegion symbol is now resolved at runtime #3278 Desktop Fix crash when starting a selection beyond the last text in a SelectionContain",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b653c901384b58e3",
+    "title": "Looking for a pattern catalogue for app architecture (Clean, Hexagonal, Onion, VIPER, RIBs…) and the criteria for picking one.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vlgqlz/looking_for_a_pattern_catalogue_for_app/",
+    "date": "2026-08-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm not asking how to implement MVVM, MVI or Clean Architecture — I use all three daily. I'm also not asking \"which of the three is best.\" What I'm after is the wider *landscape* of architectural patterns, the way general software engineering has a whole body of literature on them, plus how to reason about picking one. Concretely, I'm thinking at two levels: - **Presentation / UI layer:** MVC, MVP, MVVM, MVI and unidirectional data flow, VIPER, RIBs, Elm/TEA-style, explicit state machines. - **A",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3927d43f82d2dd60",
+    "title": "Android Studio on android?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vlo0i3/android_studio_on_android/",
+    "date": "2026-08-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I want to make an android app but i dont have laptop and laptops are so expensive in my country I have poco f6 and since AIDE removed i dont know what to do, any idea? submitted by /u/Over_Party_9762 [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "cfaf7caf3e25f57b",
+    "title": "What Android development practices helped you write better apps?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vlg2dp/what_android_development_practices_helped_you/",
+    "date": "2026-08-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "When building Android applications, learning the basics is only the first step. As projects grow, things like code structure, performance, testing, and maintaining clean architecture become just as important as writing functional code. For experienced Android developers, what practices or habits made the biggest improvement in the way you build and maintain apps? I’m interested in learning what approaches have helped developers create more reliable and maintainable Android projects over time. su",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a1fd21ac06845db1",
+    "title": "KMP Starter Template just hit 150 GitHub stars",
+    "url": "https://www.reddit.com/r/androiddev/comments/1vlqw2t/kmp_starter_template_just_hit_150_github_stars/",
+    "date": "2026-08-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I've been building this open-source starter template mainly for KMP projects, but it also works well for regular Android projects. The goal is to remove all the repetitive setup I find myself doing in every project: • Clean Architecture • Koin • RevenueCat • Mixpanel • Remote Config • DataStore • Room • Multiple languages • InAppReview / InAppUpdate • UI utilities and components • Logging • Platform/version utilities • Native bindings It also comes with a CLI, so instead of cloning the whole rep",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
