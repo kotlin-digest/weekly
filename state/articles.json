@@ -19985,5 +19985,275 @@
     "excerpt": "Hey everyone! 👋 I recently finished building an ambient sound companion app natively using **100% Jetpack Compose** & **Material 3**. During development, I ran into a few interesting challenges regarding state management and audio handling in Compose, and wanted to share how I solved them: **Multi-Track Audio Layering:** I mapped Android `MediaPlayer` instances using Compose state (`mutableStateMapOf`) to allow real-time individual volume control across multiple concurrent audio streams without ",
     "date_uncertain": false,
     "summarized": false
+  },
+  {
+    "id": "7dffbd6cb37f2ed4",
+    "title": "dotInsights | September 2026",
+    "url": "https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-september-2026/",
+    "date": "2026-09-08",
+    "source_id": "jetbrains-blog",
+    "excerpt": "Did you know? Fun fact: The C# compiler (Roslyn) is open source and written in C#. It exposes APIs to analyze and generate code.  Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take […]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "008a13c9ea5aca77",
+    "title": "Forget the “Setup Tax”: A Production-Ready Multi-Module Android Template",
+    "url": "https://proandroiddev.com/forget-the-setup-tax-a-production-ready-multi-module-android-template-f4c879c97205?source=rss----c72404660798---4",
+    "date": "2026-09-09",
+    "source_id": "proandroiddev",
+    "excerpt": "How to streamline your development workflow with pre-configured Kotlin Convention Plugins, custom Lint rules, and unified design system tokens. Creating a new Android application from scratch in modern engineering is rarely as simple as clicking File → New → New Project in Android Studio. Before writing a single line of business logic, developers face hours — or even days — of repetitive infrastructure setup: Configuring a scalable multi-module architecture. Setting up Gradle Version Catalogs an",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d3501a3487a40b6e",
+    "title": "From Permissions to Sessions: Rethinking Location Access in Android 17",
+    "url": "https://proandroiddev.com/from-permissions-to-sessions-rethinking-location-access-in-android-17-5a13124b777d?source=rss----c72404660798---4",
+    "date": "2026-09-09",
+    "source_id": "proandroiddev",
+    "excerpt": "Image generated using Gemini In this article, we will learn how to implement the new 📍 Location button introduced in Android 17 in Jetpack Compose-based Android applications. Android 17 adds a system-rendered 📍Location Button that we can drop into the layout via a Jetpack library, and tapping it gives the app precise location for that session only, gated by a new USE_LOCATION_BUTTON permission. What the feature is Android now exposes a system-owned, standard location button that we can embed in ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d8c6ef249f9f5a9f",
+    "title": "My Journey Making Compose Multiplatform Work on tvOS, and What I Learned",
+    "url": "https://proandroiddev.com/my-journey-making-compose-multiplatform-work-on-tvos-and-what-i-learned-28744910489e?source=rss----c72404660798---4",
+    "date": "2026-09-09",
+    "source_id": "proandroiddev",
+    "excerpt": "Part 1 of a series. This post is the high-level overview. The next posts go into each module in detail. I am an Android and Android TV developer with about ten years of experience. For the last few years I have been leading a streaming app at Devolic that has to run on Android mobile, Android TV, desktop, iOS and tvOS. This series is about how that requirement ended with me maintaining a fork of Compose Multiplatform with tvOS support, and what I learned along the way. How we got here The app di",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e4d027cd1cb6f32a",
+    "title": "Kotlin 2.4: 10 New Features Android Developers Should Know",
+    "url": "https://medium.com/@androidlab/kotlin-2-4-10-new-features-android-developers-should-know-270669dc318b?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "From stable Context Parameters to Java 26 support — what actually changed in Kotlin 2.4 and why your Gradle sync is about to feel different Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d9a260b805ccd009",
+    "title": "TDD from Zero to Production: The Complete Story",
+    "url": "https://medium.com/@ramadan123sayed/tdd-from-zero-to-production-the-complete-story-4ab7b21d83dd?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Most engineers learn TDD twice. The first time from a tutorial that tests a calculator, which convinces nobody. The second time from a… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "10c5711ab2632b19",
+    "title": "Why Every Kotlin Android Project Needs Detekt — and What It Does Not Replace",
+    "url": "https://halilozel1903.medium.com/why-every-kotlin-android-project-needs-detekt-and-what-it-does-not-replace-5ecaa34a391c?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "An Android project can compile, pass its tests, and still become steadily harder to change. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "c2b939550ce0f9b6",
+    "title": "On-Device AI in Kotlin",
+    "url": "https://medium.com/@pielouNobodyWho/on-device-ai-in-kotlin-a2368bfea314?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "In this Kotlin tutorial, you’ll learn how to run a large language model (LLM) directly on a user’s device: no server, no API key needed… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "645bfa5df42fbd2c",
+    "title": "Kotlin Basics Part 2: Master Conditions and Loops",
+    "url": "https://writeflow.medium.com/kotlin-basics-part-2-master-conditions-and-loops-643ef71a3354?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Your program doesn’t always execute the same code from top to bottom. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a0776917338f46ca",
+    "title": "25/28: What’s Actually Slow in Your Cold Start",
+    "url": "https://medium.com/@promode7/25-28-whats-actually-slow-in-your-cold-start-f026dd8467f0?source=rss------kotlin-5",
+    "date": "2026-09-09",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "TTID, TTFD, and the cold-start timeline Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ae78ce0afbba253a",
+    "title": "Compose Multiplatform in Production: Lessons from Sony and Booking.com",
+    "url": "https://medium.com/@santimattius/compose-multiplatform-in-production-lessons-from-sony-and-booking-com-580b0774b1c1?source=rss------kotlin-5",
+    "date": "2026-09-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Sony and Booking.com used Compose Multiplatform to solve different problems. Their cases demonstrate how to share UI without making… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ac17b3f1aa046093",
+    "title": "Implicit Metadata Propagation in Kotlin Coroutines",
+    "url": "https://medium.com/@hsinha610/implicit-metadata-propagation-in-kotlin-coroutines-bff5126dff43?source=rss------kotlin-5",
+    "date": "2026-09-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Leverage custom CoroutineContext elements to route user journey tags and analytics metadata without parameter clutter. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "0641b24bfe4db7e3",
+    "title": "Kotlin Fundamentals-Chapter 1 Summary",
+    "url": "https://medium.com/@ahmedelkrrai/kotlin-fundamentals-chapter-1-summary-579855e2aa4e?source=rss------kotlin-5",
+    "date": "2026-09-08",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "This chapter started with a simple question: Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "82505a9882b827b6",
+    "title": "My app is finished. Google needs me to ship an update anyway.",
+    "url": "https://medium.com/codetodeploy/my-app-is-finished-google-needs-me-to-ship-an-update-anyway-ba05aaf1a077?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "The August 31 deadline doesn’t take your app down. It does something you’re much less likely to notice. Continue reading on CodeToDeploy »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ee51525dfb6fa76d",
+    "title": "How I Build Super-Smooth Flutter Apps: The Engineering Behind a Fast, Responsive UI",
+    "url": "https://medium.com/@ankii8946/how-i-build-super-smooth-flutter-apps-the-engineering-behind-a-fast-responsive-ui-0b8c93646f1d?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "For me, building a smooth Flutter application isn’t about applying one magical performance trick at the end of development. It starts with… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3ef1da18cb01da1b",
+    "title": "Keep State Declarative and User Intent Imperative",
+    "url": "https://levelup.gitconnected.com/keep-state-declarative-and-user-intent-imperative-a58706469ce9?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "A Simple Way to Separate State Derivation from User Actions in ViewModel Continue reading on Level Up Coding »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "317b368afd829e9c",
+    "title": "I Was So Done With Simulators, I Built My Own Way Out",
+    "url": "https://medium.com/@nomanakram1999/i-was-so-done-with-simulators-i-built-my-own-way-out-bb0adfacc420?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "How one annoying afternoon of switching between Xcode and Android Studio simulators turned into an open-source npm package Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "07212a48e32c1814",
+    "title": "Same Android todo list, three architectures",
+    "url": "https://medium.com/@coolzero9977/same-android-todo-list-three-architectures-c65775d6ee76?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "MVVM and MVI are how the screen talks. Clean is where the folders live. They are not rivals. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1355ca067350ee96",
+    "title": "Unveiling the iPhone Ultra: Everything You Need to Know About Apple's Next-Gen Titan",
+    "url": "https://medium.com/@gouravporiya460/unveiling-the-iphone-ultra-everything-you-need-to-know-about-apples-next-gen-titan-b20de6f5745a?source=rss------android-5",
+    "date": "2026-09-09",
+    "source_id": "medium-android-tag",
+    "excerpt": "If you have been following Apple news closely, you know that rumors around the legendary iPhone Ultra have reached a fever pitch… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "10bdb894e0097e95",
+    "title": "v1.13.0-alpha01+dev4775: Details",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.13.0-alpha01%2Bdev4775",
+    "date": "2026-09-09",
+    "source_id": "lib-compose-multiplatform",
+    "excerpt": "org.jetbrains.compose. : :1.13.0-alpha01+dev4775 org.jetbrains.compose.material3:material3*:1.13.0-alpha01+dev4775 org.jetbrains.compose.material3.adaptive:adaptive- :1.3.0-rc01+dev4775 org.jetbrains.androidx.navigation:navigation- :2.10.0-beta01+dev4775 org.jetbrains.androidx.navigation3:navigation3-*:1.2.0-beta01+dev4775",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e5ffb160472cc28d",
+    "title": "Automatic protection stopped being applied after 31 Aug.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wbebun/automatic_protection_stopped_being_applied_after/",
+    "date": "2026-09-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "My app was getting Google Play's automatic protection (the installer check) up through version 103 (Aug 31). From 104 onward (Sept 7) it stopped. The com.android.vending.CHECK_LICENSE permission and all the com.pairip.licensecheck classes are simply gone from the APKs Play serves. Then I went back in git to the exact commit that built 103, changed only the versionCode, and uploaded it. Same source that Google protected before. It came back unprotected. That probably rules out my code. So I check",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a3da4fd3865bdf91",
+    "title": "Now in Android KMP: full Kotlin Multiplatform and Compose Multiplatform port of Google's Now in Android sample on Android, iOS, Desktop, and Wasm.",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wanbl6/now_in_android_kmp_full_kotlin_multiplatform_and/",
+    "date": "2026-09-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Now in Android KMP is a full Kotlin Multiplatform port of Google's Now in Android sample, running the same screens, ViewModels, navigation, and data layer on Android, iOS, desktop, and the browser from one shared codebase. submitted by /u/skydoves [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d534f8130d19d11e",
+    "title": "Yay my first successful CI/CD(partialy)😖...but",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wb5wfy/yay_my_first_successful_cicdpartialybut/",
+    "date": "2026-09-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Yay my first successful CI/CD. I'm happy that the the jobs are finally working the gave me a few problem constantly as I made from syntax errors to having to go through unfamiliar Service API docs and basically google every error to troubleshooting till to console. Didn't know CI/CD goes that far but but now it works, still not done but close to adding the rest of the workflow scripts. I'm mostly happy because I did this with minimal help of AI ,did use it but now that much before scrounging the",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6b774239fd3fc1c1",
+    "title": "I built an Android project generator so you can start a new app without setting up the same boilerplate again and again",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wbaal7/i_built_an_android_project_generator_so_you_can/",
+    "date": "2026-09-09",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hey r/androiddev 👋 I built Android Base — a browser-based Android project generator that lets you configure and generate a production-ready Android project. 🚀 Try it here: https://android-base.vercel.app You don't need to clone anything or manually configure the generator. Just open the website, choose what your app needs, and generate your project. What is it? Android Base generates a multi-module Android project with a production-oriented architecture. The base includes: Kotlin + Jetpack Compo",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "139a6750dbcc0298",
+    "title": "I need help searching on mounted drives on Android 9",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wauklo/i_need_help_searching_on_mounted_drives_on/",
+    "date": "2026-09-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm currently developing my own app in Java to search for files on external drives connected to an Android TV Box. Since the device runs an older version of Android (version 9) and this is my first time working with the Android ecosystem, I'm having trouble accessing the external drives, their directories, and files because I'm limited to the features of API level 28. I've tried using the StorageManager and MediaStore, but I'm not sure if those are the right methods. How should I go about this? ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e5c6725c65dc6a77",
+    "title": "Where is the App Signing SHA‑256 fingerprint page actually linked from in Play Console?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1waqpgl/where_is_the_app_signing_sha256_fingerprint_page/",
+    "date": "2026-09-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "TL;DR: I needed my app signing key's SHA‑256 (for an assetlinks.json / Android App Links setup). It's not linked from any menu I could find — \"App integrity\" now just redirects to \"Protected with Play,\" which doesn't show the cert either. I only got to the page by guessing the URL .../app/<APP\\_ID>/app-signing. Is there an actual navigable path to that page, or is URL‑guessing the intended UX now? I just burned way too much of my day on the Google Play Console for a single value: the SHA‑256 of ",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2729aef93c706e98",
+    "title": "What do you always check before publishing an Android app?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1wanufr/what_do_you_always_check_before_publishing_an/",
+    "date": "2026-09-08",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I’ve been putting together a pre-launch checklist for Android releases and I’m curious what other developers consider essential before shipping. My current top checks are: • clean install from the production build • first-launch flow • permissions and privacy declarations • Data Safety / SDK review • testing on a weaker Android device • update from the previous version • store listing and screenshots • crash / ANR review • version code and signing • final end-to-end user flow What’s the one thin",
+    "date_uncertain": false,
+    "summarized": false
   }
 ]
