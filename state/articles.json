@@ -599,196 +599,6 @@
     ]
   },
   {
-    "id": "59ce2c6309888ee4",
-    "title": "Kotlin Multiplatform: Why KMP Matters for Modern Mobile Development",
-    "url": "https://medium.com/@ys.yogendra22/kotlin-multiplatform-why-kmp-matters-for-modern-mobile-development-3a9a8ee64e9d?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Mobile teams often build the same feature twice: once for Android and once for iOS. The UI may be different, but the core logic is usually… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "1892a1e64fd93ed4",
-    "title": "Android UI Performance (Part 2): Preserving Object Identity via State Hoisting",
-    "url": "https://medium.com/@ilhamp.dev/android-ui-performance-part-2-preserving-object-identity-via-state-hoisting-ebed07e2576f?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "In the previous part, I explored recomposition and also mentioned Stability in Jetpack Compose. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "d3d7d10aa2b1d8f4",
-    "title": "Unreachable statements in Kotlin cause warnings, not errors",
-    "url": "https://alonso-delarte.medium.com/unreachable-statements-in-kotlin-cause-warnings-not-errors-2ccfc6df54f3?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "When a path of execution in a Java project is absolutely unreachable, the compiler issues an error, which your integrated development… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "1b60cf3e2db6c6d8",
-    "title": "unlimited movies / series trick",
-    "url": "https://medium.com/@terry021ks/unlimited-movies-series-trick-91c4c594bf54?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "🎬 Unlimited FREE Movies, Web Series, Anime & Entertainment | PannerPlay Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "244ab3a0108e9931",
-    "title": "Want to Smoke Less? Start by Understanding When You Smoke",
-    "url": "https://medium.com/@jonesrnick123456/want-to-smoke-less-start-by-understanding-when-you-smoke-1f55c42b4fb5?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "Cigarette tracking can reveal triggers, spacing, and patterns you may not notice day to day. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "d68c675fabf5ee80",
-    "title": "This 3 apps that make my Pixel much more fun to use",
-    "url": "https://medium.com/@BitMavrick/this-3-apps-that-make-my-pixel-much-more-fun-to-use-d18e9a84d6aa?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "The Google Play is home to a massive library of mobile applications, covering every genre under the sun. Some apps are designed with… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "94a5569ac1d34ab9",
-    "title": "One Script to Set Up Everything",
-    "url": "https://medium.com/@srivardhanjalan/one-script-to-set-up-everything-ae8bcea2d649?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "Zero to Shipped · 01 — your machine, your accounts, and the Apple Silicon trap that eats evenings. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "c42658771a91594d",
-    "title": "How Senior Android Developers Review Pull Requests?",
-    "url": "https://halilozel1903.medium.com/how-senior-android-developers-review-pull-requests-cf8257c8f0d9?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "A pull request can compile, pass CI, and still introduce the next production incident. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "f2048cc2fdecf586",
-    "title": "Why are people losing trust in society?",
-    "url": "https://khanafsar55991.medium.com/why-are-people-losing-trust-in-society-a34f10853abf?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "1e3c86d9f8561a47",
-    "title": "How to Notice Smartphone Display Problems Early",
-    "url": "https://medium.com/@mrauf.gbob/how-to-notice-smartphone-display-problems-early-65bc30b821e1?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "A phone display rarely fails without warning. Small changes in brightness, touch response, or color can appear long before the issue… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "94fe7d2381934910",
-    "title": "8888 Game Official App Download Register & Play in Pakistan",
-    "url": "https://medium.com/@pkrgames845/8888-game-official-app-download-register-play-in-pakistan-2d1f40f3531e?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "Online gaming has become one of the fastest-growing entertainment activities across Pakistan during the past few years. People now prefer… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "4e76e2f36bf0ef22",
-    "title": "3R3r Game APK Download Latest Version 2026 — Complete Guide",
-    "url": "https://medium.com/@nayapakapk93/3r3r-game-apk-download-latest-version-2026-complete-guide-da33741c3bb1?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "A Quick Look Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "424f60cf27bff661",
-    "title": "How to Install Android APK Games Safely: A Complete Beginner’s Guide (2026)",
-    "url": "https://medium.com/@ghulam649649/how-to-install-android-apk-games-safely-a-complete-beginners-guide-2026-86ba8202c165?source=rss------android-5",
-    "date": "2026-07-14",
-    "source_id": "medium-android-tag",
-    "excerpt": "How to Install Android APK Games Safely: A Complete Beginner’s Guide (2026) Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "676a82fb29de91f1",
-    "title": "v1.12.10-alpha01+dev4462: Details",
-    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4462",
-    "date": "2026-07-14",
-    "source_id": "lib-compose-multiplatform",
-    "excerpt": "org.jetbrains.compose. : :1.12.10-alpha01+dev4462 org.jetbrains.compose.material3:material3*:1.12.10-alpha01+dev4462 org.jetbrains.androidx.lifecycle:lifecycle- :2.11.10-alpha01+dev4462 org.jetbrains.androidx.navigation3:navigation3- :1.2.0-alpha03+dev4462",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "3e7a79317ad7219c",
-    "title": "Creator subscriptions like Twitch/Patreon on iOS & Android",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uvzi54/creator_subscriptions_like_twitchpatreon_on_ios/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I'm designing a live streaming app where users can subscribe to individual creators for $9.99/month . A user should be able to subscribe to multiple creators simultaneously (similar to Twitch or YouTube Channel Memberships), and each subscription should auto-renew independently. The challenge is scalability. We may eventually have 100k+ creators , so creating a separate App Store / Google Play subscription product for every creator doesn't seem practical. I recently came across Apple's Advanced ",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "780878307499b9aa",
-    "title": "Android Studio Quail 2 is Stable: Multi-task with the Android Studio AI agent",
-    "url": "https://android-developers.googleblog.com/2026/06/android-studio-quail-2-stable-features.html",
-    "date": "2026-07-14",
-    "source_id": "android-developers-blog",
-    "excerpt": "Posted by Amman Asfaw, Product Manager, Android Studio Android Studio Quail 2 is now stable and ready for you to use in production, bringing a shift to your IDE with concurrent agentic workflows, natively integrated memory leak profiling, and context-aware crash remediation. Whether you are performing a sweeping architectural overhaul, tracing a memory leak, or resolving a critical production crash, Android Studio keeps you anchored in your workspace by reducing manual friction. Here’s a deep di",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "ddc30977ab3f21b0",
-    "title": "MPS 2026.1 Has Been Released!",
-    "url": "https://blog.jetbrains.com/mps/2026/07/mps-2026-1-released/",
-    "date": "2026-07-14",
-    "source_id": "jetbrains-blog",
-    "excerpt": "MPS now uses IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3. Build Language gains transitive dependencies, migrations are more reproducible, and Java stubs have received a substantial quality update. The bundled Projectional Agent Toolkit plugin enables AI coding agents to read and write MPS models, thus opening up a number of cutting-edge development concepts for […]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "358955eb91e01fdb",
-    "title": "11 Approvals, Green Tests, and a Broken Prod: How One Kotlin Keyword Blinded Our UI Automation",
-    "url": "https://proandroiddev.com/11-approvals-green-tests-and-a-broken-prod-how-one-kotlin-keyword-blinded-our-ui-automation-34e2b1a3216c?source=rss----c72404660798---4",
-    "date": "2026-07-14",
-    "source_id": "proandroiddev",
-    "excerpt": "A single apply where we needed let turned every assertion in a Compose test DSL into a no-op — and passed 11 code reviews. Here's the exact mechanism, how to catch it, and the API change that makes the bug impossible. TL;DR — A helper called applyIf (built on Kotlin's apply) was used to conditionally extend an immutable Compose SemanticsMatcher. Because apply always returns the original receiver and throws away the block's result, the \"extra\" text assertion was silently computed and discarded on",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "a3708c0f3a6fa922",
-    "title": "How channelFlow Works: A Simplified Version You Can Build Yourself",
-    "url": "https://proandroiddev.com/how-channelflow-works-a-simplified-version-you-can-build-yourself-e44fd64bac00?source=rss----c72404660798---4",
-    "date": "2026-07-14",
-    "source_id": "proandroiddev",
-    "excerpt": "A practical explanation of channelFlow internals without diving into Flow source code The first part of this series explained the limitation inside flow { } that prevents it from receiving values produced outside the coroutine that runs collect(). This limitation appears in real applications when values come from callbacks, legacy components, or work that does not follow structured concurrency. In those cases, flow { } cannot emit values safely, and a different mechanism is required. This articl",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
     "id": "6063334b9c22ebe2",
     "title": "Jetpack Compose Fundamentals: A Modern Way to Build Android UI",
     "url": "https://medium.com/@vaibhavi.rana99/jetpack-compose-fundamentals-a-modern-way-to-build-android-ui-c218abffe829?source=rss------kotlin-5",
@@ -805,66 +615,6 @@
     "date": "2026-07-15",
     "source_id": "medium-kotlin-tag",
     "excerpt": "Managing UI state is easy in small apps. Managing state across an enterprise application with multiple screens, navigation graphs, feature… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "2b3688a0b237ab55",
-    "title": "Mastering Kotlin Scope Functions: The Simplified Guide",
-    "url": "https://medium.com/@mr.dhiraj.kumawat/mastering-kotlin-scope-functions-the-simplified-guide-e63f97dfb5aa?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Scope functions — let, run, with, apply, and also—are some of the most powerful features in the Kotlin standard library. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "0fccec0efc2984ac",
-    "title": "Variables, Constants, and Data Types in Kotlin: A Beginner-Friendly Guide",
-    "url": "https://techdynasty.medium.com/variables-constants-and-data-types-in-kotlin-a-beginner-friendly-guide-5c2a6e6b6159?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Every Kotlin program begins with data. Whether you’re storing a user’s name, calculating an order total, or tracking login status, you’re… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "ae2226ed10e59792",
-    "title": "This is what cross-platform development is really like",
-    "url": "https://medium.com/exante-technology/this-is-what-cross-platform-development-is-really-like-7fe6a8fa874d?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "One codebase, 85% shared across iOS and Android. How EXANTE rebuilt its trading app on Kotlin Multiplatform, and what it cost the team. Continue reading on EXANTE Technology »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "013e2eae0f0ac801",
-    "title": "Chasing the Leak: Diagnosing a Memory Leak Killing Our Feed Screen at 20M MAU",
-    "url": "https://medium.com/@sivavishnu0705/chasing-the-leak-diagnosing-a-memory-leak-killing-our-feed-screen-at-20m-mau-84f995b96ad2?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Three lifecycle bugs — RecyclerView, a leaky singleton, and image loading — compounded into a memory leak that crashed a 20M-user app. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "9569f462b249b97a",
-    "title": "Stop confusing concurrency and parallelism!",
-    "url": "https://medium.com/kotlin-academy/stop-confusing-concurrency-and-parallelism-3c4f4d013144?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Hello Kotliners, Continue reading on kt.academy »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "0ebacc5b9899a1a2",
-    "title": "What’s new in Google ML Kit for Flutter 0.22.0?",
-    "url": "https://bensonarafat.medium.com/whats-new-in-google-ml-kit-for-flutter-0-22-0-b8b2755c5881?source=rss------kotlin-5",
-    "date": "2026-07-14",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "The Flutter ecosystem thrives on reliability, and today, the Google ML Kit suite takes a massive leap forward. Version 0.22.0 has… Continue reading on Medium »",
     "date_uncertain": false,
     "summarized": false
   },
@@ -969,32 +719,12 @@
     "summarized": false
   },
   {
-    "id": "4981b0691b301262",
-    "title": "1.12.0-beta02",
-    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-beta02",
-    "date": "2026-07-14",
-    "source_id": "lib-compose-multiplatform",
-    "excerpt": "Changes since 1.12.0-beta01 Features Multiple Platforms (prerelease fix) The isClearFocusOnMouseDownEnabled flag is now false by default #3162 Implemented ComposeUiTest.runWithoutImplicitWait #3170 Desktop (prerelease fix) Bump Compose Hot Reload to #5632 1.2.0-beta01 Fixes Multiple Platforms (prerelease fix) Fix printing GlobalSnapshotManager concurrent registrations warning during creation of Popup / Dialog on iOS and Desktop with custom compose.layers.type #3156 iOS Fix an issue where Compose",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
     "id": "204c43cdc111363d",
     "title": "789 days since BasicAlertDialog has been marked experimental and going on strong",
     "url": "https://www.reddit.com/r/androiddev/comments/1uwq3ol/789_days_since_basicalertdialog_has_been_marked/",
     "date": "2026-07-15",
     "source_id": "reddit-androiddev",
     "excerpt": "I've begun using Jetpack Compose circa 2023 and 2024. I remember at the time, especially for Material 3, many APIs and classes were experimental, and it was acceptable because the framework itself was still young. But why `BasicAlertDialog` is still experimental? More than two years of experiments may not be even necessary on some peer-reviewed papers. This is a recurring pattern on Compose and its surrounding libs; sometimes I wonder if the framework itself is even fully stable. https://github.",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "7e374b5937560afe",
-    "title": "LazySurface, a lazy 2D-plane layout for Compose Multiplatform",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uw5u6v/lazysurface_a_lazy_2dplane_layout_for_compose/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I built a 2D-plane lazy layout CMP library for laying out items on a surface by defining relations/constraints between items. I always had fascination of 2D layouts (games, maps) and having them on mobiles. These kind of layouts do not usually do *that* well with phone screens, but owning a foldable for quite some time now and new ones coming left and right, I really want the idea of 2D lazy layouts come into fruition to use in my own projects. I was fascinated by how lazy row and lazy column wo",
     "date_uncertain": false,
     "summarized": false
   },
@@ -1045,66 +775,6 @@
     "date": "2026-07-15",
     "source_id": "reddit-androiddev",
     "excerpt": "Checkout \"Inkframe\" https://play.google.com/store/apps/details?id=com.inkframe.studio&pcampaignid=web_share via u/GooglePlay Free drawing and animation android app no subs, no ads, no data. Sign up for beta testing Check https://github.com/artistso/inkframesv5/actions https://docs.google.com/forms/d/1V4U1qbZeDSBrBWHVxwd1ZZs3nZezYTnls\\_a2VApUld8/edit free #android #drawing #artshare #fun #soquarky #animation #app submitted by /u/funfyp [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "c5c43bb859ad6ad1",
-    "title": "Android Studio Quail 3 RC 1 now available",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uwb3o3/android_studio_quail_3_rc_1_now_available/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "submitted by /u/androidtoolsbot [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "364793786313fe7e",
-    "title": "Android Studio Quail 2 now available",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uwb3nw/android_studio_quail_2_now_available/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "submitted by /u/androidtoolsbot [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "9edcb673ed684590",
-    "title": "Is asking the user to grant permission for unrestricted battery usage a bad thing?",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uwe5s0/is_asking_the_user_to_grant_permission_for/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "So currently I'm developing an app which somewhat requires unrestricted battery usage since it needs to run in the background. I was thinking will it affect negatively user experience to ask for unrestricted battery usage permission for the app? Also does it Comply with Google play policies? I'm new to android dev so don't have much idea about good practices. I could really use some good advice here! submitted by /u/Explains_self [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "70408b27e85f0bb2",
-    "title": "Lessons Learned Building My First Android App",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uw6k8r/lessons_learned_building_my_first_android_app/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I'm close to publishing my first Android app after a few months of learning and building. Along the way I worked with camera integration, device sensors for compass functionality, AI-powered image analysis, and designing a complete app from scratch. Before I publish, I'm curious: What's one mistake you wish you'd avoided before releasing your first app? Are there any Play Store requirements or common pitfalls first-time developers often miss? Any advice for making the review process smoother? I'",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "2054441aa69101bf",
-    "title": "I built a runtime WCAG accessibility scanner for Jetpack Compose — open source, built after 3 years on UBS Mobile Banking",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uwaue9/i_built_a_runtime_wcag_accessibility_scanner_for/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "After working for three years on the UBS Mobile Banking Android application, I saw how easily accessibility issues can slip through during UI development - especially when teams depend mainly on manual testing near the end of a release. Issue Overlay So I built ComposeA11yScanner , an open-source runtime accessibility scanner designed specifically for Jetpack Compose. It scans the active Compose UI and helps identify common accessibility issues such as: Missing content descriptions Touch targets",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "b56b4bc3e0171d93",
-    "title": "NobodyWho now supports Text-to-Speech & Speech-to-Text! 🔊🎙️",
-    "url": "https://www.reddit.com/r/androiddev/comments/1uw7jc8/nobodywho_now_supports_texttospeech_speechtotext/",
-    "date": "2026-07-14",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Hey Android devs 👋 We've added both Text-to-Speech and Speech-to-Text to our inference engine! Your local LLM setup can now speak and listen, fully offline. Text-to-Speech Load a TTS model and synthesize: val tts = Tts.load( source = \"hf://NobodyWho/Kokoro-82M\", voice = \"bf_emma\", language = \"en-gb\", ) val wav = tts.synthesize(text = \"Hello from NobodyWho!\") File(\"out.wav\").writeBytes(wav) You get WAV bytes back ready to save or play. Two backends: Kokoro (lightweight 24kHz) and Supertonic (mult",
     "date_uncertain": false,
     "summarized": false
   },
@@ -26225,6 +25895,226 @@
     "date": "2026-10-10",
     "source_id": "reddit-androiddev",
     "excerpt": "Most hardening tools in this space are either paid SaaS (upload your APK to someone's server) or \"open source\" in name only — the GUI is public but the actual protection logic is a closed binary. Shellsmith is my attempt at doing it properly: the Rust core, the Android stub module, and even the licenses for the third-party components it depends on are all in the repo. Everything runs locally — no upload step. MIT OR Apache-2.0, cross-platform desktop GUI (Tauri + React), CLI for automation, full",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "b8f69f13692aa0c2",
+    "title": "Build Your Game Challenge: Join in and Compete for Prizes",
+    "url": "https://blog.jetbrains.com/education/2026/10/12/build-your-game-challenge-join-in-and-compete-for-prizes/",
+    "date": "2026-10-12",
+    "source_id": "jetbrains-blog",
+    "excerpt": "This October, we’re launching a new challenge for the JetBrains Academy community. To take part, complete our Build a Game With an AI Coding Agent course, customize the game with your own ideas, and submit your project for a chance to win prizes. How to participate Joining the challenge is simple: You can add new […]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d84bbf651966c91d",
+    "title": "R8 and Keep Rules in Production: Shrinking a 600-Module App Without Breaking Reflection",
+    "url": "https://medium.com/@ramadan123sayed/r8-and-keep-rules-in-production-shrinking-a-600-module-app-without-breaking-reflection-794aa48a6803?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "“It works in debug but crashes in release” is the most disorienting bug in Android, because the code is identical. It is not a mystery. It… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6e7f98e3d8ca9d5d",
+    "title": "Kotlin Multiplatform, Incrementally",
+    "url": "https://medium.com/@ramadan123sayed/kotlin-multiplatform-incrementally-d7aa383a597b?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "You do not need to rewrite your app, share your UI, or convince your iOS team of anything. KMP is adoptable one module at a time, starting… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2163239df8fe9eb7",
+    "title": "The corpus your generator reads is production code",
+    "url": "https://medium.com/mobilebytesensei/the-corpus-your-generator-reads-is-production-code-20bbff141712?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f0edfdbbefec2b3b",
+    "title": "Your Coroutine Crash Finally Tells You Who Rethrew It",
+    "url": "https://medium.com/@androidlab/your-coroutine-crash-finally-tells-you-who-rethrew-it-5941b5bc4a80?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Kotlin 2.4.20’s StackTraceRecoverable fixes custom exceptions that lose their trail across coroutines. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d72afe4f4be7897d",
+    "title": "Room 3.0 Just Broke Your DAOs",
+    "url": "https://medium.com/@androidlab/room-3-0-just-broke-your-daos-9d707fc1c4af?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "What changed in Room 3, what it’ll cost you, and whether your Android app should migrate now or wait. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "435d84e0ab041357",
+    "title": "Daily Kotlin: Data Classes, Destructuring, and copy()",
+    "url": "https://jasonobject.medium.com/daily-kotlin-data-classes-destructuring-and-copy-f5255767f00b?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Mastering immutable state modeling, automatic utility methods, and clean component extraction across Kotlin Multiplatform Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "e7cebc8118d2e7e4",
+    "title": "The ANR Illusion: How to Stop Chasing Ghosts and Fix Thread Starvation",
+    "url": "https://porterblog.medium.com/the-anr-illusion-how-to-stop-chasing-ghosts-and-fix-thread-starvation-3e0d643d2d4c?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Written by: Mohammed Nishar Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "37f0da9b4fdeb881",
+    "title": "Compose’ta Bir if Kapanınca Ekran Nereye Gidiyor? Kaybolan State’in Anatomisi",
+    "url": "https://bahadireray.medium.com/composeta-bir-if-kapan%C4%B1nca-ekran-nereye-gidiyor-kaybolan-state-in-anatomisi-afe5086b8c97?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Bir filtre ekranınız olduğunu düşünün. Kullanıcı listeden ürün arıyor, birkaç filtre seçiyor ve aşağı doğru kaydırıyor. Ardından görünümü… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "4c5bf6ec569c7b50",
+    "title": "Android CLI Device Streaming: Bringing Real Android Hardware Into Agentic Development",
+    "url": "https://ravirawal13.medium.com/android-cli-device-streaming-real-device-testing-a33694ac5021?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Your AI coding agent can now work with a real Android device in the cloud, without requiring that device to sit on your desk. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "da09adee91f08fb0",
+    "title": "Why Changing One Boolean Re-renders Your Entire Screen",
+    "url": "https://medium.com/tech-in-olx-indonesia/why-changing-one-boolean-re-renders-your-entire-screen-42ecc8371e68?source=rss------kotlin-5",
+    "date": "2026-10-12",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "For the last few months, my team has been migrating from MVP to MVVM. We followed Google’s official app architecture guide as our north… Continue reading on Tech in OLX Indonesia »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1ca6d6a38f633760",
+    "title": "Does WhatsApp remove location data from photos? The app-by-app answer",
+    "url": "https://medium.com/@devsahadat/does-whatsapp-remove-location-data-from-photos-fe97c8f5e143?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Sent normally, the GPS was gone in 5 dated tests; sent as a document, it arrived. What iMessage, Telegram, Signal, Discord and email do. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7da4cd19bfbe9653",
+    "title": "Play passed this dashboard card in 13 builds. On 11 October it called it deceptive",
+    "url": "https://medium.com/codex/play-passed-this-dashboard-card-in-13-builds-on-11-october-it-called-it-deceptive-3b05c220176d?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Google’s only evidence was a screenshot of my ADB app on a phone with no ADB connected, where nothing the card promised could run Continue reading on CodeX »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "6770a418d214d459",
+    "title": "Flutter’s Big Design Split Is Bigger Than a Find-and-Replace",
+    "url": "https://medium.com/@flutter-app/flutters-big-design-split-is-bigger-than-a-find-and-replace-0e7265a6d576?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Flutter 3.47 moves Material and Cupertino into standalone packages, and the ripple effects reach your dependencies, not just your imports. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "a6e2119fa642e778",
+    "title": "The latency maths that decides on-device versus an API call",
+    "url": "https://medium.com/mobilebytesensei/the-latency-maths-that-decides-on-device-versus-an-api-call-19ce8991584b?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "f3cb4891d8392ae1",
+    "title": "What a small on-device model simply cannot do",
+    "url": "https://medium.com/mobilebytesensei/what-a-small-on-device-model-simply-cannot-do-41173af1d590?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "caac8b9778759e57",
+    "title": "The app freezes and you cannot reproduce it: the follow-up that decides the round",
+    "url": "https://medium.com/@mike.salari.dev/the-app-freezes-and-you-cannot-reproduce-it-the-follow-up-that-decides-the-round-9f8093d7c9ae?source=rss------android-5",
+    "date": "2026-10-12",
+    "source_id": "medium-android-tag",
+    "excerpt": "“Move it off the main thread” is a first answer. What you say when the debugger is taken away is the senior one. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1de4bb93dd935c92",
+    "title": "Alternative Payments for Digital Products on Android and iOS",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x3m2xx/alternative_payments_for_digital_products_on/",
+    "date": "2026-10-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi everyone, has anyone faced the challenge of offering alternative payment methods in Android and iOS apps for digital products? For example, in my app, premium users can create channels that other users pay to join, similar to YouTube memberships, or purchase digital gifts. How did you handle Google Play and Apple’s in-app purchase policies while also offering payment options. I’d appreciate hearing how you solved it. Thanks! submitted by /u/almuhad [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "68b5ac0b63b16da0",
+    "title": "Why is android so frustrating?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x3vjwa/why_is_android_so_frustrating/",
+    "date": "2026-10-12",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi all. Just getting into android development in university and would like to vent. Why is android development feel so fragmented? There are text buttons which arent the same as buttons with text. It doesnt follow basic MVC. Using jetbrains compose, much of the system superloop and triggers are under the hood requiring various specially duplicated variable classes to cooperate with jetpack, which casting between classes to operate in and out of jetbrains is one of many headaches. Coroutines anot",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7d711eb89363daf1",
+    "title": "Android Studio suddenly became barely working, throwing errors for no visible reason, and it stays after re-installing. What to do? (Windows 11, Quail 3 | 2026.1.3 Patch 1)",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x39po2/android_studio_suddenly_became_barely_working/",
+    "date": "2026-10-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm currently trying to write an app. Until a few days ago, it worked OK, but a few days ago unexplained errors begun. Sometimes my emulator or app won't start, or will start on 2nd or 3rd attempt. It shows errors like: \"(device) is already running at process\" (when it's OFF) \"`AdbServerController` is in a stopping/stopped state\" \" 'unknown host service' error on device serial #emulator-5554 executing service 'host-serial:emulator-5554:features' \" \"This network name is no longer available\" And e",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "db4a34db06bf907b",
+    "title": "My app won't open from tapping the notification?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x3mmao/my_app_wont_open_from_tapping_the_notification/",
+    "date": "2026-10-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I've been trying to get it to work for about an hour, no amount of AI is helping me and no errors are displayed. I am using the official android development program to make an app and after getting the notifications working, I cannot get it to open the app from the notification, what could be the problem? AndroidManifest.xml <?xml version=\"1.0\" encoding=\"utf-8\"?> <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.example.wordoftheday\"> <uses-permission android:name",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d33248f5ca8dc90b",
+    "title": "Does Android WebView actually return WebAuthn prf (clientExtensionResults.prf), or only passkeys for sign-in?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x35nix/does_android_webview_actually_return_webauthn_prf/",
+    "date": "2026-10-11",
+    "source_id": "reddit-androiddev",
+    "excerpt": "We're building a Cordova hybrid app where passkeys are used for PRF-based key derivation (decrypt payslips), not login. RP is our own domain (first-party). Android docs show WebView can enable WebAuthn/passkeys via WebSettingsCompat.setWebAuthenticationSupport(FOR_APP) + Digital Asset Links: https://developer.android.com/identity/sign-in/credential-manager-webview Those docs never mention the WebAuthn prf extension . Chrome on Android + GPM is known to support PRF in the browser, but I can't fin",
     "date_uncertain": false,
     "summarized": false
   }
