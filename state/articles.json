@@ -599,146 +599,6 @@
     ]
   },
   {
-    "id": "f90429c0b7e0e940",
-    "title": "We Called Our App Multiplatform. 848 Lines Actually Were.",
-    "url": "https://medium.com/@shivathapaa/we-called-our-app-multiplatform-848-lines-actually-were-01d95643cb3f?source=rss------kotlin-5",
-    "date": "2026-07-19",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "The rebuild of a production KMP app to 93% measured shared code — with real numbers from both codebases. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "5cc828e19528a3f9",
-    "title": "Új színfolt a hazai tech-színtéren: Így hódítja meg a TikTokot a Hometech",
-    "url": "https://medium.com/@egyember003/%C3%BAj-sz%C3%ADnfolt-a-hazai-tech-sz%C3%ADnt%C3%A9ren-%C3%ADgy-h%C3%B3d%C3%ADtja-meg-a-tiktokot-a-hometech-8c39915b4fc1?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "Egyre népszerűbbek a rövid, pörgős telefonszervizes és kütyütesztelős videók a magyar fiatalok körében. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "358d39bac8c5c769",
-    "title": "888GJ Game APK Download — Complete Login & Gameplay Guide",
-    "url": "https://medium.com/@nayapakapk93/888gj-game-apk-download-complete-login-gameplay-guide-9ca7ccde9e65?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "888GJ Game is an online game and Online gaming has become one of the fastest-growing forms of entertainment because people prefer playing… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "a14d7dddb4c43106",
-    "title": "Jetpack Compose-style Modifiers in Flutter: Bringing Compile-Time Safety and Structural Caching to…",
-    "url": "https://medium.com/@bodjokowilfried29/jetpack-compose-style-modifiers-in-flutter-bringing-compile-time-safety-and-structural-caching-to-9b6726ccd85c?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "Introduction Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "5fbdba28494b6619",
-    "title": "أفضل العاب ppsspp 2026: دليل تشغيلها بأعلى جرافيك",
-    "url": "https://fadyali.medium.com/%D8%A3%D9%81%D8%B6%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-ppsspp-2026-%D8%AF%D9%84%D9%8A%D9%84-%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%87%D8%A7-%D8%A8%D8%A3%D8%B9%D9%84%D9%89-%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%83-efb68a10ed9d?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "على الرغم من التطور الهائل في منصات الألعاب الحديثة، إلا أن شغف ألعاب Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "4fd1142c9f811e41",
-    "title": "Why 3 Patti Union Is Gaining Popularity Among Android Users in 2026",
-    "url": "https://medium.com/@asaab6280/why-3-patti-union-is-gaining-popularity-among-android-users-in-2026-7bfd8420f959?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "f46dc1a7acf4f89a",
-    "title": "Why Inkwell Comic Reader Feels Smooth (and Why Nothing Else on Android Does)",
-    "url": "https://medium.com/@shubhamkokul/why-inkwell-comic-reader-feels-smooth-and-why-nothing-else-on-android-does-585f6250b260?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "I read a lot of manga. And graphic novels. And webtoons. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "529c46585a85c6b2",
-    "title": "Stop Editing, Start Writing: A Simple Step-by-Step Guide to Silencing Your Inner Critic and…",
-    "url": "https://medium.com/@zakirlashari1989/stop-editing-start-writing-a-simple-step-by-step-guide-to-silencing-your-inner-critic-and-d62f7965c24f?source=rss------android-5",
-    "date": "2026-07-19",
-    "source_id": "medium-android-tag",
-    "excerpt": "The easiest way to start writing is to completely remove the pressure of being perfect from yourself. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "6ce9c1d7a3cbfc3b",
-    "title": "Measuring the LLMs for android app development",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0ju89/measuring_the_llms_for_android_app_development/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Maybe many of you may have come across Android Bench by Google. It started as an Android-specific LLM benchmark in March. But wait - why did they need a coding benchmark specific to android? The reason as I understood for the need of android specific coding benchmarks is that while general benchmarks test broad coding capabilities, Android Bench is built to evaluate how well AI models handle the unique architecture, libraries, and best practices required to build quality Android applications usi",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "292d2512095a75f0",
-    "title": "Rich Text Editor: TextKit",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0endq/rich_text_editor_textkit/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Hi everyone, some days ago I just launched a new library for rich text content built in Kotlin Multiplatform that uses ProseMirror json style to load documents, you can check the library (still in alpha) and create an issue about it. This is the link : https://github.com/jjrodcast/TextKit submitted by /u/jjrodcast1 [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "3e5fcef526462d01",
-    "title": "How do you investigate an input-dispatch ANR in a Compose reader when you cannot reproduce it?",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0gf1x/how_do_you_investigate_an_inputdispatch_anr_in_a/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I am working on a native Android reading screen built with Jetpack Compose. Play Vitals has reported an input-dispatch ANR in the reader flow, but we have not reproduced it locally. The screen advances text at a user-selected pace, persists reading progress, and transitions to a summary screen. We have started checking main-thread work, lifecycle cleanup, navigation, state updates, and whether scheduled reading updates can outlive the screen. For anyone who has diagnosed a similar issue, what is",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "b854eaa2c1a1d9d1",
-    "title": "If I want to build my own apps and games on an android phone , how I can ?",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0h969/if_i_want_to_build_my_own_apps_and_games_on_an/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I don't have enough money to purchase a laptop and I want to start learning and making apps and websites. I'll purchase a laptop later when I get money until I want to continue to learn so any dev can help how to do it , please help submitted by /u/Dark_sarang [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "c3b422f79b5a75c9",
-    "title": "Bring your KMP library to NuGet",
-    "url": "https://proandroiddev.com/bring-your-kmp-library-to-nuget-02e1131a4707?source=rss----c72404660798---4",
-    "date": "2026-07-19",
-    "source_id": "proandroiddev",
-    "excerpt": "with kotlin-native-nuget plugin, you can bring your Kotlin to C# idiomatically https://medium.com/media/0f185efc67390bbf440bfc33f5675f42/href A little while ago, I gave a talk where I tried to take a library written in Kotlin and hand it to a .NET developer as a NuGet package. By hand. It is 30 minutes of me walking into every brick wall you can imagine - the C ABI, marshalling strings, keeping objects alive across the boundary, making any of it look like C# a human would actually want to use. I",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "35f61392d461adb8",
-    "title": "ART broke our debugging — so we fixed it with a hook while the real fix rides the mainline train",
-    "url": "https://proandroiddev.com/art-broke-our-debugging-so-we-fixed-it-with-a-hook-while-the-real-fix-rides-the-mainline-train-cfca56a0968b?source=rss----c72404660798---4",
-    "date": "2026-07-19",
-    "source_id": "proandroiddev",
-    "excerpt": "Co-authored with my colleague @0xera , who has open-sourced a library that works around this bug — JdwpSilencer . This is a follow-up to «How I Found a Deadlock Inside ART That ART Itself Couldn’t Dump» . If you missed part one, here’s the gist in two sentences. On Android 16, the moment you attach a Java debugger (JDWP) to a large debuggable app, the whole process locks up solid and throws an ANR. The culprit is a userspace lock-ordering (ABBA) deadlock between the garbage-collector thread and ",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
     "id": "6b821046f2d56864",
     "title": "When Should You Use Remote Compose? A Practical Guide for Android Developers",
     "url": "https://medium.com/@androidlab/when-should-you-use-remote-compose-a-practical-guide-for-android-developers-1ab902cdf876?source=rss------kotlin-5",
@@ -805,36 +665,6 @@
     "date": "2026-07-20",
     "source_id": "medium-kotlin-tag",
     "excerpt": "The navigation model app devs keep getting wrong Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "c9ff4cd9666d8a82",
-    "title": "I Found a VLC Playback Bug While Building a KMP Video Feed",
-    "url": "https://medium.com/@nikolayv_dev/i-found-a-vlc-playback-bug-while-building-a-kmp-video-feed-0ab49e1e0f54?source=rss------kotlin-5",
-    "date": "2026-07-19",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "HLS and DASH froze on all 20 test videos in VLC 3.0.18 and 3.0.23, while progressive MP4 played normally. Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "2aeba079dda2cfd2",
-    "title": "1.The first look at Kotlin",
-    "url": "https://medium.com/@aly.route/1-the-first-look-at-kotlin-e271d6f6a00d?source=rss------kotlin-5",
-    "date": "2026-07-19",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Kotlin is a highly effective modern programming language developed by JetBrains. It has a very clear and concise syntax, which makes your… Continue reading on Medium »",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "36dc631a99ad1b72",
-    "title": "How I Built Android Kiosk Mode for a Commercial Device: A Complete Guide to Device Owner & Lock…",
-    "url": "https://medium.com/@harshhotwani367/how-i-built-android-kiosk-mode-for-a-commercial-device-a-complete-guide-to-device-owner-lock-aa836165e2da?source=rss------kotlin-5",
-    "date": "2026-07-19",
-    "source_id": "medium-kotlin-tag",
-    "excerpt": "Introduction Continue reading on Medium »",
     "date_uncertain": false,
     "summarized": false
   },
@@ -935,66 +765,6 @@
     "date": "2026-07-20",
     "source_id": "lib-compose-multiplatform",
     "excerpt": "org.jetbrains.compose. : :1.12.0-beta03+dev4497",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "2a8d4a8167961ccf",
-    "title": "Learning Compose by Google's course for beginners",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v13qbw/learning_compose_by_googles_course_for_beginners/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I've been studying Compose for a little while and finishing the 3rd chapter \"Build beautiful apps\". One thing that confuses me is their expected completion time. For instance, that particular chapter is supposed to take around 3 hours to finish. However, it basically requires us to build 3 projects, and it took me about 9-10 hours to get to the latest codelab (30-day app). Am I missing smth? Am I studying wrong and too slow? What should I pay more attention to? Considering I can spend ~2 hours d",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "bcd5bf63d984c184",
-    "title": "I missed Bloc Observer after moving to Android, so I built Flow Observer",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v10a47/i_missed_bloc_observer_after_moving_to_android_so/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Hello! I want to share Flow Observer, my first open-source library and my first project using KSP. The idea was inspired by Bloc Observer from Flutter. It lets you observe and log StateFlow and SharedFlow emissions, making it easier to see how state changes throughout your app. After transitioning from Flutter to Android, I found myself missing the visibility that Bloc Observer gives you, so I decided to build something similar for StateFlow and SharedFlow while learning KSP. I'd love to keep gr",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "f7de052021dbe309",
-    "title": "Building AI features in KMP: define the interface, iterate locally with Koog, move to the backend when done",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0x4sw/building_ai_features_in_kmp_define_the_interface/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "submitted by /u/ph1b [link] [comments]",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "f51cf31bdb2eddef",
-    "title": "Photo viewing issue",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0uiv8/photo_viewing_issue/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Hey i am developing a application where a requirement is photos must be previewable however i am running into a issue where i get a uri from the remeberlauncherForActivytResult api after recieveing this i pass this to my viewmodel where it is sorted and stored val addImages =rememberLauncherForActivityResult( ActivityResultContracts.PickMultipleVisualMedia() ) { uri -> if(!uri.isEmpty()){ onAction(createRecordScreenIntents.addImages(uri)) } however after this is done then i have the files just p",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "8709107949ae7c84",
-    "title": "Meet unzstd",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0rpir/meet_unzstd/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "Java Zstandard (zstd) decoder for Android and the JVM. What looked like a simple dependency turned into a surprisingly difficult problem. I needed to decompress zstd-compressed datasets in an Android app. Existing options all had major trade-offs: - aircompressor 2.x depends on \"sun.misc.Unsafe\", which crashes on Android ART. - aircompressor 3.x moved to \"java.lang.foreign\", which Android doesn't support. - zstd-jni works well, but requires native \".so\" files, ABI-specific packaging, and brings ",
-    "date_uncertain": false,
-    "summarized": false
-  },
-  {
-    "id": "818f8ab3ee80b1dc",
-    "title": "What's the last Google Play policy or Play Console requirement that actually cost you time?",
-    "url": "https://www.reddit.com/r/androiddev/comments/1v0lw4q/whats_the_last_google_play_policy_or_play_console/",
-    "date": "2026-07-19",
-    "source_id": "reddit-androiddev",
-    "excerpt": "I'm researching the biggest pain points Android developers face around publishing apps. I'm not looking for general complaints. I'm curious about real experiences. Did a Play policy delay your release? Did a new requirement catch you by surprise? Did you spend hours figuring out what Google actually wanted? What happened, and what do you wish had made the process easier? submitted by /u/UndefinedCurve [link] [comments]",
     "date_uncertain": false,
     "summarized": false
   },
@@ -26365,6 +26135,276 @@
     "date": "2026-10-15",
     "source_id": "reddit-androiddev",
     "excerpt": "I’m building a personal J.A.R.V.I.S.-style assistant that runs completely on my phone. It’s a system service rather than a regular app so it stays ready in the background. Current state (v0.0.2): wake word, speech recognition, local LLM reply spoken back. The video shows real voice commands with no cuts. Stack: k2-fsa/sherpa-onnx for speech recognition gemma3-1b-it-int4 for the language model Next step is system configuration options. After that I want real actions like calls and timers. Would l",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d89439c4530c7bc2",
+    "title": "Mastering Control Flow in Kotlin — Conditionals and Loops in My Android Development Journey with…",
+    "url": "https://medium.com/@oluwatosinodejide121/mastering-control-flow-in-kotlin-conditionals-and-loops-in-my-android-development-journey-with-b3202839eda8?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Welcome back to Week 5 of my DevCareerXCoursera Learning for Impact Scholarship Program Cohort 2 journey. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "8b88f4c810de2c55",
+    "title": "Bringing a 3-Year-Old Android App to Android 17",
+    "url": "https://medium.com/@zobaer53/bringing-a-3-year-old-android-app-to-android-17-0da7e2a7c457?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "A case study: AGP 8 → 9, Kotlin 1.7 → 2.4, targetSdk 33 → 37 and 16 KB pages, on one branch with a UI test gate on every commit, plus four… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "5f24effb5686ddd3",
+    "title": "Mastering the Fundamentals of Kotlin: My Week 4 Journey into Android Development with Meta",
+    "url": "https://medium.com/@oluwatosinodejide121/mastering-the-fundamentals-of-kotlin-my-week-4-journey-into-android-development-with-meta-b7e3f0bb7798?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "The past few weeks of my continued learning with DevCareerXCoursera Learning for Impact Scholarship Program Cohort 2 have been nothing… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "08f74b0d4e0e8905",
+    "title": "Constraints flow down, sizes flow up, and fillMaxSize means something specific",
+    "url": "https://medium.com/mobilebytesensei/constraints-flow-down-sizes-flow-up-and-fillmaxsize-means-something-specific-5461eed0b9db?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "2726cc572e43e997",
+    "title": "composeResources is not Android resources, and qualifiers resolve differently",
+    "url": "https://medium.com/mobilebytesensei/composeresources-is-not-android-resources-and-qualifiers-resolve-differently-93fd78618f1b?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "11cb6c98d711ab4b",
+    "title": "Kotlin/Native memory is not the JVM’s, and a retain cycle crosses the bridge",
+    "url": "https://medium.com/mobilebytesensei/kotlin-native-memory-is-not-the-jvms-and-a-retain-cycle-crosses-the-bridge-1b27bc20ca95?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Continue reading on MobileByteSensei »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "7fd0b9c7dee53905",
+    "title": "The Ultimate 12-Day Android Interview Preparation Plan",
+    "url": "https://medium.com/@ishant.7123217/the-ultimate-12-day-android-interview-preparation-plan-773e15b16868?source=rss------kotlin-5",
+    "date": "2026-10-17",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "Preparing for a Senior or Staff Android Developer interview is not just about learning Kotlin syntax or remembering Android APIs. At this… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "877c3817c4be7a3e",
+    "title": "Ten quick edits should not queue ten syncs: unique work in WorkManager, done right",
+    "url": "https://medium.com/@homelabtherightway/ten-quick-edits-should-not-queue-ten-syncs-unique-work-in-workmanager-done-right-83aedb8c9da7?source=rss------kotlin-5",
+    "date": "2026-10-16",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "The user saves a note on the subway and puts the phone in their pocket. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d7eca70356eab38b",
+    "title": "Anyone Can Build an App Now. That’s Why Engineers Still Matter",
+    "url": "https://chetan-garg36.medium.com/anyone-can-build-an-app-now-thats-why-engineers-still-matter-bf7210ef157b?source=rss------kotlin-5",
+    "date": "2026-10-16",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "A viral take says AI ended the era of developer gatekeeping. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "77631a0b6eff0153",
+    "title": "Calling Swift’s CryptoKit from Kotlin with SwiftPM",
+    "url": "https://ravirawal13.medium.com/kotlin-toolchain-swiftpm-cryptokit-kotlin-6fec8fb6b4b6?source=rss------kotlin-5",
+    "date": "2026-10-16",
+    "source_id": "medium-kotlin-tag",
+    "excerpt": "SwiftPM dependencies are the headline feature of Kotlin Toolchain 0.13. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "4cbf2d0598930d19",
+    "title": "How to Validate a Real-Device Mobile AI Data Workflow with a Small POC",
+    "url": "https://medium.com/@armarray/how-to-validate-a-real-device-mobile-ai-data-workflow-with-a-small-poc-2b4bfa702bb9?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "Test one complete, inspectable workflow slice — not an agent or infrastructure at scale. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "88ad21e9b8ce6892",
+    "title": "The Bug Is on Every Android 17 Phone, but Not in the Source Code Anyone Can See",
+    "url": "https://medium.com/@jamilxt/the-bug-is-on-every-android-17-phone-but-not-in-the-source-code-anyone-can-see-8e85318bb0b0?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "Last weekend, Visual Pinball on Android stopped loading pinball tables out of nowhere. Not all of them. Only the tables whose VBScript… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "9f9476c259dbb05c",
+    "title": "How to get Slack alerts when a Google Play listing’s text or pricing changes",
+    "url": "https://evangelist67.medium.com/how-to-get-slack-alerts-when-a-google-play-listings-text-or-pricing-changes-38d74386fabc?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "A competitor’s Android app quietly added “Contains ads” and a new $49.99 in-app tier. Slack had it the morning it went live. Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "3ef7ee40ac56b99a",
+    "title": "ChatGPT SEO Company Jaipur: How ChatGPT Cites Content",
+    "url": "https://medium.com/@g2stechnologyinjaipur/chatgpt-seo-company-jaipur-how-chatgpt-cites-content-fa4bb4592c13?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "Search behavior is evolving as users increasingly turn to AI-powered platforms such as ChatGPT to research products, compare services… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "32c550e098c659e9",
+    "title": "Mobile Specs: Silicon Node Densities, Thermal Throttling Curves, and Display Luminance Benchmarking",
+    "url": "https://gemprogrammers.medium.com/mobile-specs-silicon-node-densities-thermal-throttling-curves-and-display-luminance-benchmarking-b3fbe46c6992?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "Evaluating modern flagship and performance smartphones requires cutting through marketing buzzwords to analyze component-level engineering… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "71c99cfea728bdff",
+    "title": "Jetpack Compose Tip — Generate a Secondary Color from a Primary Color",
+    "url": "https://medium.com/@abbas.ha.1378/jetpack-compose-tip-generate-a-secondary-color-from-a-primary-color-1f68cace6ac4?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "If you have a custom theme in your project and you also allow the user to choose a color and create their own theme, sometimes you need to… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "d6baed8733e4bc63",
+    "title": "Where Should You Store OAuth Refresh Tokens on Android? A Secure Storage Deep Dive",
+    "url": "https://medium.com/@paritasampa95/where-should-you-store-oauth-refresh-tokens-on-android-a-secure-storage-deep-dive-3141bc0d119d?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "A deep dive into Android’s secure storage options, what they actually protect against, and the mistakes I still see in production… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "1c9bee7cdb980e37",
+    "title": "Google Play Closed Testing FAQ: The Questions Developers Actually Ask",
+    "url": "https://medium.com/@praveencbe525/google-play-closed-testing-faq-the-questions-developers-actually-ask-bfd9cca51258?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "Straight answers on the 12 testers for 14 days rule, opt-ins, dropouts and applying for production access, based on Play Console Help and… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "0b61b4f58fc4d273",
+    "title": "React Native 0.88 Is Here: 5 Changes That Could Make Your Next Upgrade Easier",
+    "url": "https://medium.com/@adsalihac/react-native-0-88-is-here-5-changes-that-could-make-your-next-upgrade-easier-3b67f3d72779?source=rss------android-5",
+    "date": "2026-10-17",
+    "source_id": "medium-android-tag",
+    "excerpt": "React Native is getting closer to the web, improving native iOS support, and making typography more flexible. Here’s what developers… Continue reading on Medium »",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "66b704dda2b51e2f",
+    "title": "Best Projects Courses or Projects that AI can help me understand",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x85t56/best_projects_courses_or_projects_that_ai_can/",
+    "date": "2026-10-17",
+    "source_id": "reddit-androiddev",
+    "excerpt": "So I've been learning kotlin compose from the android official codelabs and I feel stuck like i want to make a big project so i can combine all the thinks that I've learned but i don't find a good idea or even a motive or someone so I can use a reference when I got stuck or dunno what to do next so I was asking is there like a course or projects on github that have dagger, retrofit, room and so on so i can learn from submitted by /u/_Evil_Knight_ [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "0e485b68685b962e",
+    "title": "What to expect at Android Dev Summit 2026",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7lwut/what_to_expect_at_android_dev_summit_2026/",
+    "date": "2026-10-16",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hi! This is my first time post so apologies if my questions aren’t clear! But I’m an associate android dev. Been with the team for 1.5 years. I’m going to the Google dev summit in Oct and was wondering what should I expect based on previous years summit? Also any advice when it comes to connecting with other android devs? I don’t need a job but I figure it good to network, connect with knowledgeable devs and even potential find a mentor when it comes to android development. Also another question",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "43ac18ef5c0a031e",
+    "title": "Convert an android phone into a story box for children",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7nnmu/convert_an_android_phone_into_a_story_box_for/",
+    "date": "2026-10-16",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Hello, I am an embedded engineer which has no idea how to code an APK. I am usually programming in C/C++/python and I am dealing with rtos/interrupt/uart/spi... With 2 kids at home and a lot's of story box (Lunii, Bookinou,...) I was tired of buying/uploading story into the differents toys. I then decided to create an android APK (100% vibecoded) which can transform an old Android phone into a story box easy to use for the children. I sent ADB to completely lock the phone that the kid cannot lea",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "72c07d799bf8f5fc",
+    "title": "Running a full PostgreSQL 18 server inside an Android app: SELinux exec rules, argv[0] tricks and no shmget()",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7j5zi/running_a_full_postgresql_18_server_inside_an/",
+    "date": "2026-10-16",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Author here. I'm building an Android IDE on my own and wanted a real Postgres running on the device, no remote server. The write-up covers the parts that took me longest: shipping the binaries as .so files so Android lets them execute, the argv[0]/symlink trick initdb needs, rebuilding without the Termux prefix, and forcing mmap because there's no System V shared memory. Happy to answer anything about it. submitted by /u/NorthArder [link] [comments]",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "118f77b32e84b20b",
+    "title": "Do Android developers really need Android Studio for every Kotlin debugging task?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7yrdj/do_android_developers_really_need_android_studio/",
+    "date": "2026-10-17",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I was working on some Kotlin/JVM code and ran into a familiar situation. Everything compiled fine, but the output wasn't what I expected. I just wanted to set a breakpoint, inspect a few variables, and find the issue. Android Studio handles this well, but sometimes I'm just working on standalone Kotlin logic, utility classes, or JVM modules. Opening a full IDE for that felt unnecessary when I already had VS Code running. So I started experimenting with Kotlin debugging in VS Code. What I thought",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "215c50b48e181d32",
+    "title": "Indie app developers: how do you create your app store screenshots?",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x822eb/indie_app_developers_how_do_you_create_your_app/",
+    "date": "2026-10-17",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I'm a developer working on ScreenshotFast, a tool designed to make app store screenshot creation easier for people without a design background. I'm trying to understand how developers handle this part of launching an app. Do you usually: Design screenshots yourself? Start from templates? Hire a designer? Use an existing screenshot generator? I'd especially appreciate hearing what frustrates you most about the current workflow. I built a tool around this problem, and I'm happy to share it if it's",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "ba11fa6c65ac17f6",
+    "title": "Struggling with using webview for a html jscript file which reads local CSV files + saves local user data",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7igdz/struggling_with_using_webview_for_a_html_jscript/",
+    "date": "2026-10-16",
+    "source_id": "reddit-androiddev",
+    "excerpt": "Struggling with getting my head around webview. I have an application which is a one page html javascript page however it needs to read csv files and make some kind of local storage to save the user's progress. What code would I need and where for an app like this as a minimum? I've tried a few times, including using Gemini but I keep getting errors and things not working even when the syntax seems correct in android stuido. I did the kotlin android material on the site to learn the basics but t",
+    "date_uncertain": false,
+    "summarized": false
+  },
+  {
+    "id": "65a2aa4daa335bb2",
+    "title": "I got tired of my AI agent writing Compose UI it couldn't see, so I built a tool that renders @Preview to PNG without the IDE",
+    "url": "https://www.reddit.com/r/androiddev/comments/1x7eftw/i_got_tired_of_my_ai_agent_writing_compose_ui_it/",
+    "date": "2026-10-16",
+    "source_id": "reddit-androiddev",
+    "excerpt": "I use Claude Code a lot for Compose work. The annoying part was always the same: it writes a screen, says \"done\", and then I open Android Studio and the padding is off, text is clipped, or the dark theme is broken. It never saw the UI. It was guessing. So I built Spyglass. It renders your u/Preview functions to PNG from the command line, no IDE open. spyglass render --filter LoginScreen What it does: Renders every u/Preview in a Compose Multiplatform project through your own Gradle wrapper. No c",
     "date_uncertain": false,
     "summarized": false
   }
