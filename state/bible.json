@@ -1,6 +1,6 @@
 {
   "kotlin": {
-    "score": 77.1322,
+    "score": 70.9616,
     "label": "Kotlin",
     "history": [
       {
@@ -567,11 +567,16 @@
         "date": "2026-10-24",
         "mentions": 3,
         "score": 77.1322
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 70.9616
       }
     ]
   },
   "coroutines": {
-    "score": 7.1414,
+    "score": 6.5701,
     "label": "Coroutines",
     "history": [
       {
@@ -1138,11 +1143,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 7.1414
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 6.5701
       }
     ]
   },
   "flows": {
-    "score": 6.9448,
+    "score": 6.3892,
     "label": "Flows",
     "history": [
       {
@@ -1709,11 +1719,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 6.9448
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 6.3892
       }
     ]
   },
   "k2-compiler": {
-    "score": 6.1965,
+    "score": 5.7008,
     "label": "K2 Compiler",
     "history": [
       {
@@ -2280,6 +2295,11 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 6.1965
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 5.7008
       }
     ]
   },
@@ -2851,11 +2871,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "kotlin-stdlib": {
-    "score": 4.4886,
+    "score": 4.1295,
     "label": "Kotlin Standard Library",
     "history": [
       {
@@ -3422,11 +3447,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 4.4886
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 4.1295
       }
     ]
   },
   "sealed-classes": {
-    "score": 7.3933,
+    "score": 6.8018,
     "label": "Sealed Classes",
     "history": [
       {
@@ -3993,11 +4023,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 7.3933
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 6.8018
       }
     ]
   },
   "context-receivers": {
-    "score": 5.1959,
+    "score": 4.7802,
     "label": "Context Receivers",
     "history": [
       {
@@ -4564,11 +4599,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 5.1959
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 4.7802
       }
     ]
   },
   "value-classes": {
-    "score": 9.726,
+    "score": 8.9479,
     "label": "Value Classes",
     "history": [
       {
@@ -5135,11 +5175,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 9.726
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 8.9479
       }
     ]
   },
   "compose": {
-    "score": 63.4785,
+    "score": 60.4002,
     "label": "Jetpack Compose",
     "history": [
       {
@@ -5706,11 +5751,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 63.4785
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 1,
+        "score": 60.4002
       }
     ]
   },
   "compose-multiplatform": {
-    "score": 76.3751,
+    "score": 72.2651,
     "label": "Compose Multiplatform",
     "history": [
       {
@@ -6277,11 +6327,16 @@
         "date": "2026-10-24",
         "mentions": 2,
         "score": 76.3751
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 1,
+        "score": 72.2651
       }
     ]
   },
   "navigation": {
-    "score": 21.5775,
+    "score": 19.8513,
     "label": "Navigation",
     "history": [
       {
@@ -6848,11 +6903,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 21.5775
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 19.8513
       }
     ]
   },
   "animation": {
-    "score": 1.2918,
+    "score": 1.1885,
     "label": "Animation",
     "history": [
       {
@@ -7419,11 +7479,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 1.2918
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 1.1885
       }
     ]
   },
   "material3": {
-    "score": 14.8555,
+    "score": 13.6671,
     "label": "Material 3",
     "history": [
       {
@@ -7990,11 +8055,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 14.8555
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 13.6671
       }
     ]
   },
   "adaptive-ui": {
-    "score": 13.1017,
+    "score": 12.0536,
     "label": "Adaptive UI",
     "history": [
       {
@@ -8561,11 +8631,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 13.1017
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 12.0536
       }
     ]
   },
   "kmp": {
-    "score": 24.255,
+    "score": 22.3146,
     "label": "Kotlin Multiplatform",
     "history": [
       {
@@ -9132,11 +9207,16 @@
         "date": "2026-10-24",
         "mentions": 2,
         "score": 24.255
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 22.3146
       }
     ]
   },
   "ios-interop": {
-    "score": 2.395,
+    "score": 2.2034,
     "label": "iOS Interop",
     "history": [
       {
@@ -9703,11 +9783,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 2.395
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 2.2034
       }
     ]
   },
   "wasm": {
-    "score": 0.0121,
+    "score": 0.0111,
     "label": "Kotlin/Wasm",
     "history": [
       {
@@ -10274,6 +10359,11 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0121
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0111
       }
     ]
   },
@@ -10845,11 +10935,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "swift-export": {
-    "score": 4.9235,
+    "score": 4.5296,
     "label": "Swift Export",
     "history": [
       {
@@ -11416,11 +11511,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 4.9235
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 4.5296
       }
     ]
   },
   "hilt": {
-    "score": 0.0086,
+    "score": 0.0079,
     "label": "Hilt",
     "history": [
       {
@@ -11987,11 +12087,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0086
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0079
       }
     ]
   },
   "koin": {
-    "score": 0.1339,
+    "score": 0.1232,
     "label": "Koin",
     "history": [
       {
@@ -12558,6 +12663,11 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.1339
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.1232
       }
     ]
   },
@@ -13129,11 +13239,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "ktor": {
-    "score": 3.1132,
+    "score": 2.8641,
     "label": "Ktor (Client)",
     "history": [
       {
@@ -13700,11 +13815,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 3.1132
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 2.8641
       }
     ]
   },
   "ktor-server": {
-    "score": 7.8765,
+    "score": 7.2464,
     "label": "Ktor (Server)",
     "history": [
       {
@@ -14271,11 +14391,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 7.8765
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 7.2464
       }
     ]
   },
   "retrofit": {
-    "score": 0.9009,
+    "score": 0.8288,
     "label": "Retrofit",
     "history": [
       {
@@ -14842,11 +14967,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.9009
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.8288
       }
     ]
   },
   "okhttp": {
-    "score": 0.1087,
+    "score": 0.1,
     "label": "OkHttp",
     "history": [
       {
@@ -15413,11 +15543,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.1087
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.1
       }
     ]
   },
   "gradle": {
-    "score": 5.5361,
+    "score": 5.0932,
     "label": "Gradle",
     "history": [
       {
@@ -15984,11 +16119,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 5.5361
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 5.0932
       }
     ]
   },
   "gradle-plugin": {
-    "score": 9.1905,
+    "score": 8.4553,
     "label": "Gradle Plugin",
     "history": [
       {
@@ -16555,11 +16695,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 9.1905
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 8.4553
       }
     ]
   },
   "version-catalog": {
-    "score": 0.2935,
+    "score": 0.27,
     "label": "Version Catalog",
     "history": [
       {
@@ -17126,11 +17271,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.2935
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.27
       }
     ]
   },
   "ksp": {
-    "score": 0.7556,
+    "score": 0.6952,
     "label": "KSP",
     "history": [
       {
@@ -17697,6 +17847,11 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.7556
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.6952
       }
     ]
   },
@@ -18268,11 +18423,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "build-logic": {
-    "score": 4.1345,
+    "score": 3.8037,
     "label": "Build Logic / Convention Plugins",
     "history": [
       {
@@ -18839,11 +18999,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 4.1345
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 3.8037
       }
     ]
   },
   "r8-proguard": {
-    "score": 1.0423,
+    "score": 0.9589,
     "label": "R8 / ProGuard",
     "history": [
       {
@@ -19410,11 +19575,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 1.0423
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.9589
       }
     ]
   },
   "android-api": {
-    "score": 2.7651,
+    "score": 2.5439,
     "label": "Android API",
     "history": [
       {
@@ -19981,11 +20151,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 2.7651
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 2.5439
       }
     ]
   },
   "jetpack": {
-    "score": 27.6109,
+    "score": 25.402,
     "label": "Jetpack",
     "history": [
       {
@@ -20552,11 +20727,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 27.6109
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 25.402
       }
     ]
   },
   "room": {
-    "score": 5.7807,
+    "score": 5.3182,
     "label": "Room",
     "history": [
       {
@@ -21123,11 +21303,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 5.7807
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 5.3182
       }
     ]
   },
   "datastore": {
-    "score": 1.8748,
+    "score": 1.7248,
     "label": "DataStore",
     "history": [
       {
@@ -21694,11 +21879,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 1.8748
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 1.7248
       }
     ]
   },
   "workmanager": {
-    "score": 3.502,
+    "score": 3.2218,
     "label": "WorkManager",
     "history": [
       {
@@ -22265,11 +22455,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 3.502
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 3.2218
       }
     ]
   },
   "wear-os": {
-    "score": 0.166,
+    "score": 0.1527,
     "label": "Wear OS",
     "history": [
       {
@@ -22836,11 +23031,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.166
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.1527
       }
     ]
   },
   "android-auto": {
-    "score": 4.2094,
+    "score": 5.8726,
     "label": "Android Auto",
     "history": [
       {
@@ -23407,11 +23607,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 4.2094
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 1,
+        "score": 5.8726
       }
     ]
   },
   "media3": {
-    "score": 1.3201,
+    "score": 1.2145,
     "label": "Media3",
     "history": [
       {
@@ -23978,11 +24183,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 1.3201
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 1.2145
       }
     ]
   },
   "architecture": {
-    "score": 14.5222,
+    "score": 13.3604,
     "label": "Architecture",
     "history": [
       {
@@ -24549,11 +24759,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 14.5222
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 13.3604
       }
     ]
   },
   "viewmodel": {
-    "score": 3.2854,
+    "score": 3.0226,
     "label": "ViewModel",
     "history": [
       {
@@ -25120,11 +25335,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 3.2854
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 3.0226
       }
     ]
   },
   "clean-architecture": {
-    "score": 21.7617,
+    "score": 20.0208,
     "label": "Clean Architecture",
     "history": [
       {
@@ -25691,11 +25911,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 21.7617
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 20.0208
       }
     ]
   },
   "mvi": {
-    "score": 2.306,
+    "score": 2.1215,
     "label": "MVI",
     "history": [
       {
@@ -26262,11 +26487,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 2.306
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 2.1215
       }
     ]
   },
   "mvvm": {
-    "score": 4.4477,
+    "score": 4.0919,
     "label": "MVVM",
     "history": [
       {
@@ -26833,11 +27063,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 4.4477
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 4.0919
       }
     ]
   },
   "spring-kotlin": {
-    "score": 1.6324,
+    "score": 1.5018,
     "label": "Spring + Kotlin",
     "history": [
       {
@@ -27404,11 +27639,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 1.6324
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 1.5018
       }
     ]
   },
   "exposed": {
-    "score": 0.811,
+    "score": 0.7461,
     "label": "Exposed (DB)",
     "history": [
       {
@@ -27975,11 +28215,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.811
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.7461
       }
     ]
   },
   "kotlin-backend": {
-    "score": 6.1935,
+    "score": 5.698,
     "label": "Kotlin Backend",
     "history": [
       {
@@ -28546,11 +28791,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 6.1935
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 5.698
       }
     ]
   },
   "testing": {
-    "score": 7.501,
+    "score": 8.9009,
     "label": "Testing",
     "history": [
       {
@@ -29117,6 +29367,11 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 7.501
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 1,
+        "score": 8.9009
       }
     ]
   },
@@ -29688,11 +29943,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "paparazzi": {
-    "score": 0.1387,
+    "score": 0.1276,
     "label": "Paparazzi",
     "history": [
       {
@@ -30259,11 +30519,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.1387
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.1276
       }
     ]
   },
   "shot": {
-    "score": 5.203,
+    "score": 4.7868,
     "label": "Shot",
     "history": [
       {
@@ -30830,6 +31095,11 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 5.203
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 4.7868
       }
     ]
   },
@@ -31401,11 +31671,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0
       }
     ]
   },
   "kotlinconf": {
-    "score": 0.0009,
+    "score": 0.0008,
     "label": "KotlinConf",
     "history": [
       {
@@ -31972,11 +32247,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 0.0009
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 0.0008
       }
     ]
   },
   "google-io": {
-    "score": 31.9321,
+    "score": 35.3775,
     "label": "Google I/O",
     "history": [
       {
@@ -32543,11 +32823,16 @@
         "date": "2026-10-24",
         "mentions": 1,
         "score": 31.9321
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 3,
+        "score": 35.3775
       }
     ]
   },
   "android-developers": {
-    "score": 12.671,
+    "score": 13.6573,
     "label": "Android Developers",
     "history": [
       {
@@ -33114,11 +33399,16 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 12.671
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 1,
+        "score": 13.6573
       }
     ]
   },
   "jetbrains": {
-    "score": 21.1124,
+    "score": 19.4234,
     "label": "JetBrains",
     "history": [
       {
@@ -33685,10 +33975,15 @@
         "date": "2026-10-24",
         "mentions": 0,
         "score": 21.1124
+      },
+      {
+        "date": "2026-10-25",
+        "mentions": 0,
+        "score": 19.4234
       }
     ]
   },
   "_meta": {
-    "last_run": "2026-10-24"
+    "last_run": "2026-10-25"
   }
 }
